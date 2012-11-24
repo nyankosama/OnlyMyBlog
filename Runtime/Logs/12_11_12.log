@@ -1,0 +1,946 @@
+[ 2012-11-12T14:12:02+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035546s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.143461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098435s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.242157s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.244231s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.334079s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.532017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.298566s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.541441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.042206s ]
+
+[ 2012-11-12T14:14:53+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+
+[ 2012-11-12T14:15:01+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010546s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012926s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013793s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014774s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2012-11-12T14:15:56+08:00 ] 127.0.0.1 /blog/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.026817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.027249s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015306s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022622s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025537s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005438s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2012-11-12T14:15:58+08:00 ] 127.0.0.1 /blog/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001732s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011989s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017855s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018586s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019377s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021260s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2012-11-12T14:16:01+08:00 ] ERR: (ThinkException) 非法操作:inde
+[ 2012-11-12T14:16:01+08:00 ] 127.0.0.1 /blog/index.php/Index/inde
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class IndexAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T14:16:27+08:00 ] 127.0.0.1 /blog/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014749s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021950s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024620s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005580s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001947s ]
+
+[ 2012-11-12T14:16:30+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012604s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015761s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016552s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017441s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2012-11-12T14:19:16+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015507s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018913s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020227s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021818s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005958s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2012-11-12T14:20:39+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018048s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019307s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020528s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005280s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2012-11-12T14:21:09+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002409s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011838s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018273s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019115s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020011s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003447s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2012-11-12T14:21:13+08:00 ] ERR: (ThinkException) 无法加载模块:Index/index
+[ 2012-11-12T14:21:16+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001724s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011114s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017932s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018791s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003893s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2012-11-12T14:21:18+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016782s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025589s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026977s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028633s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006140s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2012-11-12T14:26:01+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007451s ]
+INFO: [ view_template ] --END-- [ RunTime:0.069360s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.077264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019156s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.096772s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098302s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.099949s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.100817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005692s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.102771s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2012-11-12T14:26:23+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004611s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name E:\workspace\webApplication\blog\Runtime\Cache\10d527919e53a8b6172caab9dbcd8d1f.php 第 3 行.
+NOTIC: [8] Undefined variable: name E:\workspace\webApplication\blog\Runtime\Cache\10d527919e53a8b6172caab9dbcd8d1f.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010107s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016429s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017234s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018232s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003595s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2012-11-12T14:26:24+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004180s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009415s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001619s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name E:\workspace\webApplication\blog\Runtime\Cache\10d527919e53a8b6172caab9dbcd8d1f.php 第 3 行.
+NOTIC: [8] Undefined variable: name E:\workspace\webApplication\blog\Runtime\Cache\10d527919e53a8b6172caab9dbcd8d1f.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012181s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023694s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024521s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025575s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004508s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2012-11-12T14:26:29+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002131s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001504s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018941s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019648s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020429s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003067s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2012-11-12T17:47:33+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.040341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.083174s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.076187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015092s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.131841s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013285s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.145525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056929s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.202741s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.256959s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.267696s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.269537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.069489s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.273545s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012898s ]
+
+[ 2012-11-12T17:47:38+08:00 ] 127.0.0.1 /blog/index.php/Index-index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003512s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010948s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015709s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017295s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003201s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019193s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2012-11-12T18:02:45+08:00 ] ERR: (ThinkException) Table 'thinkphp.think_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_test`
+[ 2012-11-12T18:02:45+08:00 ] 127.0.0.1 /blog/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `think_test` [ RunTime:0.219218s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class FormAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T18:03:12+08:00 ] ERR: (ThinkException) Table 'thinkphp.think_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_test`
+[ 2012-11-12T18:03:12+08:00 ] 127.0.0.1 /blog/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `think_test` [ RunTime:0.007194s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class FormAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T18:03:16+08:00 ] ERR: (ThinkException) Table 'thinkphp.think_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_test`
+[ 2012-11-12T18:03:16+08:00 ] 127.0.0.1 /blog/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002777s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `think_test` [ RunTime:0.006136s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class FormAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T18:04:05+08:00 ] 127.0.0.1 /blog/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.007836s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello world') [ RunTime:0.113913s ]
+
+[ 2012-11-12T18:05:19+08:00 ] ERR: [4] syntax error, unexpected T_INC, expecting ')' E:\workspace\webApplication\blog\Lib\Action\FormAction.class.php 第 14 行.
+[ 2012-11-12T18:05:41+08:00 ] 127.0.0.1 /blog/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002103s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.008601s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello0') [ RunTime:0.158024s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello1') [ RunTime:0.113794s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello2') [ RunTime:0.073320s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello3') [ RunTime:0.048595s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello4') [ RunTime:0.032243s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello5') [ RunTime:0.096427s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello6') [ RunTime:0.717109s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello7') [ RunTime:0.377846s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello8') [ RunTime:0.216626s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello9') [ RunTime:0.048984s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello10') [ RunTime:0.048765s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello11') [ RunTime:0.022508s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello12') [ RunTime:0.075166s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello13') [ RunTime:0.048667s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello14') [ RunTime:0.022478s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello15') [ RunTime:0.017639s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello16') [ RunTime:0.022583s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello17') [ RunTime:0.017598s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello18') [ RunTime:0.049099s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello19') [ RunTime:0.022541s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello20') [ RunTime:0.042071s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello21') [ RunTime:0.021998s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello22') [ RunTime:0.017686s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello23') [ RunTime:0.022501s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello24') [ RunTime:0.042414s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello25') [ RunTime:0.056973s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello26') [ RunTime:0.022227s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello27') [ RunTime:0.066920s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello28') [ RunTime:0.022154s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello29') [ RunTime:0.050276s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello30') [ RunTime:0.056976s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello31') [ RunTime:0.048732s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello32') [ RunTime:0.022148s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello33') [ RunTime:0.017290s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello34') [ RunTime:0.063652s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello35') [ RunTime:0.050359s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello36') [ RunTime:0.047089s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello37') [ RunTime:0.050296s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello38') [ RunTime:0.048915s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello39') [ RunTime:0.048551s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello40') [ RunTime:0.073059s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello41') [ RunTime:0.065488s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello42') [ RunTime:0.144073s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello43') [ RunTime:0.058315s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello44') [ RunTime:0.106030s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello45') [ RunTime:0.068377s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello46') [ RunTime:0.161491s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello47') [ RunTime:0.183370s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello48') [ RunTime:0.160133s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello49') [ RunTime:0.094106s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello50') [ RunTime:0.096585s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello51') [ RunTime:0.065156s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello52') [ RunTime:0.046708s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello53') [ RunTime:0.042417s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello54') [ RunTime:0.114616s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello55') [ RunTime:0.069839s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello56') [ RunTime:0.036398s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello57') [ RunTime:0.022317s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello58') [ RunTime:0.051011s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello59') [ RunTime:0.048593s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello60') [ RunTime:0.022163s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello61') [ RunTime:0.058845s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello62') [ RunTime:0.021973s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello63') [ RunTime:0.017690s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello64') [ RunTime:0.022050s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello65') [ RunTime:0.017656s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello66') [ RunTime:0.022279s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello67') [ RunTime:0.026331s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello68') [ RunTime:0.021357s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello69') [ RunTime:0.017817s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello70') [ RunTime:0.021987s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello71') [ RunTime:0.017565s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello72') [ RunTime:0.057250s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello73') [ RunTime:0.048700s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello74') [ RunTime:0.021879s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello75') [ RunTime:0.017778s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello76') [ RunTime:0.022002s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello77') [ RunTime:0.017749s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello78') [ RunTime:0.030341s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello79') [ RunTime:0.017653s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello80') [ RunTime:0.022053s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello81') [ RunTime:0.017756s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello82') [ RunTime:0.021623s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello83') [ RunTime:0.017949s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello84') [ RunTime:0.032125s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello85') [ RunTime:0.021951s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello86') [ RunTime:0.017591s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello87') [ RunTime:0.022037s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello88') [ RunTime:0.017720s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello89') [ RunTime:0.018711s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello90') [ RunTime:0.020986s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello91') [ RunTime:0.021778s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello92') [ RunTime:0.018021s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello93') [ RunTime:0.021687s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello94') [ RunTime:0.018034s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello95') [ RunTime:0.213627s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello96') [ RunTime:0.048857s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello97') [ RunTime:0.021716s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello98') [ RunTime:0.017911s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello99') [ RunTime:0.021961s ]
+
+[ 2012-11-12T18:57:11+08:00 ] 127.0.0.1 /blog/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.006596s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello world') [ RunTime:0.073271s ]
+
+[ 2012-11-12T19:07:28+08:00 ] 127.0.0.1 /blog/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.024769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.005514s ]
+SQL: INSERT INTO `test` (`content`) VALUES ('hello thinkphp') [ RunTime:0.034470s ]
+
+[ 2012-11-12T19:09:37+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:09:37+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003047s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:10:19+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:10:19+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003164s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:10:20+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:10:20+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:10:23+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:10:23+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:11:14+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:11:14+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:11:15+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:11:15+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:11:32+08:00 ] 127.0.0.1 /blog/index.php/Form/read/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.029138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.018913s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038160s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.186296s ]
+INFO: [ view_template ] --END-- [ RunTime:0.044650s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.231346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.318455s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.550284s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.596019s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.606700s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.608849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.061905s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.612660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003384s ]
+
+[ 2012-11-12T19:11:35+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:11:35+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:11:38+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:11:38+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:11:44+08:00 ] 127.0.0.1 /blog/index.php/Form/read/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.007627s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000844s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.037102s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001890s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.039160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011412s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.050810s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.051729s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.052651s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.053250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003659s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.054817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2012-11-12T19:11:47+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:11:47+08:00 ] 127.0.0.1 /blog/index.php/Form/read/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:12:08+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-11-12T19:12:08+08:00 ] 127.0.0.1 /blog/index.php/Form/read/102
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:12:13+08:00 ] 127.0.0.1 /blog/index.php/Form/read/id/102
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.004362s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000502s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.019829s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: title E:\workspace\webApplication\blog\Runtime\Cache\ada49d8abd0828322a9cbd49e78efc1d.php 第 12 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.021558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012180s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.033927s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.034717s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.035604s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.036163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003434s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.037696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2012-11-12T19:12:32+08:00 ] 127.0.0.1 /blog/index.php/Form/read/id/102
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.007972s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000794s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.040275s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002650s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: title E:\workspace\webApplication\blog\Runtime\Cache\ada49d8abd0828322a9cbd49e78efc1d.php 第 12 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.043416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015292s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.058836s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.059889s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.061048s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.061850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004697s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.063877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2012-11-12T19:12:44+08:00 ] 127.0.0.1 /blog/index.php/Form/read/id/102
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.006390s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000589s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.056641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002179s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: title E:\workspace\webApplication\blog\Runtime\Cache\ada49d8abd0828322a9cbd49e78efc1d.php 第 12 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.059170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017465s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.076734s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.077583s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.078506s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.079163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003609s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.080619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2012-11-12T19:13:06+08:00 ] 127.0.0.1 /blog/index.php/Form/read/id/102
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.006661s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000649s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.038197s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.040117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014880s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.055095s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.055800s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.056737s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.057290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.058663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2012-11-12T19:19:16+08:00 ] 127.0.0.1 /blog/index.php/Form/update/id/102/content/fuckyou
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.007395s ]
+SQL: UPDATE `test` SET `content`='fuckyou' WHERE ( `id` = 102 ) [ RunTime:0.054617s ]
+
+[ 2012-11-12T19:21:41+08:00 ] ERR: (ThinkException) Unknown column 'fuckyou' in 'where clause'
+ [ SQL语句 ] : UPDATE `test` SET `content`='caonima' WHERE content=fuckyou
+[ 2012-11-12T19:21:41+08:00 ] 127.0.0.1 /blog/index.php/Form/update/content/caonima
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.008266s ]
+SQL: UPDATE `test` SET `content`='caonima' WHERE content=fuckyou [ RunTime:0.000616s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class FormAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-12T19:22:20+08:00 ] 127.0.0.1 /blog/index.php/Form/update/content/caonima
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.007533s ]
+SQL: UPDATE `test` SET `content`='caonima' WHERE content='fuckyou' [ RunTime:0.034388s ]
+
+[ 2012-11-12T19:42:26+08:00 ] 127.0.0.1 /blog/index.php/Form/update/content/caonima
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.008157s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000683s ]
+
+[ 2012-11-12T19:42:40+08:00 ] 127.0.0.1 /blog/index.php/Form/update/content/caonima
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.006783s ]
+SQL: SELECT * FROM `test` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000640s ]
+
+[ 2012-11-12T23:59:16+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014053s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024410s ]
+INFO: [ view_template ] --END-- [ RunTime:0.030257s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.055107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049869s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.105324s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.108068s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.160874s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.163229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.063969s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.169867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017883s ]
+

@@ -1,0 +1,118 @@
+<?php
+/**
+ * User: nekosama
+ * Date: 12-11-13
+ * Time: 下午8:02
+ */
+
+class BlogItemModel extends Model{
+    protected $tableName = 'blogitem';
+    private $config;
+
+    function BlogItemModel(){
+        $this->config=require('ModelConfig.php');
+    }
+
+
+    /**
+     * 转载blog后续调用，不要主动调用
+     * @param $blog_item_id 博客条目的id
+     */
+    public function repost($blog_item_id,$comment){
+        $item=$this->find($blog_item_id);
+        $newItem['user_id']=session('user_id');
+        $newItem['type']=$item['type'];
+        $newItem['title']=$item['title'];
+        if($comment!=''){
+            $newItem['desc_content']=$comment."<br/>".$item['desc_content'];
+        }else{
+            $newItem['desc_content']=$item['desc_content'];
+        }
+        $newItem['path']=$item['path'];
+        $newItem['time']=$item['time'];
+        $newItem['tag']=$item['tag'];
+        $this->add($newItem);
+    }
+
+    public function addWord($title,$content,$tag){
+
+        $data['user_id']=session('user_id');
+        $data['type']=$this->config['BLOG_ITEM_TYPE_WORD'];
+        $data['title']=$title;
+        $data['desc_content']=$content;
+        $data['tag']=$tag;
+        $data['time']=$this->getTime();
+        $this->add($data);
+    }
+    public function deleteWord($id){
+        $this->delete($id);
+    }
+
+    public function addPicture($path,$desc,$tag){
+        $data['user_id']=session('user_id');
+        $data['type']=$this->config['BLOG_ITEM_TYPE_PICTURE'];
+        $data['path']=$path;
+        $data['desc_content']=$desc;
+        $data['tag']=$tag;
+        $data['time']=$this->getTime();
+        $this->add($data);
+    }
+
+    public function deletePicture($id){
+        $this->delete($id);
+    }
+
+    public function addVideo($path,$desc,$tag){
+        $data['user_id']=session('user_id');
+        $data['type']=$this->config['BLOG_ITEM_TYPE_VIDEO'];
+        $data['path']=$path;
+        $data['desc_content']=$desc;
+        $data['tag']=$tag;
+        $data['time']=$this->getTime();
+        $this->add($data);
+    }
+
+    public function deleteVideo($id){
+        $this->delete($id);
+    }
+
+    public function addLink($path,$desc,$tag){
+        $data['user_id']=session('user_id');
+        $data['type']=$this->config['BLOG_ITEM_TYPE_LINK'];
+        $data['path']=$path;
+        $data['desc_content']=$desc;
+        $data['tag']=$tag;
+        $data['time']=$this->getTime();
+        $this->add($data);
+    }
+
+    public function deleteLink($id){
+        $this->delete($id);
+    }
+
+    /**
+     * 按照时间顺序排序，获取用户的博客
+     * @param $limit
+     */
+    public function getItemsByLimitByUserId($user_id,$limit){
+        $condition['$user_id']=$user_id;
+        $data=$this->where($condition)->order('time asc')->limit('0,'.$limit)->select();
+        return $data;
+    }
+
+
+    /**
+     * 获得用户所关注的所有的博客条目，按照时间排序
+     * @param $limit
+     */
+    public function getAllItemsByLimit($limit){
+        $data=$this->order('time asc')->limit('0,'.$limit)->select();
+        return $data;
+    }
+
+
+    private function getTime(){
+        $time=getdate();
+        return $time['year']."-".$time['mon']."-".$time['mday']." ".$time['hours'].":".$time['minutes'].":".$time['seconds'];
+    }
+}

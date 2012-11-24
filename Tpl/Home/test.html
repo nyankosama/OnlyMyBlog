@@ -1,0 +1,40 @@
+<div class='feed  feed-text' data-id='" . $para[' text_blog_id'] . "'>
+<div class='feed-avatar'>
+    <div class='blog-info blog-menu-info enable' data-user-id='" . $para[' user_id
+    '] . "'><a target='_blank'
+               avatar='" . $para[' user_head_pic'] . "'
+    title='" . $para['user_head_name'] . "'
+    href='" . $para['user_homepage'] . "'
+    class='blog-avatar'
+    style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
+
+</div>
+</div>
+<div class='feed-content-holder pop'>
+    <div class='pop-triangle'></div>
+    <div class='feed-container-top'></div>
+    <div class='pop-content clearfix'>
+        <div class='feed-hd'>
+            <div class='feed-basic'><a target='_blank' href=" . $para['user_homepage'] . "
+                                       class='feed-user'>" . $para['user_head_name'] . "</a></div>
+        </div>
+        <div class='feed-bd'>
+            <h4 class='feed-title'>" . $para['text_title'] . "</h4>
+
+            <div class='feed-ct'>
+                <div class='feed-txt-full rich-content'>
+                    <div class='feed-txt-summary'>
+                    </div>
+                </div>
+            </div>
+            <div class='feed-tag clearfix'>
+            </div>
+            <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
+                <a class='feed-rt'
+                   target='_blank'
+                   href=" . $para['reposet_path'] . ">转载</a>
+                <a class='feed-cmt' data-nid=" . $para['text_blog_id'] . ">回应</a>
+
+            </div>
+        </div>
+    </div>
