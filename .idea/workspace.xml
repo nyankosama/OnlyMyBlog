@@ -41,7 +41,7 @@
       <file leaf-file-name="text.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tpl/Text/text.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="0" selection-end="5832" vertical-scroll-proportion="-6.387097">
+            <state line="48" column="30" selection-start="1917" selection-end="2305" vertical-scroll-proportion="-14.903226">
               <folding>
                 <element signature="n#style#0;n#script#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -56,7 +56,7 @@
       <file leaf-file-name="picture.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tpl/Picture/picture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="20" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.36462092">
+            <state line="48" column="100" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.48375452">
               <folding>
                 <element signature="n#style#0;n#script#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -115,8 +115,8 @@
         <option value="$PROJECT_DIR$/Tpl/Text/text.html" />
         <option value="$PROJECT_DIR$/Tpl/Video/video.html" />
         <option value="$PROJECT_DIR$/Tpl/Link/link.html" />
-        <option value="$PROJECT_DIR$/Tpl/Picture/picture.html" />
         <option value="$PROJECT_DIR$/Lib/Action/HomeAction.class.php" />
+        <option value="$PROJECT_DIR$/Tpl/Picture/picture.html" />
       </list>
     </option>
   </component>
@@ -568,19 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Text/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="0" selection-end="5832" vertical-scroll-proportion="-6.387097">
-          <folding>
-            <element signature="n#style#0;n#script#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="73" selection-start="1588" selection-end="1602" vertical-scroll-proportion="-11.290322">
@@ -598,9 +585,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Text/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="30" selection-start="1917" selection-end="2305" vertical-scroll-proportion="-14.903226">
+          <folding>
+            <element signature="n#style#0;n#script#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Picture/picture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.36462092">
+        <state line="48" column="100" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.48375452">
           <folding>
             <element signature="n#style#0;n#script#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

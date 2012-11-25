@@ -39,13 +39,14 @@
                     </h2>
                     <!--标题下面的一块-->
                     <div id="pb-post-area">
+
                         <!--图片预览区-->
                         <div id="pb-photo-list-holder" class="pb-post-section">
                             <ol id="pb-photo-list">
                             </ol>
                         </div>
                         <!--图片上传区-->
-                        <div id="pb-photo-pick-holder" class="pb-post-section">
+                        <div id="pb-photo-pick-holder" class="pb-post-section" style="margin-top: 20px">
                             <div class="drag-mask">拖拽多张图片到这里，直接上传</div>
                             <div id="pb-photo-flash-holder">
                                 <object id="SWFUpload_0" type="application/x-shockwave-flash" data="http://s.libdd.com/js/lib/swfupload/swfupload.swf" width="110" height="38" class="swfupload">
