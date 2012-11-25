@@ -53,7 +53,7 @@
       <file leaf-file-name="main_content.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="51" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.47350428">
+            <state line="46" column="47" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.62541807">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="homeTpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="75" selection-start="359" selection-end="359" vertical-scroll-proportion="-4.2580647">
+            <state line="16" column="19" selection-start="652" selection-end="662" vertical-scroll-proportion="-9.225806">
               <folding>
                 <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -505,6 +505,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="652" selection-end="662" vertical-scroll-proportion="-9.225806">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="203" column="38" selection-start="10399" selection-end="10413" vertical-scroll-proportion="-7.096774">
@@ -524,20 +535,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="75" selection-start="359" selection-end="359" vertical-scroll-proportion="-4.2580647">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.47350428">
+        <state line="46" column="47" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.62541807">
           <folding />
         </state>
       </provider>
