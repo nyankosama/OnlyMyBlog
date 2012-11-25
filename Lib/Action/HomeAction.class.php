@@ -21,6 +21,7 @@ class HomeAction extends Action{
         $this->home_self_text='http://127.0.0.1:8887/blog/Home/text';
         $this->home_self_video='http://127.0.0.1:8887/blog/Home/video';
         $this->home_self_link='http://127.0.0.1:8887/blog/Home/link';
+        $this->home_self_pic='http://127.0.0.1:8887/blog/Home/picture';
     }
 
     public function text(){
@@ -33,6 +34,10 @@ class HomeAction extends Action{
 
     public function link(){
         $this->display("Link:link");
+    }
+
+    public function picture(){
+        $this->display("Picture:picture");
     }
 
     public function loadFeed(){
