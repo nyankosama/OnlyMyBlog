@@ -35,7 +35,7 @@
         //为编辑器实例添加一个路径，这个不能被注释
         UEDITOR_HOME_URL : URL
         ,lang:"zh-cn"
-        ,langPath:URL +"lang/"
+        ,langPath:"../Tpl/Text/lang/"
 
         //图片上传配置区
         ,imageUrl:URL+"php/imageUp.php"           //图片上传提交地址
@@ -258,9 +258,9 @@
         //,sourceEditor:"codemirror"
         //如果sourceEditor是codemirror，还用配置一下两个参数
         //codeMirrorJsUrl js加载的路径，默认是 URL + "third-party/codemirror2.15/codemirror.js"
-        //,codeMirrorJsUrl:URL + "third-party/codemirror2.15/codemirror.js"
+        ,codeMirrorJsUrl: "../Tpl/Text/third-party/codemirror2.15/codemirror.js"
         //codeMirrorCssUrl css加载的路径，默认是 URL + "third-party/codemirror2.15/codemirror.css"
-        //,codeMirrorCssUrl:URL + "third-party/codemirror2.15/codemirror.css"
+        ,codeMirrorCssUrl: "../Tpl/Text/third-party/codemirror2.15/codemirror.css"
 
 
 

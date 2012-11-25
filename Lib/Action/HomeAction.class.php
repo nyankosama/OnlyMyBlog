@@ -9,7 +9,7 @@ import('@.ViewTpl.TplHomePage');
 class HomeAction extends Action{
     public function home(){
         $this->sign();
-        $this->display('Home:homeTpl');
+        $this->display('Text:text');
     }
 
     public function test(){
