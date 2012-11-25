@@ -19,10 +19,20 @@ class HomeAction extends Action{
         $this->home_self_link='#';
         $this->home_self_headPic='http://m3.img.libdd.com/farm3/194/5D903DD7FB4FD0DD6FA63CBE41AFCCC2_64_64.jpg';
         $this->home_self_text='http://127.0.0.1:8887/blog/Home/text';
+        $this->home_self_video='http://127.0.0.1:8887/blog/Home/video';
+        $this->home_self_link='http://127.0.0.1:8887/blog/Home/link';
     }
 
     public function text(){
         $this->display("Text:text");
+    }
+
+    public function video(){
+        $this->display("Video:video");
+    }
+
+    public function link(){
+        $this->display("Link:link");
     }
 
     public function loadFeed(){

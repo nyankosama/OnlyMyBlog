@@ -48,8 +48,12 @@
                             <input tabindex="1" type="text" name="pb-text-title" class="pb-input-text" id="pb-text-title">
                         </div>
                         <!--下面的内容编辑区-->
-                        <div id="ueditor">
-                            <script type="text/plain" id="editor" style="width:604px"></script>
+                        <div id="pb-text-post-holder" class="pb-post-section">
+                            <h3 class="pb-section-title">内容</h3>
+                            <div id="pb-text-textarea_editor">
+                                <script type="text/plain" id="editor" style="width:604px"></script>
+                            </div>
+
                         </div>
                     </div>
                     <!--下面button-->
