@@ -11,7 +11,7 @@
 class TplHomePage
 {
     /**
-     * @param $para 所需key分别为：text_blog_id; user_id;  user_head_pic; user_head_name; user_homepage; text_title; reposet_path;
+     * @param $para 所需key分别为：blog_id; user_id;  user_head_pic; user_head_name; user_homepage; text_title; reposet_path; hot_point
      * @param $content 文字的内容数组，一段为一个元素
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
@@ -19,7 +19,7 @@ class TplHomePage
     public function getTextTpl($para, $content, $tag)
     {
         $result = "
-        <div class='feed  feed-text' data-id='" . $para['text_blog_id'] . "'>
+        <div class='feed  feed-text' id='".$para['blog_id']."'>
                         <div class='feed-avatar'>
                             <div class='blog-info blog-menu-info enable' data-user-id='" . $para['user_id'] . "'><a target='_blank'
                                                                                                          avatar='" . $para['user_head_pic'] . "'
@@ -39,6 +39,7 @@ class TplHomePage
                                                                class='feed-user'>" . $para['user_head_name'] . "</a></div>
                                 </div>
                                 <div class='feed-bd'>
+
                                     <h4 class='feed-title'>" . $para['text_title'] . "</h4>
 
                                     <div class='feed-ct'>
@@ -67,7 +68,11 @@ class TplHomePage
 									<a class='feed-rt'
                                                                                                     target='_blank'
                                                                                                     href=" . $para['reposet_path'] . ">转载</a>
-                                        <a class='feed-cmt' data-nid=" . $para['text_blog_id'] . ">回应</a>
+                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应</a>
+
+                                        <a
+                            data-type='photo' id='hot_point".$para['hot_point']."'
+                            class='feed-nt'>热度(".$para['hot_point'].")</a>
 
 										</div>
                                 </div>
@@ -76,6 +81,111 @@ class TplHomePage
 
         ";
         return $result;
+    }
+
+    /**
+     * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage; pic_path; reposet_path; hot_point
+     * @param $content 文字的内容数组，一段为一个元素
+     * @param $tag tag的内容数组
+     * @return string 返回渲染好的html
+     */
+    public function getPictureTpl($para,$content,$tag)
+    {
+        $result = "
+        <div class='feed  feed-text' id='".$para['blog_id']."'>
+                        <div class='feed-avatar'>
+                            <div class='blog-info blog-menu-info enable' data-user-id='" . $para['user_id'] . "'><a target='_blank'
+                                                                                                         avatar='" . $para['user_head_pic'] . "'
+                                                                                                         title='" . $para['user_head_name'] . "'
+                                                                                                         href='" . $para['user_homepage'] . "'
+                                                                                                         class='blog-avatar'
+                                                                                                         style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
+
+                            </div>
+                        </div>
+                        <div class='feed-content-holder pop'>
+                            <div class='pop-triangle'></div>
+                            <div class='feed-container-top'></div>
+                            <div class='pop-content clearfix'>
+                                <div class='feed-hd'>
+                                    <div class='feed-basic'><a target='_blank' href=" . $para['user_homepage'] . "
+                                                               class='feed-user'>" . $para['user_head_name'] . "</a></div>
+                                </div>
+                                <div class='feed-bd'>
+
+                                <div class='feed-ct' largeimg='true'>
+                    <div class='feed-img-all post-one-img no-title '>
+                        <div class='feed-big-img'><img class='feed-img J_BigImage'
+                                                       imgsrc=".$para['pic_path']."
+                                                       data-lazyload='true'
+                                                       width=100% height=100% alt=''
+                                                       src=".$para['pic_path'].">
+
+                            <div class='img-exif-holder enable'></div>
+                                                </div>
+                        <div class='feed-img-too-high-tip' style='width:500px'></div>
+                    </div>
+                    <div class='feed-img-desc rich-content'>
+
+        ";
+
+        for($i=0;$i<count($content);$i++){
+            $result.="<p><span>".$content[$i]."</span></p>";
+        }
+        $result.="
+            </div>
+            </div>
+            <div class='feed-tag clearfix'>
+        ";
+
+        for ($i = 0; $i < count($tag); $i++) {
+            //注意定义的tag的keyName
+            $result .= "<a href='" . $tag[$i]['href'] . "'>#" . $tag[$i]['tag_name'] . "</a>";
+        }
+
+        $result .= "
+        </div>
+                                    <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
+									<a class='feed-rt'
+                                                                                                    target='_blank'
+                                                                                                    href=" . $para['reposet_path'] . ">转载</a>
+                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应</a>
+
+                                        <a
+                            data-type='photo' id='hot_point".$para['hot_point']."'
+                            class='feed-nt'>热度(".$para['hot_point'].")</a>
+
+										</div>
+                                </div>
+                            </div>
+        ";
+        return $result;
+    }
+
+    public function getMusicTpl()
+    {
+        $content = "
+
+        ";
+        return $content;
+    }
+
+    public function getVideoTpl()
+    {
+        $content = "
+
+        ";
+        return $content;
+    }
+
+
+
+    public function getLinkTpl()
+    {
+        $content = "
+
+        ";
+        return $content;
     }
 
     /**
@@ -141,37 +251,5 @@ class TplHomePage
                         </div>
         ";
         return $result;
-    }
-
-    public function getMusicTpl()
-    {
-        $content = "
-
-        ";
-        return $content;
-    }
-
-    public function getVideoTpl()
-    {
-        $content = "
-
-        ";
-        return $content;
-    }
-
-    public function getPictureTpl()
-    {
-        $content = "
-
-        ";
-        return $content;
-    }
-
-    public function getLinkTpl()
-    {
-        $content = "
-
-        ";
-        return $content;
     }
 }

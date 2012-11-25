@@ -1,0 +1,709 @@
+[ 2012-11-25T09:15:20+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.049248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059200s ]
+
+[ 2012-11-25T09:15:21+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.026095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026452s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.084737s ]
+INFO: [ view_template ] --END-- [ RunTime:0.107466s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.192884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264679s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.457491s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.497938s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.553089s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.555710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.142449s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.600641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.051092s ]
+
+[ 2012-11-25T09:15:22+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-25T09:15:29+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.134280s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.002088s ]
+
+[ 2012-11-25T09:15:29+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.054899s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001940s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_text E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 32 行.
+NOTIC: [8] Undefined variable: home_self_pic E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 34 行.
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+NOTIC: [8] Undefined variable: home_self_video E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.057030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017019s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074230s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.074942s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.075704s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.076196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003104s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.077638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2012-11-25T09:15:30+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+
+[ 2012-11-25T09:33:30+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003687s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007812s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001436s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049288s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059136s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060689s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062116s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005530s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2012-11-25T09:33:31+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003212s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+
+[ 2012-11-25T09:33:51+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009404s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022790s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034986s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036557s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037703s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005621s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2012-11-25T09:33:55+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+
+[ 2012-11-25T09:36:43+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019997s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031312s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033214s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034845s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007155s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2012-11-25T09:36:45+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+
+[ 2012-11-25T09:37:08+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005268s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001369s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016316s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023402s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024464s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004062s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2012-11-25T09:37:11+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002759s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+
+[ 2012-11-25T09:40:53+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001707s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005415s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023182s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024274s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025186s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004205s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2012-11-25T09:40:56+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2012-11-25T09:58:09+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007290s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015246s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.035184s ]
+INFO: [ view_template ] --END-- [ RunTime:0.014700s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034570s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.084971s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.087433s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095358s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.097141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014392s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099814s ]
+INFO: [ view_end ] --END-- [ RunTime:0.013967s ]
+
+[ 2012-11-25T09:58:11+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002650s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 73 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 73 行.
+
+[ 2012-11-25T09:58:21+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001507s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019338s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027369s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028433s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029451s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005029s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2012-11-25T09:58:24+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002790s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 73 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 73 行.
+
+[ 2012-11-25T09:58:46+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005032s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001402s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016181s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023135s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024035s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024837s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003303s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2012-11-25T09:58:50+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 73 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 73 行.
+
+[ 2012-11-25T10:24:09+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001547s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017016s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025780s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026771s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027715s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003833s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2012-11-25T10:24:12+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002846s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+
+[ 2012-11-25T10:24:20+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005045s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015956s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022356s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023241s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024068s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003429s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2012-11-25T10:24:22+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+
+[ 2012-11-25T10:24:33+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005252s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022987s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023982s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024971s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003840s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2012-11-25T10:24:35+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003772s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+
+[ 2012-11-25T10:27:04+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005450s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001438s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017997s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025335s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026436s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027402s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004080s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029999s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2012-11-25T10:27:04+08:00 ] ERR: (ThinkException) 无法加载模块:Tpg
+[ 2012-11-25T10:27:06+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001725s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+
+[ 2012-11-25T10:27:18+08:00 ] ERR: (ThinkException) 无法加载模块:Tpg
+[ 2012-11-25T10:27:31+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004951s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015569s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021990s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023120s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003755s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2012-11-25T10:27:33+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+NOTIC: [8] Undefined index: hot_point E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 74 行.
+
+[ 2012-11-25T10:46:16+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+
+[ 2012-11-25T10:46:16+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.069910s ]
+INFO: [ view_template ] --END-- [ RunTime:0.045094s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.115373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072801s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.188547s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.190117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.192010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.193226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007110s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.196234s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2012-11-25T10:46:17+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-25T10:46:22+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001311s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.160519s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.003351s ]
+
+[ 2012-11-25T10:46:22+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004886s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_text E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 32 行.
+NOTIC: [8] Undefined variable: home_self_pic E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 34 行.
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+NOTIC: [8] Undefined variable: home_self_video E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034396s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040955s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041841s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042986s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045109s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2012-11-25T10:46:24+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2012-11-25T10:46:29+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005302s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_text E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 32 行.
+NOTIC: [8] Undefined variable: home_self_pic E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 34 行.
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+NOTIC: [8] Undefined variable: home_self_video E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010995s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017724s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018461s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019279s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003321s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021389s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2012-11-25T10:46:32+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+
+[ 2012-11-25T10:46:47+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005311s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001362s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_text E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 32 行.
+NOTIC: [8] Undefined variable: home_self_pic E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 34 行.
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+NOTIC: [8] Undefined variable: home_self_video E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012522s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019617s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020494s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021444s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003721s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2012-11-25T10:46:47+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+
+[ 2012-11-25T10:49:02+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005749s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_text E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 32 行.
+NOTIC: [8] Undefined variable: home_self_pic E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 34 行.
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+NOTIC: [8] Undefined variable: home_self_video E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019886s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020819s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021774s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003920s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2012-11-25T10:49:03+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+
+[ 2012-11-25T10:49:17+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001308s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005471s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_text E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 32 行.
+NOTIC: [8] Undefined variable: home_self_pic E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 34 行.
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+NOTIC: [8] Undefined variable: home_self_video E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014508s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021903s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022866s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004110s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2012-11-25T10:49:17+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+

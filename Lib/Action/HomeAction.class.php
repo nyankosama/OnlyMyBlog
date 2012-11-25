@@ -22,15 +22,15 @@ class HomeAction extends Action{
 
     public function loadFeed(){
         $tpl=new TplHomePage();
-        $para=array(
-            'text_blog_id'=>'1',
+        $para1=array(
+            'blog_id'=>'1',
             'user_id'=>'1',
             'user_head_pic'=>'http://m3.img.libdd.com/farm3/194/5D903DD7FB4FD0DD6FA63CBE41AFCCC2_64_64.jpg',
             'user_head_name'=>'Nekosama',
             'user_homepage'=>'#',
             'text_title'=>'我是Dark flame master!',
-            'reposet_path'=>'#'
-
+            'reposet_path'=>'#',
+            'hot_point'=>'4'
         );
         $content=array();
         $content[]='哈哈哈哈哈哈哈哈哈！！';
@@ -46,7 +46,8 @@ class HomeAction extends Action{
             )
         );
 
-        $para['comment_blog_id']=1;
+        $para1['comment_blog_id']=1;
+        $para1['pic_path']='../Tpl/Home/img/2012.05.28-352.jpg';
         $comment=array(
             array(
                 'user_name'=>'Nekosama',
@@ -56,10 +57,12 @@ class HomeAction extends Action{
                 'user_comment'=>'FUCK!YOU!'
             )
         );
-        $html=$tpl->getTextTpl($para,$content,$tag);
-        $html.=$tpl->getCommonFooter($para,$comment);
-        $html.=$tpl->getTextTpl($para,$content,$tag);
-        $html.=$tpl->getCommonFooter($para,$comment);
+        $html=$tpl->getTextTpl($para1,$content,$tag);
+        $html.=$tpl->getCommonFooter($para1,$comment);
+        $html.=$tpl->getTextTpl($para1,$content,$tag);
+        $html.=$tpl->getCommonFooter($para1,$comment);
+        $html.=$tpl->getPictureTpl($para1,$content,$tag);
+        $html.=$tpl->getCommonFooter($para1,$comment);
         echo $html;
     }
 }

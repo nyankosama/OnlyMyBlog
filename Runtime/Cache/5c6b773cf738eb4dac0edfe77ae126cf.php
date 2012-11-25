@@ -43,6 +43,8 @@
     </div>
 </div>
 <div class='feed-list' id='feed-list'>
+
+
 <div class='feed  feed-photo' id='feed-67b60cc0-2e58-11e2-9f48-782bcb383976' data-comment='1'>
     <div class='feed-avatar'>
         <div class='blog-info blog-menu-info enable' data-id='144684' data-follow='true'
@@ -52,16 +54,7 @@
                                                                                     href='http://skpaddy.diandian.com?ref=avatar'
                                                                                     class='blog-avatar'
                                                                                     style='background-image: url(http://m3.img.libdd.com/farm1/210/9E5F0B46904D879504B02E1664D037D2_64_64.jpg);'>选择键</a>
-            <!--<div class='blog-menu pop-menu-list-holder' style='display: none;'>
-              <div class='pop-menu-list-inner'>
-                <div class='pop-menu-list-triangle'></div>
-                <ul class='pop-menu-list mini'>
-                  <li class='first' style='margin-top: -69px;'><a class='J_BlogInboxAction' data-url='http://skpaddy.diandian.com/inbox' title='发私信'>发私信</a></li>
-                  <li><a class='J_BlogFollowAction follow-special unfollow' title='取消关注'>取消关注</a></li>
-                  <li class='last'><a class='J_BlogVisitAction' data-url='http://skpaddy.diandian.com/?ref=avatarmenu' title='访问博客'>访问博客</a></li>
-                </ul>
-              </div>
-            </div>-->
+            
         </div>
     </div>
     <div class='feed-content-holder pop'>
@@ -89,8 +82,8 @@
                                                        imgsrc='http://m1.img.libdd.com/farm5/2012/1114/09/D4004CFF523C80307CE0B959452B6D4F11F23566BC470_500_794.jpg'
                                                        data-lazyload='true'
                                                        data-origin-info='http://m2.img.libdd.com/farm4/2012/1114/09/1DF9847F46CEB6ED969290FC40C076880713956637F34_500_632.JPEG:500.0:632.0:1DF9847F46CEB6ED969290FC40C07688'
-                                                       width='500' height='794' alt='摄影,时尚'
-                                                       src='http://m1.img.libdd.com/farm5/2012/1114/09/D4004CFF523C80307CE0B959452B6D4F11F23566BC470_500_794.jpg'>
+                                                       width=100% height=100% alt='摄影,时尚'
+                                                       src='../Tpl/Home/img/2012.05.28-352.jpg'>
 
                             <div class='img-exif-holder enable'
                                  data-id='1DF9847F46CEB6ED969290FC40C07688'></div>
@@ -135,20 +128,16 @@
         <div class='feed-ft J_FeedFooter' style='display:none'>
             <div class='feed-ft-bottom'></div>
             <div class='feed-ft-triangle J_FeedFooterTriangle'></div>
-            <div class="feed-fold-container comment" style="">
+            <div class="feed-fold-container comment" style='display:none' data-comment-id="123">
                 <div class="feed-comment">
 
                     <div class="add-comment clearfix">
 					<textarea autocomplete="off" cloud="" placeholder=""
-                                                                id="ctrltextarea08509860-361c-11e2-9f48-782bcb383976input"
-                                                                data-control="08509860-361c-11e2-9f48-782bcb383976input"
                                                                 class="ui-textarea skin-textarea-willwhite"
                                                                 style="width: 408px; height: 18px;"></textarea>
 																
 
-                        <div class="ui-button skin-button-willsilver" cloud=""
-                             id="ctrlbutton08509860-361c-11e2-9f48-782bcb383976publish"
-                             data-control="08509860-361c-11e2-9f48-782bcb383976publish" style="width: 60px;"><span
+                        <div class="ui-button skin-button-willsilver" cloud="" style="width: 60px;"><span
                                 class="ui-button-bg-left skin-button-willsilver-bg-left"></span>
 
                             <div id="ctrlbutton08509860-361c-11e2-9f48-782bcb383976publishlabel"
@@ -218,6 +207,7 @@
         <div class='post-flag-panel'></div>
     </div>
 </div>
+
 <div class='feed  feed-text' id='feed-9977f7c0-2e6f-11e2-a5b9-782bcb32ff27' data-comment='1'>
     <div class='feed-avatar'>
         <div class='blog-info blog-menu-info enable' data-id='249510' data-follow='true'
