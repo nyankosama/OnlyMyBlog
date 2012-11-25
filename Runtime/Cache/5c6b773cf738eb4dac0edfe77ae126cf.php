@@ -310,10 +310,25 @@
                          data='{"hostType":"1","id":"928","flashurl":"http://player.youku.com/player.php/sid/116321290/v.swf","videourl":"http://v.youku.com/v_show/id_XNDY1Mjg1MTYw.html"}'>
                         <!--此处加入embed的视频-->
 						
-                        
+                        <div class="feed-full-video-wrap clearfix">
+                            <div class="feed-full-video">
+                                <object width="500" height="385">
+                                    <param name="allowscriptaccess" value="sameDomain">
+                                    <param name="wmode" value="transparent">
+                                    <param name="allowfullscreen" value="true">
+                                    <param name="movie"
+                                           value="http://player.youku.com/player.php/sid/XNDY1Mjg1MTYw/v.swf">
+                                    <embed src="http://player.youku.com/player.php/sid/XNDY1Mjg1MTYw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+									</embed>
+                                </object>
+                            </div>
+                            <div class="feed-video-footer clearfix"><span class="feed-video-link"><a
+                                    href="http://v.youku.com/v_show/id_XNDY1Mjg1MTYw.html" target="_blank">youku.com</a>→</span><a
+                                    class="feed-video-close">关闭视频</a></div>
+                        </div>
 
 
-                        <div class='feed-video-img-holder' ><img
+                        <div class='feed-video-img-holder' style='display:none'><img
                                 imgsrc='http://g4.ykimg.com/0100641F4650A280E71EE202145CCEFACF6362-016C-31A3-5783-B6974E9C8AF4'
                                 data-lazyload='true' class='feed-video-img'
                                 src='http://g4.ykimg.com/0100641F4650A280E71EE202145CCEFACF6362-016C-31A3-5783-B6974E9C8AF4'>

@@ -52,6 +52,7 @@ class HomeAction extends Action{
         $para1['video_url']='http://v.youku.com/v_show/id_XNDY1Mjg1MTYw.html';
         $para1['video_img_path']='http://g4.ykimg.com/0100641F4650A280E71EE202145CCEFACF6362-016C-31A3-5783-B6974E9C8AF4';
         $para1['video_title']='只有是哥哥有爱就没有问题的了对吧';
+        $para1['video_host_type']='1';
         $comment=array(
             array(
                 'user_name'=>'Nekosama',

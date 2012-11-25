@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeAction.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeAction.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="221" selection-end="221" vertical-scroll-proportion="0.42680776">
+            <state line="54" column="31" selection-start="1704" selection-end="1704" vertical-scroll-proportion="-10.645162">
               <folding />
             </state>
           </provider>
@@ -32,30 +32,42 @@
       <file leaf-file-name="TplHomePage.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="36" selection-start="8392" selection-end="8392" vertical-scroll-proportion="-5.096774">
+            <state line="203" column="38" selection-start="10399" selection-end="10413" vertical-scroll-proportion="-7.096774">
               <folding>
-                <element signature="e#6#65#0" expanded="true" />
-                <element signature="e#67#88#0" expanded="false" />
-                <marker date="1353819740550" expanded="true" signature="2727:2736" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="6920:6929" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="11192:11201" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="14875:15457" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="14934:14948" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="15041:15118" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="15047:15112" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="15168:15451" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="15357:15370" placeholder="..." />
-                <marker date="1353819740550" expanded="true" signature="15377:15443" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="2728:2737" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="6921:6930" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="11329:11338" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="12090:12128" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="15012:15594" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="15071:15085" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="15178:15255" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="15184:15249" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="15305:15588" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="15494:15507" placeholder="..." />
+                <marker date="1353832418284" expanded="true" signature="15514:15580" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_content.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main_content.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+            <state line="34" column="51" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.47350428">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeTpl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="75" selection-start="359" selection-end="359" vertical-scroll-proportion="-4.2580647">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,16 +97,16 @@
         <option value="$PROJECT_DIR$/Lib/Model/BlogItemModel.class.php" />
         <option value="$PROJECT_DIR$/Lib/Action/test.php" />
         <option value="$PROJECT_DIR$/Tpl/Home/css/layout.css" />
-        <option value="$PROJECT_DIR$/Tpl/Home/homeTpl.html" />
         <option value="$PROJECT_DIR$/Tpl/Home/home.html" />
         <option value="$PROJECT_DIR$/Lib/ViewTpl/HomePage.class.php" />
         <option value="$PROJECT_DIR$/Lib/Widget/HomePageTpl.class.php" />
         <option value="$PROJECT_DIR$/Lib/Model/TplHomePageModel.class.php" />
         <option value="$PROJECT_DIR$/Lib/Action/TplHomePageModel.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Home/test.html" />
-        <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
         <option value="$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php" />
         <option value="$PROJECT_DIR$/Lib/Action/HomeAction.class.php" />
+        <option value="$PROJECT_DIR$/Tpl/Home/homeTpl.html" />
+        <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
       </list>
     </option>
   </component>
@@ -237,7 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Action" />
+              <option name="myItemId" value="ViewTpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,11 +260,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="File.Encoding" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -318,7 +330,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19475357" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19793323" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -474,29 +486,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="10" selection-start="2464" selection-end="2464" vertical-scroll-proportion="-19.870968">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Home/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Action/LoginAction.class.php">
@@ -506,29 +498,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="31" selection-start="1704" selection-end="1704" vertical-scroll-proportion="-10.645162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="36" selection-start="8392" selection-end="8392" vertical-scroll-proportion="-5.096774">
+        <state line="203" column="38" selection-start="10399" selection-end="10413" vertical-scroll-proportion="-7.096774">
           <folding>
-            <element signature="e#6#65#0" expanded="true" />
-            <element signature="e#67#88#0" expanded="false" />
-            <marker date="1353819740550" expanded="true" signature="2727:2736" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="6920:6929" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="11192:11201" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="14875:15457" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="14934:14948" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="15041:15118" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="15047:15112" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="15168:15451" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="15357:15370" placeholder="..." />
-            <marker date="1353819740550" expanded="true" signature="15377:15443" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="2728:2737" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="6921:6930" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="11329:11338" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="12090:12128" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="15012:15594" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="15071:15085" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="15178:15255" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="15184:15249" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="15305:15588" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="15494:15507" placeholder="..." />
+            <marker date="1353832418284" expanded="true" signature="15514:15580" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="221" selection-end="221" vertical-scroll-proportion="0.42680776">
+        <state line="6" column="75" selection-start="359" selection-end="359" vertical-scroll-proportion="-4.2580647">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="51" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.47350428">
           <folding />
         </state>
       </provider>
