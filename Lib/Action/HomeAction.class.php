@@ -9,7 +9,7 @@ import('@.ViewTpl.TplHomePage');
 class HomeAction extends Action{
     public function home(){
         $this->sign();
-        $this->display('Text:text');
+        $this->display('Home:homeTpl');
     }
 
     public function test(){
@@ -18,6 +18,11 @@ class HomeAction extends Action{
     private function sign(){
         $this->home_self_link='#';
         $this->home_self_headPic='http://m3.img.libdd.com/farm3/194/5D903DD7FB4FD0DD6FA63CBE41AFCCC2_64_64.jpg';
+        $this->home_self_text='http://127.0.0.1:8887/blog/Home/text';
+    }
+
+    public function text(){
+        $this->display("Text:text");
     }
 
     public function loadFeed(){
