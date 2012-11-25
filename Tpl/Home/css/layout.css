@@ -498,6 +498,10 @@ color: #444;
 text-decoration: underline;
 }
 
+.rich-content .edui-filter-align-left {
+text-align: left !important;
+}
+
 /*回应栏*/
 .feed-ft {
 padding: 0 1px;

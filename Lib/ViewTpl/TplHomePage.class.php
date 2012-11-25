@@ -12,7 +12,7 @@ class TplHomePage
 {
     /**
      * @param $para 所需key分别为：blog_id; user_id;  user_head_pic; user_head_name; user_homepage; text_title; reposet_path; hot_point
-     * @param $content 文字的内容数组，一段为一个元素
+     * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
      */
@@ -46,9 +46,10 @@ class TplHomePage
                                         <div class='feed-txt-full rich-content'>
                                             <div class='feed-txt-summary'>
         ";
-        for ($i = 0; $i < count($content); $i++) {
-            $result .= "<p>" . $content[$i] . "</p>";
-        }
+        $result.=$content;
+//        for ($i = 0; $i < count($content); $i++) {
+//            $result .= "<p>" . $content[$i] . "</p>";
+//        }
 
         $result .= "
         </div>
@@ -85,14 +86,14 @@ class TplHomePage
 
     /**
      * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage; pic_path; reposet_path; hot_point
-     * @param $content 文字的内容数组，一段为一个元素
+     * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
      */
     public function getPictureTpl($para,$content,$tag)
     {
         $result = "
-        <div class='feed  feed-text' id='".$para['blog_id']."'>
+        <div class='feed  feed-photo' id='".$para['blog_id']."'>
                         <div class='feed-avatar'>
                             <div class='blog-info blog-menu-info enable' data-user-id='" . $para['user_id'] . "'><a target='_blank'
                                                                                                          avatar='" . $para['user_head_pic'] . "'
@@ -128,10 +129,10 @@ class TplHomePage
                     <div class='feed-img-desc rich-content'>
 
         ";
-
-        for($i=0;$i<count($content);$i++){
-            $result.="<p><span>".$content[$i]."</span></p>";
-        }
+        $result.=$content;
+//        for($i=0;$i<count($content);$i++){
+//            $result.="<p>".$content[$i]."</p>";
+//        }
         $result.="
             </div>
             </div>
@@ -162,6 +163,90 @@ class TplHomePage
         return $result;
     }
 
+    /**
+     * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage;
+     * video_id; flash_url; video_url; video_img_path ;reposet_path; video_title; hot_point
+     * @param $content 富文本编辑器直接得到的内容，包含html标签
+     * @param $tag tag的内容数组
+     * @return string 返回渲染好的html
+     */
+    public function getVideoTpl($para,$content,$tag)
+    {
+        $result = "
+        <div class='feed  feed-video' id='".$para['blog_id']."'>
+                        <div class='feed-avatar'>
+                            <div class='blog-info blog-menu-info enable' data-user-id='" . $para['user_id'] . "'><a target='_blank'
+                                                                                                         avatar='" . $para['user_head_pic'] . "'
+                                                                                                         title='" . $para['user_head_name'] . "'
+                                                                                                         href='" . $para['user_homepage'] . "'
+                                                                                                         class='blog-avatar'
+                                                                                                         style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
+
+                            </div>
+                        </div>
+                        <div class='feed-content-holder pop'>
+                            <div class='pop-triangle'></div>
+                            <div class='feed-container-top'></div>
+                            <div class='pop-content clearfix'>
+                                <div class='feed-hd'>
+                                    <div class='feed-basic'><a target='_blank' href=" . $para['user_homepage'] . "
+                                                               class='feed-user'>" . $para['user_head_name'] . "</a></div>
+                                </div>
+
+
+                            <div class='feed-bd no-hd-content'>
+                <div class='feed-ct'>
+                    <div class='feed-video-ct'
+                         data='{'id':'".$para['video_id']."','flashurl':'".$para['flash_url']."','videourl':'".$para['video_url']."'}'>
+                        <!--此处加入embed的视频-->
+
+                        <div class='feed-video-img-holder' ><img
+                                imgsrc='".$para['video_img_path']."'
+                                data-lazyload='true' class='feed-video-img'
+                                src='".$para['video_img_path']."'>
+                            <a class='feed-video-play'>播放</a></div>
+                        <div class='feed-video-info'>
+                            <div class='feed-video-cmt rich-content'>
+                                <p>".$para['video_title']."</p>
+								<p>&nbsp</p>
+								<p class='edui-filter-align-left'><span class='text-img-holder'></span></p>
+
+        ";
+        $result.=$content;
+
+        $result.="
+             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='feed-tag clearfix'>
+        ";
+
+        for ($i = 0; $i < count($tag); $i++) {
+            //注意定义的tag的keyName
+            $result .= "<a href='" . $tag[$i]['href'] . "'>#" . $tag[$i]['tag_name'] . "</a>";
+        }
+
+        $result .= "
+        </div>
+                                    <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
+									<a class='feed-rt'
+                                                                                                    target='_blank'
+                                                                                                    href=" . $para['reposet_path'] . ">转载</a>
+                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应</a>
+
+                                        <a
+                            data-type='photo' id='hot_point".$para['hot_point']."'
+                            class='feed-nt'>热度(".$para['hot_point'].")</a>
+
+										</div>
+                                </div>
+                            </div>
+        ";
+
+        return $result;
+    }
+
     public function getMusicTpl()
     {
         $content = "
@@ -169,15 +254,6 @@ class TplHomePage
         ";
         return $content;
     }
-
-    public function getVideoTpl()
-    {
-        $content = "
-
-        ";
-        return $content;
-    }
-
 
 
     public function getLinkTpl()

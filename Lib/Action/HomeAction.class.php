@@ -33,8 +33,7 @@ class HomeAction extends Action{
             'hot_point'=>'4'
         );
         $content=array();
-        $content[]='哈哈哈哈哈哈哈哈哈！！';
-        $content[]='我是黑暗火焰骑士！！！';
+        $content="<p>哈哈哈哈啊哈！！！</p><p>我是中二！！！</p>";
         $tag=array(
             array(
                 'href'=>'#',
@@ -48,6 +47,11 @@ class HomeAction extends Action{
 
         $para1['comment_blog_id']=1;
         $para1['pic_path']='../Tpl/Home/img/2012.05.28-352.jpg';
+        $para1['video_id']='1';
+        $para1['flash_url']='http://player.youku.com/player.php/sid/116321290/v.swf';
+        $para1['video_url']='http://v.youku.com/v_show/id_XNDY1Mjg1MTYw.html';
+        $para1['video_img_path']='http://g4.ykimg.com/0100641F4650A280E71EE202145CCEFACF6362-016C-31A3-5783-B6974E9C8AF4';
+        $para1['video_title']='只有是哥哥有爱就没有问题的了对吧';
         $comment=array(
             array(
                 'user_name'=>'Nekosama',
@@ -62,6 +66,9 @@ class HomeAction extends Action{
         $html.=$tpl->getTextTpl($para1,$content,$tag);
         $html.=$tpl->getCommonFooter($para1,$comment);
         $html.=$tpl->getPictureTpl($para1,$content,$tag);
+        $html.=$tpl->getCommonFooter($para1,$comment);
+        $content="<p>哈哈哈哈啊哈！！！</p>";
+        $html.=$tpl->getVideoTpl($para1,$content,$tag);
         $html.=$tpl->getCommonFooter($para1,$comment);
         echo $html;
     }

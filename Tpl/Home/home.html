@@ -57,6 +57,7 @@
             
         </div>
     </div>
+	
     <div class='feed-content-holder pop'>
         <div class='pop-triangle'></div>
 
@@ -66,6 +67,8 @@
                 <div class='feed-basic'><a target='_blank' href='http://skpaddy.diandian.com'
                                            class='feed-user'>选择键</a></div>
             </div>
+			
+			
             <div class='feed-bd'>
                 <!--<script>-->
                 <!--ENV.feedImgInfos = ENV.feedImgInfos || {};-->
@@ -304,38 +307,26 @@
             <div class='feed-bd no-hd-content'>
                 <div class='feed-ct'>
                     <div class='feed-video-ct'
-                         data='{&quot;hostType&quot;:&quot;10&quot;,&quot;id&quot;:&quot;695&quot;,&quot;flashurl&quot;:&quot;http://static.loli.my/miniloader.swf?cid=601044&quot;,&quot;videourl&quot;:&quot;http://www.bilibili.tv/video/av391623/&quot;}'>
+                         data='{"hostType":"1","id":"928","flashurl":"http://player.youku.com/player.php/sid/116321290/v.swf","videourl":"http://v.youku.com/v_show/id_XNDY1Mjg1MTYw.html"}'>
                         <!--此处加入embed的视频-->
-                        <div class='feed-full-video-wrap clearfix'>
-                            <div class='feed-full-video'>
-                                <object width='500' height='385'>
-                                    <param name='allowscriptaccess' value='sameDomain'>
-                                    <param name='wmode' value='transparent'>
-                                    <param name='allowfullscreen' value='true'>
-                                    <param name='movie'
-                                           value='http://static.loli.my/miniloader.swf?cid=601044'>
-                                    <embed flashvars=''
-                                           src='http://static.loli.my/miniloader.swf?cid=601044'
-                                           width='500' height='385' allowscriptaccess='sameDomain'
-                                           wmode='transparent' type='application/x-shockwave-flash'
-                                           allowfullscreen='true'>
-                                </object>
-                            </div>
-                            <div class='feed-video-footer clearfix'><span class='feed-video-link'><a
-                                    href='http://www.bilibili.tv/video/av391623/'
-                                    target='_blank'>bilibili.tv</a>→</span><a
-                                    class='feed-video-close'>关闭视频</a></div>
-                        </div>
+						
+                        
 
 
-                        <div class='feed-video-img-holder' style='display:none'><img
-                                imgsrc='http://i2.hdslb.com/u_f/5f9fbea46e2584f3efdde9200f441eb3.jpg'
+                        <div class='feed-video-img-holder' ><img
+                                imgsrc='http://g4.ykimg.com/0100641F4650A280E71EE202145CCEFACF6362-016C-31A3-5783-B6974E9C8AF4'
                                 data-lazyload='true' class='feed-video-img'
-                                src='http://i2.hdslb.com/u_f/5f9fbea46e2584f3efdde9200f441eb3.jpg'>
+                                src='http://g4.ykimg.com/0100641F4650A280E71EE202145CCEFACF6362-016C-31A3-5783-B6974E9C8AF4'>
                             <a class='feed-video-play'>播放</a></div>
                         <div class='feed-video-info'>
                             <div class='feed-video-cmt rich-content'>
                                 <p>这是一个测试</p>
+								<p>&nbsp</p>
+								<p>&nbsp</p>
+								<p>&nbsp</p>
+								<p class="edui-filter-align-left"><span class="text-img-holder"></span></p>
+								<p>突然，不知道为什么，我找准一个地方，就开始往下挖，结果挖出一张什么宝藏图，说这片林子里面有一只九色鹿（这是不是小时后国产动画片看多了？），我又兴冲冲的拿去给老板，老板说太好了，九色鹿是他的，谁也不能抢走，要我每天把山头翻个遍~我说：这应该是国家的。老板突然暴怒，把我按在地上暴打，一边打一边说：鹿是我啊，谁都别想抢走！于是我被打昏过去。</p>
+								
                             </div>
                         </div>
                     </div>

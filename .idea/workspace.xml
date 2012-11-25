@@ -23,7 +23,7 @@
       <file leaf-file-name="HomeAction.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="27" selection-start="888" selection-end="888" vertical-scroll-proportion="0.2239859">
+            <state line="11" column="36" selection-start="221" selection-end="221" vertical-scroll-proportion="0.42680776">
               <folding />
             </state>
           </provider>
@@ -32,18 +32,20 @@
       <file leaf-file-name="TplHomePage.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="69" selection-start="7767" selection-end="7767" vertical-scroll-proportion="-7.096774">
+            <state line="175" column="36" selection-start="8392" selection-end="8392" vertical-scroll-proportion="-5.096774">
               <folding>
                 <element signature="e#6#65#0" expanded="true" />
-                <marker date="1353811732733" expanded="true" signature="2687:2696" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="6853:6862" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="10641:11223" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="10700:10714" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="10807:10884" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="10813:10878" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="10934:11217" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="11123:11136" placeholder="..." />
-                <marker date="1353811732733" expanded="true" signature="11143:11209" placeholder="..." />
+                <element signature="e#67#88#0" expanded="false" />
+                <marker date="1353819740550" expanded="true" signature="2727:2736" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="6920:6929" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="11192:11201" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="14875:15457" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="14934:14948" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="15041:15118" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="15047:15112" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="15168:15451" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="15357:15370" placeholder="..." />
+                <marker date="1353819740550" expanded="true" signature="15377:15443" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -467,7 +469,6 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -491,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/LoginAction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="-0.7096774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="23" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
@@ -505,27 +499,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Action/LoginAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="-0.7096774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="69" selection-start="7767" selection-end="7767" vertical-scroll-proportion="-7.096774">
+        <state line="175" column="36" selection-start="8392" selection-end="8392" vertical-scroll-proportion="-5.096774">
           <folding>
             <element signature="e#6#65#0" expanded="true" />
-            <marker date="1353811732733" expanded="true" signature="2687:2696" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="6853:6862" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="10641:11223" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="10700:10714" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="10807:10884" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="10813:10878" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="10934:11217" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="11123:11136" placeholder="..." />
-            <marker date="1353811732733" expanded="true" signature="11143:11209" placeholder="..." />
+            <element signature="e#67#88#0" expanded="false" />
+            <marker date="1353819740550" expanded="true" signature="2727:2736" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="6920:6929" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="11192:11201" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="14875:15457" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="14934:14948" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="15041:15118" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="15047:15112" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="15168:15451" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="15357:15370" placeholder="..." />
+            <marker date="1353819740550" expanded="true" signature="15377:15443" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="888" selection-end="888" vertical-scroll-proportion="0.2239859">
+        <state line="11" column="36" selection-start="221" selection-end="221" vertical-scroll-proportion="0.42680776">
           <folding />
         </state>
       </provider>
