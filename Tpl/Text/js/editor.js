@@ -6876,6 +6876,441 @@ UE.plugins['highlight'] = function() {
 
 })();
 
+UE.plugins['basestyle'] = function(){
+    var basestyles = {
+            'bold':['strong','b'],
+            'italic':['em','i'],
+            'subscript':['sub'],
+            'superscript':['sup']
+        },
+        getObj = function(editor,tagNames){
+            var path = editor.selection.getStartElementPath();
+            return utils.findNode(path,tagNames);
+        },
+        me = this;
+    for ( var style in basestyles ) {
+        (function( cmd, tagNames ) {
+            me.commands[cmd] = {
+                execCommand : function( cmdName ) {
+
+                    var range = new dom.Range(me.document),obj = '';
+                    if(me.currentSelectedArr && me.currentSelectedArr.length > 0){
+                        for(var i=0,ci;ci=me.currentSelectedArr[i++];){
+                            if(ci.style.display != 'none'){
+                                range.selectNodeContents(ci).select();
+                                !obj && (obj = getObj(this,tagNames));
+                                if(cmdName == 'superscript' || cmdName == 'subscript'){
+                                    
+                                    if(!obj || obj.tagName.toLowerCase() != cmdName){
+                                        range.removeInlineStyle(['sub','sup']);
+                                    }
+
+                                }
+                                obj ? range.removeInlineStyle( tagNames ) : range.applyInlineStyle( tagNames[0] );
+                            }
+
+                        }
+                        range.selectNodeContents(me.currentSelectedArr[0]).select();
+                    }else{
+                        range = me.selection.getRange();
+                        obj = getObj(this,tagNames);
+
+                        if ( range.collapsed ) {
+                            if ( obj ) {
+                                var tmpText =  me.document.createTextNode('');
+                                range.insertNode( tmpText ).removeInlineStyle( tagNames );
+
+                                range.setStartBefore(tmpText);
+                                domUtils.remove(tmpText);
+                            } else {
+                                
+                                var tmpNode = range.document.createElement( tagNames[0] );
+                                if(cmdName == 'superscript' || cmdName == 'subscript'){
+                                    tmpText = me.document.createTextNode('');
+                                    range.insertNode(tmpText)
+                                        .removeInlineStyle(['sub','sup'])
+                                        .setStartBefore(tmpText)
+                                        .collapse(true);
+
+                                }
+                                range.insertNode( tmpNode ).setStart( tmpNode, 0 );
+                                
+
+
+                            }
+                            range.collapse( true );
+
+                        } else {
+                            if(cmdName == 'superscript' || cmdName == 'subscript'){
+                                if(!obj || obj.tagName.toLowerCase() != cmdName){
+                                    range.removeInlineStyle(['sub','sup']);
+                                }
+
+                            }
+                            obj ? range.removeInlineStyle( tagNames ) : range.applyInlineStyle( tagNames[0] );
+                        }
+
+                        range.select();
+                        
+                    }
+
+                    return true;
+                },
+                queryCommandState : function() {
+                   if(this.highlight){
+                       return -1;
+                   }
+                   return getObj(this,tagNames) ? 1 : 0;
+                }
+            };
+        })( style, basestyles[style] );
+
+    }
+};
+
+
+
+UE.plugins['removeformat'] = function(){
+    var me = this;
+    me.setOpt({
+       'removeFormatTags': 'b,big,code,del,dfn,em,font,i,ins,kbd,q,samp,small,span,strike,strong,sub,sup,tt,u,var',
+       'removeFormatAttributes':'class,style,lang,width,height,align,hspace,valign'
+    });
+    me.commands['removeformat'] = {
+        execCommand : function( cmdName, tags, style, attrs,notIncludeA ) {
+
+            var tagReg = new RegExp( '^(?:' + (tags || this.options.removeFormatTags).replace( /,/g, '|' ) + ')$', 'i' ) ,
+                removeFormatAttributes = style ? [] : (attrs || this.options.removeFormatAttributes).split( ',' ),
+                range = new dom.Range( this.document ),
+                bookmark,node,parent,
+                filter = function( node ) {
+                    return node.nodeType == 1;
+                };
+
+            function isRedundantSpan (node) {
+                if (node.nodeType == 3 || node.tagName.toLowerCase() != 'span'){
+                    return 0;
+                }
+                if (browser.ie) {
+                    var attrs = node.attributes;
+                    if ( attrs.length ) {
+                        for ( var i = 0,l = attrs.length; i<l; i++ ) {
+                            if ( attrs[i].specified ) {
+                                return 0;
+                            }
+                        }
+                        return 1;
+                    }
+                }
+                return !node.attributes.length;
+            }
+            function doRemove( range ) {
+
+                var bookmark1 = range.createBookmark();
+                if ( range.collapsed ) {
+                    range.enlarge( true );
+                }
+                if(!notIncludeA){
+                    var aNode = domUtils.findParentByTagName(range.startContainer,'a',true);
+                    if(aNode){
+                        range.setStartBefore(aNode);
+                    }
+
+                    aNode = domUtils.findParentByTagName(range.endContainer,'a',true);
+                    if(aNode){
+                        range.setEndAfter(aNode);
+                    }
+
+                }
+
+
+                bookmark = range.createBookmark();
+
+                node = bookmark.start;
+                while ( (parent = node.parentNode) && !domUtils.isBlockElm( parent ) ) {
+                    domUtils.breakParent( node, parent );
+
+                    domUtils.clearEmptySibling( node );
+                }
+                if ( bookmark.end ) {
+                    node = bookmark.end;
+                    while ( (parent = node.parentNode) && !domUtils.isBlockElm( parent ) ) {
+                        domUtils.breakParent( node, parent );
+                        domUtils.clearEmptySibling( node );
+                    }
+                    var current = domUtils.getNextDomNode( bookmark.start, false, filter ),
+                        next;
+                    while ( current ) {
+                        if ( current == bookmark.end ) {
+                            break;
+                        }
+
+                        next = domUtils.getNextDomNode( current, true, filter );
+
+                        if ( !dtd.$empty[current.tagName.toLowerCase()] && !domUtils.isBookmarkNode( current ) ) {
+                            if ( tagReg.test( current.tagName ) ) {
+                                if ( style ) {
+                                    domUtils.removeStyle( current, style );
+                                    if ( isRedundantSpan( current ) && style != 'text-decoration'){
+                                        domUtils.remove( current, true );
+                                    }
+                                } else {
+                                    domUtils.remove( current, true );
+                                }
+                            } else {
+                                if(!dtd.$tableContent[current.tagName] && !dtd.$list[current.tagName]){
+                                    domUtils.removeAttributes( current, removeFormatAttributes );
+                                    if ( isRedundantSpan( current ) ){
+                                        domUtils.remove( current, true );
+                                    }
+                                }
+
+                            }
+                        }
+                        current = next;
+                    }
+                }
+                var pN = bookmark.start.parentNode;
+                if(domUtils.isBlockElm(pN) && !dtd.$tableContent[pN.tagName] && !dtd.$list[pN.tagName]){
+                    domUtils.removeAttributes(  pN,removeFormatAttributes );
+                }
+                pN = bookmark.end.parentNode;
+                if(bookmark.end && domUtils.isBlockElm(pN) && !dtd.$tableContent[pN.tagName]&& !dtd.$list[pN.tagName]){
+                    domUtils.removeAttributes(  pN,removeFormatAttributes );
+                }
+                range.moveToBookmark( bookmark ).moveToBookmark(bookmark1);
+                var node = range.startContainer,
+                    tmp,
+                    collapsed = range.collapsed;
+                while(node.nodeType == 1 && domUtils.isEmptyNode(node) && dtd.$removeEmpty[node.tagName]){
+                    tmp = node.parentNode;
+                    range.setStartBefore(node);
+                    if(range.startContainer === range.endContainer){
+                        range.endOffset--;
+                    }
+                    domUtils.remove(node);
+                    node = tmp;
+                }
+
+                if(!collapsed){
+                    node = range.endContainer;
+                    while(node.nodeType == 1 && domUtils.isEmptyNode(node) && dtd.$removeEmpty[node.tagName]){
+                        tmp = node.parentNode;
+                        range.setEndBefore(node);
+                        domUtils.remove(node);
+
+                        node = tmp;
+                    }
+
+
+                }
+            }
+
+            if ( this.currentSelectedArr && this.currentSelectedArr.length ) {
+                for ( var i = 0,ci; ci = this.currentSelectedArr[i++]; ) {
+                    range.selectNodeContents( ci );
+                    doRemove( range );
+                }
+                range.selectNodeContents( this.currentSelectedArr[0] ).select();
+            } else {
+
+                range = this.selection.getRange();
+                doRemove( range );
+                range.select();
+            }
+        },
+        queryCommandState : function(){
+            return this.highlight ? -1 :0;
+        }
+
+    };
+
+};
+
+
+UE.plugins['font'] = function() {
+    var me = this,
+        fonts = {
+            'forecolor':'color',
+            'backcolor':'background-color',
+            'fontsize':'font-size',
+            'fontfamily':'font-family',
+            'underline':'text-decoration',
+            'strikethrough':'text-decoration'
+        };
+    me.setOpt({
+        'fontfamily':[
+            { name:'songti',val:'宋体,SimSun'},
+            { name:'yahei',val:'微软雅黑,Microsoft YaHei'},
+            { name:'kaiti',val:'楷体,楷体_GB2312, SimKai'},
+            { name:'heiti',val:'黑体, SimHei'},
+            { name:'lishu',val:'隶书, SimLi'},
+            { name:'andaleMono',val:'andale mono'},
+            { name:'arial',val:'arial, helvetica,sans-serif'},
+            { name:'arialBlack',val:'arial black,avant garde'},
+            { name:'comicSansMs',val:'comic sans ms'},
+            { name:'impact',val:'impact,chicago'},
+            { name:'timesNewRoman',val:'times new roman'}
+          ],
+        'fontsize':[10, 11, 12, 14, 16, 18, 20, 24, 36]
+    });
+
+    for ( var p in fonts ) {
+        (function( cmd, style ) {
+            UE.commands[cmd] = {
+                execCommand : function( cmdName, value ) {
+                    value = value || (this.queryCommandState(cmdName) ? 'none' : cmdName == 'underline' ? 'underline' : 'line-through');
+                    var me = this,
+                        range = this.selection.getRange(),
+                        text;
+
+                    if ( value == 'default' ) {
+
+                        if(range.collapsed){
+                            text = me.document.createTextNode('font');
+                            range.insertNode(text).select();
+
+                        }
+                        me.execCommand( 'removeFormat', 'span,a', style);
+                        if(text){
+                            range.setStartBefore(text).setCursor();
+                            domUtils.remove(text);
+                        }
+
+
+                    } else {
+                        if(me.currentSelectedArr && me.currentSelectedArr.length > 0){
+                            for(var i=0,ci;ci=me.currentSelectedArr[i++];){
+                                range.selectNodeContents(ci);
+                                range.applyInlineStyle( 'span', {'style':style + ':' + value} );
+
+                            }
+                            range.selectNodeContents(this.currentSelectedArr[0]).select();
+                        }else{
+                            if ( !range.collapsed ) {
+                                if((cmd == 'underline'||cmd=='strikethrough') && me.queryCommandValue(cmd)){
+                                     me.execCommand( 'removeFormat', 'span,a', style );
+                                }
+                                range = me.selection.getRange();
+
+                                range.applyInlineStyle( 'span', {'style':style + ':' + value} ).select();
+                            } else {
+
+                                var span = domUtils.findParentByTagName(range.startContainer,'span',true);
+                                text = me.document.createTextNode('font');
+                                if(span && !span.children.length && !span[browser.ie ? 'innerText':'textContent'].replace(fillCharReg,'').length){
+                                    range.insertNode(text);
+                                     if(cmd == 'underline'||cmd=='strikethrough'){
+                                         range.selectNode(text).select();
+                                         me.execCommand( 'removeFormat','span,a', style, null );
+
+                                         span = domUtils.findParentByTagName(text,'span',true);
+                                         range.setStartBefore(text);
+
+                                    }
+                                    span.style.cssText += ';' + style + ':' + value;
+                                    range.collapse(true).select();
+
+
+                                }else{
+                                    range.insertNode(text);
+                                    range.selectNode(text).select();
+                                    span = range.document.createElement( 'span' );
+
+                                    if(cmd == 'underline'||cmd=='strikethrough'){
+                                        if(domUtils.findParentByTagName(text,'a',true)){
+                                            range.setStartBefore(text).setCursor();
+                                             domUtils.remove(text);
+                                             return;
+                                         }
+                                         me.execCommand( 'removeFormat','span,a', style );
+                                    }
+
+                                    span.style.cssText = style + ':' + value;
+
+
+                                    text.parentNode.insertBefore(span,text);
+                                    if(!browser.ie || browser.ie && browser.version == 9){
+                                        var spanParent = span.parentNode;
+                                        while(!domUtils.isBlockElm(spanParent)){
+                                            if(spanParent.tagName == 'SPAN'){
+                                                span.style.cssText = spanParent.style.cssText + ";" + span.style.cssText;
+                                            }
+                                            spanParent = spanParent.parentNode;
+                                        }
+                                    }
+
+
+                                    if(opera){
+                                        setTimeout(function(){
+                                            range.setStart(span,0).setCursor();
+                                        });
+                                    }else{
+                                        range.setStart(span,0).setCursor();
+                                    }
+
+
+                                }
+                                domUtils.remove(text);
+                            }
+                        }
+
+                    }
+                    return true;
+                },
+                queryCommandValue : function (cmdName) {
+                    var startNode = this.selection.getStart();
+                    if(cmdName == 'underline'||cmdName=='strikethrough' ){
+                        var tmpNode = startNode,value;
+                        while(tmpNode && !domUtils.isBlockElm(tmpNode) && !domUtils.isBody(tmpNode)){
+                            if(tmpNode.nodeType == 1){
+                                value = domUtils.getComputedStyle( tmpNode, style );
+
+                                if(value != 'none'){
+                                    return value;
+                                }
+                            }
+
+                            tmpNode = tmpNode.parentNode;
+                        }
+                        return 'none';
+                    }
+                    return  domUtils.getComputedStyle( startNode, style );
+                },
+                queryCommandState : function(cmdName){
+                    if(this.highlight){
+                       return -1;
+                   }
+                    if(!(cmdName == 'underline'||cmdName=='strikethrough')){
+                        return 0;
+                    }
+                    return this.queryCommandValue(cmdName) == (cmdName == 'underline' ? 'underline' : 'line-through');
+                }
+            };
+        })( p, fonts[p] );
+    }
+
+
+};
+
+
+UE.commands['cleardoc'] = {
+    execCommand : function( cmdName) {
+        var me = this,
+            enterTag = me.options.enterTag,
+            range = me.selection.getRange();
+        if(enterTag == "br"){
+            me.body.innerHTML = "<br/>";
+            range.setStart(me.body,0).setCursor();
+        }else{
+            me.body.innerHTML = "<p>"+(ie ? "" : "<br/>")+"</p>";
+            range.setStart(me.body.firstChild,0).setCursor(false,true);
+        }
+    }
+};
+
+
+
 
 
 UE.plugins['list'] = function () {
@@ -7413,22 +7848,104 @@ UE.plugins['list'] = function () {
 
 
 
+(function(){
+    var block = domUtils.isBlockElm,
+        defaultValue = {
+            left : 1,
+            right : 1,
+            center : 1,
+            justify : 1
+        },
+        doJustify = function(range,style){
+            var bookmark = range.createBookmark(),
+                filterFn = function( node ) {
+                    return node.nodeType == 1 ? node.tagName.toLowerCase() != 'br' &&  !domUtils.isBookmarkNode(node) : !domUtils.isWhitespace( node );
+                };
 
-UE.commands['cleardoc'] = {
-    execCommand : function( cmdName) {
-        var me = this,
-            enterTag = me.options.enterTag,
-            range = me.selection.getRange();
-        if(enterTag == "br"){
-            me.body.innerHTML = "<br/>";
-            range.setStart(me.body,0).setCursor();
-        }else{
-            me.body.innerHTML = "<p>"+(ie ? "" : "<br/>")+"</p>";
-            range.setStart(me.body.firstChild,0).setCursor(false,true);
+            range.enlarge(true);
+            var bookmark2 = range.createBookmark(),
+                current = domUtils.getNextDomNode(bookmark2.start,false,filterFn),
+                tmpRange = range.cloneRange(),
+                tmpNode;
+            while(current &&  !(domUtils.getPosition(current,bookmark2.end)&domUtils.POSITION_FOLLOWING)){
+                if(current.nodeType == 3 || !block(current)){
+                    tmpRange.setStartBefore(current);
+                    while(current && current!==bookmark2.end &&  !block(current)){
+                        tmpNode = current;
+                        current = domUtils.getNextDomNode(current,false,null,function(node){
+                            return !block(node);
+                        });
+                    }
+                    tmpRange.setEndAfter(tmpNode);
+                    var common = tmpRange.getCommonAncestor();
+                    if( !domUtils.isBody(common) && block(common)){
+                        domUtils.setStyles(common,utils.isString(style) ? {'text-align':style} : style);
+                        current = common;
+                    }else{
+                        var p = range.document.createElement('p');
+                         domUtils.setStyles(p,utils.isString(style) ? {'text-align':style} : style);
+                        var frag = tmpRange.extractContents();
+                        p.appendChild(frag);
+                        tmpRange.insertNode(p);
+                        current = p;
+                    }
+                    current = domUtils.getNextDomNode(current,false,filterFn);
+                }else{
+                    current = domUtils.getNextDomNode(current,true,filterFn);
+                }
+            }
+            return range.moveToBookmark(bookmark2).moveToBookmark(bookmark);
+        };
+    UE.commands['justify'] =  {
+        execCommand : function( cmdName,align ) {
+
+            var  range = this.selection.getRange(),
+                txt;
+           
+            if(this.currentSelectedArr && this.currentSelectedArr.length > 0){
+                for(var i=0,ti;ti=this.currentSelectedArr[i++];){
+                    if(domUtils.isEmptyNode(ti)){
+                        txt = this.document.createTextNode('p');
+                        range.setStart(ti,0).collapse(true).insertNode(txt).selectNode(txt);
+                        
+                    }else{
+                        range.selectNodeContents(ti);
+                    }
+
+                    doJustify(range,align.toLowerCase());
+                    txt && domUtils.remove(txt);
+                }
+                range.selectNode(this.currentSelectedArr[0]).select();
+            }else{
+                if(range.collapsed){
+                    txt = this.document.createTextNode('p');
+                    range.insertNode(txt);
+                }
+                doJustify(range,align);
+                if(txt){
+                    range.setStartBefore(txt).collapse(true);
+                    domUtils.remove(txt);
+                }
+                
+                range.select();
+
+            }
+            return true;
+        },
+        queryCommandValue : function() {
+            var startNode = this.selection.getStart(),
+                value = domUtils.getComputedStyle(startNode,'text-align');
+            return defaultValue[value] ? value : 'left';
+        },
+        queryCommandState : function(){
+            return this.highlight ? -1 : 0;
+                
         }
-    }
-};
 
+    };
+
+
+})();
 
 
 

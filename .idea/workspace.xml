@@ -54,7 +54,11 @@
         <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="28" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1353835055376" expanded="true" signature="28:2724" placeholder="{...}" />
+                <marker date="1353835055376" expanded="true" signature="86:2399" placeholder="{...}" />
+                <marker date="1353835055376" expanded="true" signature="164:2389" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +66,7 @@
       <file leaf-file-name="text.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tpl/Text/text.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="39" selection-start="2205" selection-end="2205" vertical-scroll-proportion="-5.806452">
+            <state line="10" column="63" selection-start="623" selection-end="623" vertical-scroll-proportion="-7.096774">
               <folding>
                 <element signature="n#style#0;n#script#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,31 +78,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tpl/Text/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="433" selection-end="433" vertical-scroll-proportion="0.38800704">
-              <folding>
-                <element signature="n#style#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginAction.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lib/Action/LoginAction.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="-6.387097">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="text.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tpl/Text/js/text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="4" column="25" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor_config.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tpl/Text/js/editor_config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="214" column="35" selection-start="9143" selection-end="9143" vertical-scroll-proportion="0.71452993">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Lib/Model/BlogItemModel.class.php" />
         <option value="$PROJECT_DIR$/Lib/Action/test.php" />
         <option value="$PROJECT_DIR$/Tpl/Home/css/layout.css" />
         <option value="$PROJECT_DIR$/Tpl/Home/home.html" />
@@ -126,9 +120,10 @@
         <option value="$PROJECT_DIR$/Lib/Action/HomeAction.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Home/homeTpl.html" />
         <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
-        <option value="$PROJECT_DIR$/Tpl/Text/js/text.js" />
         <option value="$PROJECT_DIR$/Tpl/Text/test.html" />
         <option value="$PROJECT_DIR$/Tpl/Text/text.html" />
+        <option value="$PROJECT_DIR$/Tpl/Text/js/text.js" />
+        <option value="$PROJECT_DIR$/Tpl/Text/js/editor_config.js" />
       </list>
     </option>
   </component>
@@ -226,6 +221,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,30 +545,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Text/js/text.js">
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="41" column="28" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1353835055376" expanded="true" signature="28:2724" placeholder="{...}" />
+            <marker date="1353835055376" expanded="true" signature="86:2399" placeholder="{...}" />
+            <marker date="1353835055376" expanded="true" signature="164:2389" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Action/LoginAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="-6.387097">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0">
+        <state line="43" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.34920636">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Text/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="39" selection-start="2205" selection-end="2205" vertical-scroll-proportion="-5.806452">
+        <state line="10" column="63" selection-start="623" selection-end="623" vertical-scroll-proportion="-7.096774">
           <folding>
             <element signature="n#style#0;n#script#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -562,11 +576,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Text/test.html">
+    <entry file="file://$PROJECT_DIR$/Tpl/Text/js/text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="433" selection-end="433" vertical-scroll-proportion="0.38800704">
+        <state line="4" column="25" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Text/js/editor_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="35" selection-start="9143" selection-end="9143" vertical-scroll-proportion="0.71452993">
           <folding>
-            <element signature="n#style#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

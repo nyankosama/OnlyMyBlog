@@ -85,9 +85,9 @@
 
 
         //工具栏上的所有的功能按钮和下拉框，可以在new编辑器的实例时选择自己需要的从新定义
-        ,toolbars:[["FullScreen","Source","Undo","Redo","InsertUnorderedList","InsertOrderedList","ClearDoc","SelectAll"]]
+        ,toolbars:[["FullScreen","Source","Bold","Italic","Underline","StrikeThrough","ForeColor","Undo","Redo","ClearDoc","SelectAll","InsertOrderedList","InsertUnorderedList","JustifyLeft","JustifyCenter","JustifyRight","JustifyJustify"]]
         //当鼠标放在工具栏上时显示的tooltip提示
-        ,labelMap:{'fullscreen':'','source':'','undo':'','redo':'','insertunorderedlist':'','insertorderedlist':'','cleardoc':'','selectall':''}
+        ,labelMap:{'fullscreen':'','source':'','bold':'','italic':'','underline':'','strikethrough':'','forecolor':'','undo':'','redo':'','cleardoc':'','selectall':'','insertorderedlist':'','insertunorderedlist':'','justifyleft':'','justifycenter':'','justifyright':'','justifyjustify':''}
 
         //webAppKey
         //百度应用的APIkey，每个站长必须首先去百度官网注册一个key后方能正常使用app功能
@@ -98,7 +98,7 @@
         ,isShow : true    //默认显示编辑器
 
 
-        ,initialContent:"欢迎使用ueditor!"    //初始化编辑器的内容,也可以通过textarea/script给值，看官网例子
+        ,initialContent:""    //初始化编辑器的内容,也可以通过textarea/script给值，看官网例子
 
 
         ,autoClearinitialContent: false //是否自动清除编辑器初始内容，注意：如果focus属性设置为true,这个也为真，那么编辑器一上来就会触发导致初始化的内容看不到了
@@ -212,7 +212,7 @@
 
         //elementPathEnabled
         //是否启用元素路径，默认是显示
-        ,elementPathEnabled : true
+        ,elementPathEnabled : false
 
         //removeFormat
         //清除格式时可以删除的标签和属性
