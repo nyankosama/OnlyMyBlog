@@ -2,6 +2,144 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 margin: 0;
 padding: 0;
 }
+.fileupload-buttonbar .btn, .fileupload-buttonbar .toggle {
+    margin-bottom: 5px;
+}
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 4px;
+}
+.btn-success {
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgb(91, 183, 91);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(98, 196, 98)), to(rgb(81, 163, 81)));
+    background-image: -webkit-linear-gradient(top, rgb(98, 196, 98), rgb(81, 163, 81));
+    background-image: -o-linear-gradient(top, rgb(98, 196, 98), rgb(81, 163, 81));
+    background-image: linear-gradient(to bottom, rgb(98, 196, 98), rgb(81, 163, 81));
+    background-image: -moz-linear-gradient(top, rgb(98, 196, 98), rgb(81, 163, 81));
+    background-repeat: repeat-x;
+    border-color: rgb(81, 163, 81) rgb(81, 163, 81) rgb(56, 112, 56);
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.btn {
+    border-color: rgb(197, 197, 197);
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+.btn {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    text-shadow: 5 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(174,232,255)), to(rgb(100, 174, 255)));
+    background-image: -webkit-linear-gradient(top, rgb(174,232,255), rgb(100, 174, 255));
+    background-image: -o-linear-gradient(top, rgb(174,232,255), rgb(100, 174, 255));
+    background-image: linear-gradient(to bottom, rgb(174,232,255), rgb(100, 174, 255));
+    background-image: -moz-linear-gradient(top, rgb(174,232,255), rgb(100, 174, 255));
+    background-repeat: repeat-x;
+    border: 1px solid rgb(187, 187, 187);
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: rgb(230, 230, 230) rgb(230, 230, 230) rgb(191, 191, 191);
+    border-bottom-color: rgb(162, 162, 162);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.icon-plus {
+    background-position: -408px -96px;
+}
+.icon-white, .nav-pills > .active > a > [class^="icon-"], .nav-pills > .active > a > [class*=" icon-"], .nav-list > .active > a > [class^="icon-"], .nav-list > .active > a > [class*=" icon-"], .navbar-inverse .nav > .active > a > [class^="icon-"], .navbar-inverse .nav > .active > a > [class*=" icon-"], .dropdown-menu > li > a:hover > [class^="icon-"], .dropdown-menu > li > a:hover > [class*=" icon-"], .dropdown-menu > .active > a > [class^="icon-"], .dropdown-menu > .active > a > [class*=" icon-"], .dropdown-submenu:hover > a > [class^="icon-"], .dropdown-submenu:hover > a > [class*=" icon-"] {
+    background-image: url("../Tpl/Video/img/glyphicons-halflings-white.png");
+}
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+select, input[type="file"] {
+    height: 30px;
+    line-height: 30px;
+}
+input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+bootstrap-responsive.min.css:11@media (min-width: 1200px)
+input, textarea, .uneditable-input {
+        margin-left: 0;
+    }
+    input, textarea, .uneditable-input {
+        margin-left: 0;
+    }
+    input, textarea, .uneditable-input {
+        width: 206px;
+    }
+    input, button, select, textarea {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    label, input, button, select, textarea {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+    button, input {
+        line-height: normal;
+    }
+    button, input, select, textarea {
+        margin: 0;
+        font-size: 100%;
+        vertical-align: middle;
+    }
+
+
+
+/*========*/
+
+
 p {
 display: block;
 -webkit-margin-before: 1em;
@@ -137,7 +275,7 @@ cursor: pointer;
 }
 
 /*
-* ?╖ч?????
+* ?О©╫О©╫?????
 */
 
 .publisher .pb-action-holder {
@@ -147,7 +285,7 @@ position: relative;
 margin: -2px -2px -2px 19px;
 }
 
-/*╖Ё?????*/
+/*О©╫О©╫?????*/
 .publisher .pb-triangle {
 height: 20px;
 width: 13px;
@@ -158,17 +296,17 @@ top: 24px;
 z-index: 1;
 overflow: hidden;
 }
-/*?╖ч???????????*/
+/*?О©╫О©╫???????????*/
 .pb-action-shadow-top {
 height: 5px;
 background: url(../img/feed-bg-sprites.$5106.png) 0 0 no-repeat;
 }
 
-/*?╖ч??????╖ч?*/
+/*?О©╫О©╫??????О©╫О©╫?*/
 .publisher .pb-action {
 background: url(../img/feed-bg-sprites.$5106.png) -1200px 0 repeat-y;
 }
-/*?╖ч??╖р?*/
+/*?О©╫О©╫??О©╫О©╫?*/
 .publisher .pb-action ul {
 padding: 10px 20px 5px;
 }
@@ -177,7 +315,7 @@ padding: 10px 20px 5px;
 ul {
 list-style: none;
 }
-/*?╖ч???????????*/
+/*?О©╫О©╫???????????*/
 .pb-action-shadow-bottom {
 height: 10px;
 background: url(../img/feed-bg-sprites.$5106.png) -600px bottom no-repeat;
@@ -284,7 +422,7 @@ box-shadow: 0 1px 2px #B0B3B6;
 background-color: #B0B3B6;
 }
 
-/*?╖ч?feed????????*/
+/*?О©╫О©╫?feed????????*/
 .feed-content-holder {
 margin: -1px -2px -4px;
 width: 544px;
@@ -425,7 +563,7 @@ height: 16px;
 
 
 
-/*?║ю??*/
+/*?О©╫О©╫??*/
 .feed-ft-bottom, .feed-container-bottom {
 height: 10px;
 font-size: 0;
@@ -502,7 +640,7 @@ text-decoration: underline;
 text-align: left !important;
 }
 
-/*╩ьс╕ю╦*/
+/*О©╫О©╫с╕О©╫О©╫*/
 .feed-ft {
 padding: 0 1px;
 position: relative;

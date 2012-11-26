@@ -2530,7 +2530,7 @@ a#oauth-tip-close:hover{
 #submit-success-holder{font-size:14px;text-align:center;padding:50px 20px;}
 
 
-.pb-photo-upload-tip{ float:left;color:#8b8b8b;line-height: 40px;}
+.pb-photo-upload-tip{ float:left;color:#8b8b8b;line-height: 40px; }
 
 .dd-publisher{float:left; overflow: hidden;}
 #post-to-holder{
