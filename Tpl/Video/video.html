@@ -5,15 +5,15 @@
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>发布影像|OnlyMyBlog</title>
     <script type='text/javascript' src='../Tpl/Video/js/jquery.js'></script>
-    <script type='text/javascript' src='../Tpl/Video/js/text.js'></script>
+    <script type='text/javascript' src='../Tpl/Video/js/video.js'></script>
     <script type="text/javascript" src="../Tpl/Video/js/jquery.tagsinput.js"></script>
     <script type="text/javascript" src="../Tpl/Video/js/editor_config.js"></script>
     <script type="text/javascript" src="../Tpl/Video/js/editor.js"></script>
     <link rel="stylesheet" href="../Tpl/Video/themes/default/ueditor.css" />
-    <link href='../Tpl/Video/css/layout.css' rel='stylesheet' type='text/css'/>
     <link href='../Tpl/Video/css/dd.$7205.css' rel='stylesheet' type='text/css'/>
     <link href='../Tpl/Video/css/publisher.$7218.css' rel='stylesheet' type='text/css'/>
     <link href="../Tpl/Video/css/jquery.tagsinput.css" rel="stylesheet" type="text/css"/>
+    <link href='../Tpl/Video/css/layout.css' rel='stylesheet' type='text/css'/>
 
 </head>
 <body>
@@ -39,14 +39,24 @@
                     </h2>
                     <!--标题下面的一块-->
                     <div id="pb-post-area">
-                        <!--标题输入框-->
                         <div id="pb-text-title-holder" class="pb-post-section">
                             <h3 class="pb-section-title">
-                                链接地址
-                                <span>(可不填)</span>
+                                视频链接
                             </h3>
-                            <input tabindex="1" type="text" name="pb-text-title" class="pb-input-text" id="pb-text-title" value="支持优酷/Bilibili">
                         </div>
+                        <!--视频链接输入框-->
+                        <div id="pb-video-search-holder" class="pb-post-section">
+                            <div class="pb-input-tip" id="pb-video-search-tip">
+                                <span style="color: red">搜索视频中</span>
+                            </div>
+                            <input type="text" name="pb-video-search-input" class="pb-input-text ui-text" cloud="" placeholder="" id="ctrltextpb-video-search-input" data-control="pb-video-search-input">
+                        </div>
+                        <!--预览区域-->
+                        <div id="pb-video-preview-holder" class="pb-post-media-preview clearfix" style="display:none;">
+                            <a id="pb-video-repick-btn" class="pb-post-media-preview-close">重新选择视频</a>
+                            <img id="pb-video-thumb">
+                        </div>
+
                         <!--下面的内容编辑区-->
                         <div id="pb-text-post-holder" class="pb-post-section">
                             <h3 class="pb-section-title">描述</h3>
