@@ -4,18 +4,21 @@
  * Date: 12-11-26
  * Time: 下午3:03
  */
-include "simple_html_dom.php";
 
+include dirname(__FILE__)."/../Ext/simple_html_dom.php";
+include dirname(__FILE__)."/../Ext/VideoUrlParser.class.php";
 class VideoCrawlerAction extends Action{
     public function crawler(){
-//        $url=$this->_post("video_url");
-        $url='http://v.youku.com/v_show/id_XNDY4MzAyMjE2.html';
+        $url=$this->_post("video_url");
+//        $url='http://v.youku.com/v_show/id_XNDY4MzAyMjE2.html';
         $html=file_get_html($url);
-        foreach ( $html->find('span[id=subtitle]') as $element) {
-            echo $element->src;
-        }
-
-
-        echo 'fuck';
+        $info=VideoUrlParser::parse($url);
+        $title_element=$html->find('#subtitle');
+        $embed_element= $html->find('#link3');
+        $title=$title_element[0]->plaintext;
+        $img_path=$info['img'];
+        $embed_html=$embed_element[0]->getAttribute('value');
+        $info=array('title'=>$title,'img_path'=>$img_path,'embed_html'=>$embed_html);
+        echo json_encode($info);
     }
 }

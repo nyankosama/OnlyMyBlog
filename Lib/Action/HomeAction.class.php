@@ -68,7 +68,7 @@ class HomeAction extends Action{
         $para1['comment_blog_id']=1;
         $para1['pic_path']='../Tpl/Home/img/2012.05.28-352.jpg';
         $para1['video_id']='1';
-        $para1['flash_url']='http://player.youku.com/player.php/sid/116321290/v.swf';
+        $para1['embed_value']='<embed src="http://player.youku.com/player.php/sid/XNDY4MzAyMjE2/v.swf" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">';
         $para1['video_url']='http://v.youku.com/v_show/id_XNDY1Mjg1MTYw.html';
         $para1['video_img_path']='http://g4.ykimg.com/0100641F4650A280E71EE202145CCEFACF6362-016C-31A3-5783-B6974E9C8AF4';
         $para1['video_title']='只有是哥哥有爱就没有问题的了对吧';
