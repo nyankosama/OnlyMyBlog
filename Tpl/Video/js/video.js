@@ -1,5 +1,6 @@
 $(document).ready(function(){
-
+    var editor = new UE.ui.Editor();
+    editor.render('editor');
 //    添加拔取视频ajax事件
     $("#ctrltextpb-video-search-input").change(function(){
         $("#pb-video-search-tip span").text('搜索视频中');
@@ -10,7 +11,7 @@ $(document).ready(function(){
                 $("#pb-video-preview-holder").css('display','block');
                 $("#pb-video-search-holder").css('display','none');
                 $("#pb-video-thumb").attr('src',data.img_path);
-                $("#baidu_editor_0 p").text(data.title);
+                editor.setContent(data.title);
             }else{
                 $("#pb-video-search-tip span").text('链接地址不正确！');
                 //搜索失败

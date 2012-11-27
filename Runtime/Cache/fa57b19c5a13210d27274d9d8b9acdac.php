@@ -4,16 +4,17 @@
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>发布影像|OnlyMyBlog</title>
-    <script type='text/javascript' src='../Tpl/Video/js/jquery.js'></script>
-    <script type='text/javascript' src='../Tpl/Video/js/video.js'></script>
-    <script type="text/javascript" src="../Tpl/Video/js/jquery.tagsinput.js"></script>
-    <script type="text/javascript" src="../Tpl/Video/js/editor_config.js"></script>
-    <script type="text/javascript" src="../Tpl/Video/js/editor.js"></script>
     <link rel="stylesheet" href="../Tpl/Video/themes/default/ueditor.css" />
     <link href='../Tpl/Video/css/dd.$7205.css' rel='stylesheet' type='text/css'/>
     <link href='../Tpl/Video/css/publisher.$7218.css' rel='stylesheet' type='text/css'/>
     <link href="../Tpl/Video/css/jquery.tagsinput.css" rel="stylesheet" type="text/css"/>
     <link href='../Tpl/Video/css/layout.css' rel='stylesheet' type='text/css'/>
+    <script type='text/javascript' src='../Tpl/Video/js/jquery.js'></script>
+
+    <script type="text/javascript" src="../Tpl/Video/js/jquery.tagsinput.js"></script>
+    <script type="text/javascript" src="../Tpl/Video/js/editor_config.js"></script>
+    <script type="text/javascript" src="../Tpl/Video/js/editor.js"></script>
+    <script type='text/javascript' src='../Tpl/Video/js/video.js'></script>
 
 </head>
 <body>
@@ -119,8 +120,4 @@
     </div>
 </div>
 </body>
-<script type="text/javascript">
-    var editor = new UE.ui.Editor();
-    editor.render('editor');
-</script>
 </html>

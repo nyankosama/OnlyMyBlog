@@ -35,7 +35,7 @@
       <file leaf-file-name="video.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tpl/Video/js/video.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="637" selection-end="637" vertical-scroll-proportion="0.44147158">
+            <state line="13" column="46" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4888889">
               <folding />
             </state>
           </provider>
@@ -53,9 +53,10 @@
       <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tpl/Video/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="26" selection-start="6520" selection-end="6520" vertical-scroll-proportion="-6.696429">
+            <state line="121" column="7" selection-start="6425" selection-end="6425" vertical-scroll-proportion="-6.696429">
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -420,16 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tpl/Picture/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="66" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1353998808449" expanded="false" signature="1350:1363" placeholder="..." />
-            <marker date="1353998808449" expanded="false" signature="1542:1555" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Picture/css/publisher.$7218.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2312" column="28" selection-start="59277" selection-end="59277" vertical-scroll-proportion="0.0">
@@ -512,12 +503,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Video/video.html">
+    <entry file="file://$PROJECT_DIR$/Tpl/Text/js/editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="26" selection-start="6520" selection-end="6520" vertical-scroll-proportion="-6.696429">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="6276" column="20" selection-start="242638" selection-end="242638" vertical-scroll-proportion="-0.0051282053">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Action/VideoCrawlerAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="62" selection-start="836" selection-end="844" vertical-scroll-proportion="-12.16129">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -531,16 +527,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/VideoCrawlerAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Tpl/Video/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="62" selection-start="836" selection-end="844" vertical-scroll-proportion="-12.16129">
-          <folding />
+        <state line="121" column="7" selection-start="6425" selection-end="6425" vertical-scroll-proportion="-6.696429">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Video/js/video.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="637" selection-end="637" vertical-scroll-proportion="0.44147158">
+        <state line="13" column="46" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4888889">
           <folding />
         </state>
       </provider>
