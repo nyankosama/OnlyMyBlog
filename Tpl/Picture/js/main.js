@@ -48,8 +48,10 @@ $(function () {
             }
             data.submit();
         },
-        process:function(e,data){
-            var progress = parseInt(data.loaded/data.total *100,10)*2.5;
+
+        progress :function(e,data){
+            var progress = parseInt(data.loaded/data.total *100)*3-450;
+            $(".pb-photo-li-progress").attr('style','background-position: '+progress+'px 50%;')
         },
         dataType: 'json',
         dropZone: $('#pb-photo-pick-holder'),
