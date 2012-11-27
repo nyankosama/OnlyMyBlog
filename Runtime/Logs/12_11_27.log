@@ -670,3 +670,2408 @@ NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\C
 NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
 NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
 
+[ 2012-11-27T00:17:18+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005383s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033925s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040994s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041828s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042714s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003540s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2012-11-27T00:17:19+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+
+[ 2012-11-27T00:17:23+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036346s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042100s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042859s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043627s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2012-11-27T00:17:24+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:17:24+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:17:25+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008199s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002005s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011585s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021982s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022696s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023488s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003144s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025498s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2012-11-27T00:17:25+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:17:25+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:17:26+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+
+[ 2012-11-27T00:17:27+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008268s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002058s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056488s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057830s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.059915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005246s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2012-11-27T00:17:27+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:17:27+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:17:29+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+
+[ 2012-11-27T00:17:29+08:00 ] 127.0.0.1 /blog/Home/link
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005719s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034756s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042456s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043237s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003183s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2012-11-27T00:17:29+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:17:29+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:17:30+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+
+[ 2012-11-27T00:17:39+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-27T00:17:41+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002037s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002431s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+
+[ 2012-11-27T00:17:41+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-27T00:17:45+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.087667s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.002197s ]
+
+[ 2012-11-27T00:17:45+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004626s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043662s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050024s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050854s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051737s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003551s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2012-11-27T00:17:46+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+
+[ 2012-11-27T00:17:48+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007339s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001178s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010954s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019845s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020605s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021396s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003310s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2012-11-27T00:17:48+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:17:48+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:17:50+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+
+[ 2012-11-27T00:17:50+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004676s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011013s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017275s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018762s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2012-11-27T00:17:50+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:17:50+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:17:52+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+
+[ 2012-11-27T00:17:52+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004429s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001275s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012265s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018337s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019047s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019806s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2012-11-27T00:17:52+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:17:52+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:19:34+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+
+[ 2012-11-27T00:19:34+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004184s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035814s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041705s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042513s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043432s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003605s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2012-11-27T00:19:36+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-27T00:19:39+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008483s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.000864s ]
+
+[ 2012-11-27T00:19:39+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004960s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010369s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017221s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017902s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018662s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003090s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2012-11-27T00:19:40+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+
+[ 2012-11-27T00:19:42+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009482s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002294s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033248s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034095s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034964s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003496s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2012-11-27T00:19:43+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:19:43+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:19:44+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+
+[ 2012-11-27T00:19:45+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012228s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019079s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020064s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020952s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003671s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2012-11-27T00:19:45+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:19:45+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:19:46+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+
+[ 2012-11-27T00:19:47+08:00 ] 127.0.0.1 /blog/Home/link
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004197s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001083s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015888s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016851s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017754s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004027s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2012-11-27T00:19:47+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:19:47+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:19:48+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
+[ 2012-11-27T00:19:49+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008365s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017490s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028402s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029141s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029899s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003148s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2012-11-27T00:19:49+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:19:49+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:19:51+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+
+[ 2012-11-27T00:20:09+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+
+[ 2012-11-27T00:20:09+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004531s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012893s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019281s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020235s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004022s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2012-11-27T00:20:11+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-27T00:20:16+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002987s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.032336s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.000772s ]
+
+[ 2012-11-27T00:20:16+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001209s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010460s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016727s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018386s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003263s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2012-11-27T00:20:17+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001279s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008239s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.000707s ]
+
+[ 2012-11-27T00:20:17+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004786s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001301s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012908s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019365s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020054s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020947s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003190s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2012-11-27T00:20:18+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2012-11-27T00:20:21+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001730s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005972s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001493s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011534s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019367s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020223s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021131s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003727s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023432s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2012-11-27T00:20:22+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T00:20:22+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T00:20:23+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+
+[ 2012-11-27T08:31:16+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.517597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.621388s ]
+
+[ 2012-11-27T08:31:17+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.032896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.033382s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.117305s ]
+INFO: [ view_template ] --END-- [ RunTime:0.213985s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.331585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.666929s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.998907s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.206432s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.217055s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.222000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.293081s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.292558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017578s ]
+
+[ 2012-11-27T08:31:18+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-27T08:31:22+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002795s ]
+
+[ 2012-11-27T08:31:22+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013341s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021666s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022622s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023696s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2012-11-27T08:31:22+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-27T08:31:32+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.143673s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.017709s ]
+
+[ 2012-11-27T08:31:33+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001682s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003783s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.004432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.456927s ]
+INFO: [ view_template ] --END-- [ RunTime:0.123740s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.581001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045837s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.627156s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.628501s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.630327s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.631302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006139s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.634290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002254s ]
+
+[ 2012-11-27T08:31:33+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+
+[ 2012-11-27T08:31:35+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007193s ]
+INFO: [ view_template ] --END-- [ RunTime:0.330736s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.338351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155768s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.494441s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.495720s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.497064s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.497944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005438s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.500309s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2012-11-27T08:31:36+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:31:36+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:31:38+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003842s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+
+[ 2012-11-27T08:31:38+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004283s ]
+INFO: [ view_template ] --END-- [ RunTime:0.231902s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.236703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179708s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.416721s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.418389s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.420245s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.421451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007191s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.424451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002979s ]
+
+[ 2012-11-27T08:31:38+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.119876s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003414s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.123637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019166s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.142965s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.143933s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.145023s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.145748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004119s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.147380s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2012-11-27T08:31:40+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:31:40+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:35:09+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008485s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012535s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022933s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023892s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024845s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2012-11-27T08:35:10+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:35:10+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:36:33+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005605s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001535s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013451s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021064s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021912s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022784s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003501s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2012-11-27T08:36:34+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:36:34+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002621s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:42:04+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007205s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010232s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001465s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024056s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024923s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025798s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003533s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2012-11-27T08:42:05+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:42:05+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:42:35+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001411s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002813s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014893s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024109s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025036s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025944s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003611s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027994s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2012-11-27T08:42:35+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:42:35+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:42:45+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008088s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002435s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018046s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029052s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030034s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2012-11-27T08:42:46+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:42:46+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:43:10+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003466s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007914s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002425s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014335s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025159s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026099s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027066s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029380s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2012-11-27T08:43:11+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:43:11+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:43:22+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008047s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001652s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012979s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023186s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024072s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024969s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003914s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2012-11-27T08:43:22+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:43:22+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:43:44+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008767s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012486s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023370s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024164s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003396s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2012-11-27T08:43:45+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:43:45+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001358s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:44:03+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002699s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008667s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016097s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027055s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.027902s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003187s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2012-11-27T08:44:03+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:44:03+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001764s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003858s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:44:49+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007261s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001750s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013931s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023349s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024371s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025479s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004396s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2012-11-27T08:44:49+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:44:49+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:44:58+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005392s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014688s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022172s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023448s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024717s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004820s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2012-11-27T08:44:58+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:44:58+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002545s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:45:13+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006336s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001413s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012930s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021050s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021770s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022532s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003063s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2012-11-27T08:45:13+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:45:13+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:45:30+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004347s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001357s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013010s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019126s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021039s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003762s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2012-11-27T08:45:30+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:45:30+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:45:48+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001269s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006131s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001898s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014204s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022837s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023856s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024942s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004417s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2012-11-27T08:45:48+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:45:48+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T08:48:47+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012382s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021783s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022629s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023507s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025646s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2012-11-27T08:48:48+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T08:48:48+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:00:30+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.023516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023953s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013740s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011162s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055549s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.105892s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.107918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.119687s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.121489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018358s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.124767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2012-11-27T09:00:30+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:00:30+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:01:44+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005085s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021969s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022815s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023809s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003835s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026204s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2012-11-27T09:01:45+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:01:45+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:03:19+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007127s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024535s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025390s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.026275s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003567s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2012-11-27T09:03:20+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:03:20+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002655s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:05:01+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001119s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005138s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001443s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014289s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021277s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023176s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003919s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2012-11-27T09:05:02+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:05:02+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:06:55+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001561s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013126s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020289s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021261s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022288s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004124s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2012-11-27T09:07:01+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:07:01+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:08:25+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002674s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006706s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012713s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021249s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022174s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023145s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003904s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2012-11-27T09:08:25+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:08:25+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002800s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:08:38+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003346s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013570s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022045s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023320s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024533s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2012-11-27T09:08:38+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:08:38+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:10:54+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002549s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005942s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001531s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020564s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028438s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029364s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030379s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004345s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2012-11-27T09:10:54+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+
+[ 2012-11-27T09:10:54+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:10:54+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:11:17+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002405s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029310s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030295s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031345s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004145s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033807s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2012-11-27T09:11:17+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+
+[ 2012-11-27T09:11:17+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:11:17+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:12:30+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003725s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008281s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001518s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014036s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024278s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025286s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.026347s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004413s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2012-11-27T09:12:30+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:12:30+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:15:36+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001675s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008662s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013311s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024504s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025427s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.026355s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004293s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2012-11-27T09:15:37+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:15:37+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:15:43+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002635s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+
+[ 2012-11-27T09:17:02+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007085s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014670s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023849s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024904s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.026057s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004531s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028820s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2012-11-27T09:17:03+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:17:03+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:17:08+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+
+[ 2012-11-27T09:19:44+08:00 ] 127.0.0.1 /blog/?file=123%20%281%29.jpg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+
+[ 2012-11-27T09:19:44+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002817s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.058367s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007591s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.066381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025128s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.091898s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.093320s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.094862s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.095910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006161s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.098494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002130s ]
+
+[ 2012-11-27T09:19:45+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-27T09:19:59+08:00 ] ERR: (ThinkException) 无法加载模块:files
+[ 2012-11-27T09:20:28+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002970s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010361s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002557s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036560s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038084s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039848s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006853s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002337s ]
+
+[ 2012-11-27T09:20:28+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:20:28+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002894s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:20:34+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+
+[ 2012-11-27T09:21:18+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001446s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015089s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023223s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025205s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004301s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027978s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2012-11-27T09:21:19+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:21:19+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001889s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:21:28+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+
+[ 2012-11-27T09:21:45+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006448s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001483s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013557s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021920s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023923s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2012-11-27T09:21:45+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-27T09:21:45+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001799s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-27T09:21:50+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+

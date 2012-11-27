@@ -5,15 +5,23 @@
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>发布图片|OnlyMyBlog</title>
     <script type='text/javascript' src='../Tpl/Picture/js/jquery.js'></script>
-    <script type='text/javascript' src='../Tpl/Picture/js/text.js'></script>
+    <script type='text/javascript' src='../Tpl/Picture/js/picture.js'></script>
     <script type="text/javascript" src="../Tpl/Picture/js/jquery.tagsinput.js"></script>
     <script type="text/javascript" src="../Tpl/Picture/js/editor_config.js"></script>
     <script type="text/javascript" src="../Tpl/Picture/js/editor.js"></script>
+
+    <script type="text/javascript" src="../Tpl/Picture/js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="../Tpl/Picture/js/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../Tpl/Picture/js/jquery.fileupload-fp.js"></script>
+    <script type="text/javascript" src="../Tpl/Picture/js/jquery.fileupload-ui.js"></script>
+    <script type="text/javascript" src="../Tpl/Picture/js/main.js"></script>
+
     <link rel="stylesheet" href="../Tpl/Picture/themes/default/ueditor.css" />
     <link href='../Tpl/Picture/css/layout.css' rel='stylesheet' type='text/css'/>
     <link href='../Tpl/Picture/css/dd.$7205.css' rel='stylesheet' type='text/css'/>
     <link href='../Tpl/Picture/css/publisher.$7218.css' rel='stylesheet' type='text/css'/>
     <link href="../Tpl/Picture/css/jquery.tagsinput.css" rel="stylesheet" type="text/css"/>
+
 
 </head>
 <body>
@@ -50,10 +58,12 @@
                         <div id="pb-photo-pick-holder" class="pb-post-section" style="margin-top: 20px">
                             <div class="drag-mask">拖拽多张图片到这里，直接上传</div>
                             <div id="pb-photo-flash-holder">
-                                <span class="btn btn-success fileinput-button">
+                                <form action="" method="POST" id="fileupload">
+                                <span id="fileuploadbt" class="btn btn-success fileinput-button">
                                     <span>添加文件</span>
                                     <input type="file" name="files[]" multiple="">
                                 </span>
+                                </form>
                                 <!--<object id="SWFUpload_0" type="application/x-shockwave-flash" data="http://s.libdd.com/js/lib/swfupload/swfupload.swf" width="110" height="38" class="swfupload">-->
                                     <!--<param name="wmode" value="transparent">-->
                                     <!--<param name="movie" value="http://s.libdd.com/js/lib/swfupload/swfupload.swf">-->
