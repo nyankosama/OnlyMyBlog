@@ -13,6 +13,8 @@
 /*global $, window, document */
 
 $(function () {
+    var fileCount=0;
+    var add_first=true;
     'use strict';
     // Initialize the jQuery File Upload widget:
     $('#fileupload').fileupload({
@@ -21,29 +23,38 @@ $(function () {
         url: 'http://127.0.0.1:8887/blog/Picture/fileupload',
         add: function(e, data){
 //            增加上传区域
-            for(var i=0;i<data.originalFiles.length;i++){
-                var liHtml="<li class='clearfix' id='photo-drag-upload_0'>"+
-                    "<a class='pb-photo-li-rm'>删除</a>"+
-                "<span class='pb-photo-li-name' style=''>"+data.originalFiles[i].name+"</span>"+
-                "<span class='pb-photo-li-progress' style='background-position: -400px 50%;'></span>"+
-                    "<span class='pb-photo-li-thumb' style='display: none'>"+
+            if(add_first){
+                fileCount+=data.originalFiles.length;
+                for(var i=0;i<data.originalFiles.length;i++){
+                    var process_id=fileCount+i;
+                    var liHtml="<li class='clearfix' id='photo-drag-upload_0'>"+
+                        "<a class='pb-photo-li-rm'>删除</a>"+
+                        "<span class='pb-photo-li-name' style=''>"+data.originalFiles[i].name+"</span>"+
+                        "<span class='pb-photo-li-progress' id='"+process_id+"' style='background-position: -400px 50%;'></span>"+
+                        "<span class='pb-photo-li-thumb' style='display: none'>"+
 
-                            "<a href='#' class='rotate' title='点击旋转图片'></a>"+
+                        "<a href='#' class='rotate' title='点击旋转图片'></a>"+
                         "</span>"+
                         "<textarea class='pb-photo-desc' style='display: none'></textarea>"+
                         "<span class='pb-photo-li-tip'></span>"+
-                    "</li>";
-                $('#pb-photo-list').append(liHtml);
+                        "</li>";
+                    $('#pb-photo-list').append(liHtml);
+                }
+                add_first=false;
+                $('.pb-photo-li-rm').click(function(){
+                    var li=$(this).parent();
+                    li.css('display','none');
+                });
             }
-            $('.pb-photo-li-rm').click(function(){
-                var li=$(this).parent();
-                li.css('display','none');
-            });
             data.submit();
+        },
+        process:function(e,data){
+            var progress = parseInt(data.loaded/data.total *100,10)*2.5;
         },
         dataType: 'json',
         dropZone: $('#pb-photo-pick-holder'),
         done: function (e, data) {
+            add_first=true;
             $.each(data.result, function (index, file) {
                 console.dir(file);
             });
