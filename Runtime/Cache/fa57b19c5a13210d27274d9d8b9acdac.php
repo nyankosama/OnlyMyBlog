@@ -47,14 +47,14 @@
                         <!--视频链接输入框-->
                         <div id="pb-video-search-holder" class="pb-post-section">
                             <div class="pb-input-tip" id="pb-video-search-tip">
-                                <span style="color: red">搜索视频中</span>
+                                <span style="color: red"></span>
                             </div>
-                            <input type="text" name="pb-video-search-input" class="pb-input-text ui-text" cloud="" placeholder="" id="ctrltextpb-video-search-input" data-control="pb-video-search-input">
+                            <input type="text" id="ctrltextpb-video-search-input" name="pb-video-search-input" class="pb-input-text ui-text" cloud="" placeholder=""  data-control="pb-video-search-input">
                         </div>
                         <!--预览区域-->
                         <div id="pb-video-preview-holder" class="pb-post-media-preview clearfix" style="display:none;">
                             <a id="pb-video-repick-btn" class="pb-post-media-preview-close">重新选择视频</a>
-                            <img id="pb-video-thumb">
+                            <img id="pb-video-thumb" width="150" height="113">
                         </div>
 
                         <!--下面的内容编辑区-->
