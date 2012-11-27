@@ -13,6 +13,8 @@
 /*global $, window, document */
 
 $(function () {
+    registerEvent();
+
     'use strict';
     // Initialize the jQuery File Upload widget:
     $('#fileupload').fileupload({
@@ -23,12 +25,17 @@ $(function () {
             data.submit();
         },
         dataType: 'json',
+        dropZone: $('#pb-photo-pick-holder'),
         done: function (e, data) {
             $.each(data.result, function (index, file) {
                 console.dir(file);
             });
         }
-
     });
 
+    function registerEvent(){
+        $('.pb-photo-li-rm').click(function(){
+
+        });
+    }
 });

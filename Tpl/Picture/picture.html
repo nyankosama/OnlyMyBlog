@@ -51,30 +51,40 @@
                         <!--图片预览区-->
                         <div id="pb-photo-list-holder" class="pb-post-section">
                             <ol id="pb-photo-list">
-                                <li class="clearfix" id="photo-drag-upload_0" dd-img-id="9647D7361D978CAF5EF8D9CB6DA75C35"><a class="pb-photo-li-move" title="拖动调整图片顺序">移动</a><a class="pb-photo-li-rm">删除</a><span class="pb-photo-li-name" style="display: none;">123.jpg</span><span class="pb-photo-li-progress" style="display: none; background-position: -150px 50%;"></span><span class="pb-photo-li-thumb" style=""><img src="http://m1.img.libdd.com/farm5/2012/1127/10/9647D7361D978CAF5EF8D9CB6DA75C35D0032CA33FCCC_100_100.jpg"><a href="#" class="rotate" title="点击旋转图片"></a></span><textarea class="pb-photo-desc" style=""></textarea><span class="pb-photo-li-tip"></span></li>
+                                <li class="clearfix" id="photo-drag-upload_0" dd-img-id="9647D7361D978CAF5EF8D9CB6DA75C35">
+                                    <a class="pb-photo-li-rm">删除</a>
+                                    <span class="pb-photo-li-name" style="display: none;">123.jpg</span>
+                                    <span class="pb-photo-li-progress" style="display: none; background-position: -150px 50%;"></span>
+                                    <span class="pb-photo-li-thumb" style="">
+                                        <img src="http://m1.img.libdd.com/farm5/2012/1127/10/9647D7361D978CAF5EF8D9CB6DA75C35D0032CA33FCCC_100_100.jpg">
+                                        <a href="#" class="rotate" title="点击旋转图片"></a>
+                                    </span>
+                                    <textarea class="pb-photo-desc" style=""></textarea>
+                                    <span class="pb-photo-li-tip"></span>
+                                </li>
                             </ol>
                         </div>
                         <!--图片上传区-->
                         <div id="pb-photo-pick-holder" class="pb-post-section" style="margin-top: 20px">
                             <div class="drag-mask">拖拽多张图片到这里，直接上传</div>
                             <div id="pb-photo-flash-holder">
-                                <!--<form action="" method="POST" id="fileupload">-->
-                                <!--<span id="fileuploadbt" class="btn btn-success fileinput-button">-->
-                                    <!--<span>添加文件</span>-->
-                                    <!--<input type="file" name="files[]" multiple="">-->
-                                <!--</span>-->
-                                <!--</form>-->
-                                <object id="SWFUpload_0" type="application/x-shockwave-flash" data="http://s.libdd.com/js/lib/swfupload/swfupload.swf" width="110" height="38" class="swfupload">
-                                    <param name="wmode" value="transparent">
-                                    <param name="movie" value="http://s.libdd.com/js/lib/swfupload/swfupload.swf">
-                                    <param name="quality" value="high">
-                                    <param name="menu" value="false">
-                                    <param name="allowScriptAccess" value="always">
-                                    <param name="flashvars" value="movieName=SWFUpload_0&amp;uploadURL=http%3A%2F%2Fwww.diandian.com%2Fupload&amp;useQueryString=false&amp;requeueOnError=false&amp;httpSuccess=&amp;assumeSuccessTimeout=0&amp;params=imgsize%3Ds100%26amp%3BpublisherBlogId%3D12144170%26amp%3BpublisherTempUserId%3D12630468&amp;filePostName=Filedata&amp;fileTypes=*.jpg%3B*.png%3B*.gif%3B*.jpeg%3B*.bmp%3B*.JPG%3B*.PNG%3B*.GIF%3B*.JPEG%3B*.BMP%3B*.Jpg%3B*.Png%3B*.Gif%3B*.Jpeg%3B*.Bmp&amp;fileTypesDescription=Images&amp;fileSizeLimit=20MB&amp;fileUploadLimit=40&amp;fileQueueLimit=40&amp;debugEnabled=false&amp;buttonImageURL=http%3A%2F%2Fs.libdd.com%2Fimg%2Felement%2Fupload-photo.%245106.png&amp;buttonWidth=110&amp;buttonHeight=38&amp;buttonText=&amp;buttonTextTopPadding=0&amp;buttonTextLeftPadding=0&amp;buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&amp;buttonAction=-110&amp;buttonDisabled=false&amp;buttonCursor=-2">
-                                </object>
+                                <form action="" method="POST" id="fileupload">
+                                <span id="fileuploadbt" class="btn btn-success fileinput-button">
+                                    <span>添加文件</span>
+                                    <input type="file" name="files[]" multiple="">
+                                </span>
+                                </form>
+                                <!--<object id="SWFUpload_0" type="application/x-shockwave-flash" data="http://s.libdd.com/js/lib/swfupload/swfupload.swf" width="110" height="38" class="swfupload">-->
+                                    <!--<param name="wmode" value="transparent">-->
+                                    <!--<param name="movie" value="http://s.libdd.com/js/lib/swfupload/swfupload.swf">-->
+                                    <!--<param name="quality" value="high">-->
+                                    <!--<param name="menu" value="false">-->
+                                    <!--<param name="allowScriptAccess" value="always">-->
+                                    <!--<param name="flashvars" value="movieName=SWFUpload_0&amp;uploadURL=http%3A%2F%2Fwww.diandian.com%2Fupload&amp;useQueryString=false&amp;requeueOnError=false&amp;httpSuccess=&amp;assumeSuccessTimeout=0&amp;params=imgsize%3Ds100%26amp%3BpublisherBlogId%3D12144170%26amp%3BpublisherTempUserId%3D12630468&amp;filePostName=Filedata&amp;fileTypes=*.jpg%3B*.png%3B*.gif%3B*.jpeg%3B*.bmp%3B*.JPG%3B*.PNG%3B*.GIF%3B*.JPEG%3B*.BMP%3B*.Jpg%3B*.Png%3B*.Gif%3B*.Jpeg%3B*.Bmp&amp;fileTypesDescription=Images&amp;fileSizeLimit=20MB&amp;fileUploadLimit=40&amp;fileQueueLimit=40&amp;debugEnabled=false&amp;buttonImageURL=http%3A%2F%2Fs.libdd.com%2Fimg%2Felement%2Fupload-photo.%245106.png&amp;buttonWidth=110&amp;buttonHeight=38&amp;buttonText=&amp;buttonTextTopPadding=0&amp;buttonTextLeftPadding=0&amp;buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&amp;buttonAction=-110&amp;buttonDisabled=false&amp;buttonCursor=-2">-->
+                                <!--</object>-->
                             </div>
                             <div class="pb-photo-upload-tip">
-                                <p>JPG, GIF, PNG或BMP，单张最大20M，最多40张<span id="canDragUpload" style="">，<span>支持文件拖拽</span></span>
+                                <p>JPG, GIF, PNG或BMP，单张最大20M，最多40张<span id="canDragUpload" style="">，<span id="drag_display">支持文件拖拽</span></span>
                                 </p>
                             </div>
                         </div>

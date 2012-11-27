@@ -1972,7 +1972,7 @@ h2#pb-main-title a:hover{
     height:16px;
     text-indent:-9999px;
     outline:none;
-    background:url("../Tpl/Picture/img/publisher_photo.$6230.png") no-repeat scroll -26px 0 transparent;
+    background:url("../img/publisher_photo.$6230.png") no-repeat scroll -26px 0 transparent;
 }
 .pb-post-media-preview-close:hover{
     background-position:0 0;
@@ -2153,6 +2153,8 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     text-decoration: underline;
     cursor: pointer;
 }
+
+
 #pb-photo-pick-holder,
 #audio-upload-panel{
     position: relative;
@@ -2234,7 +2236,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     text-indent:-9999px;
     background:#999;
     margin:0 10px 0 0;
-    background:url(../Tpl/Picture/img/publisher_photo.$6230.png) no-repeat -50px 0;
+    background:url(../img/publisher_photo.$6230.png) no-repeat -50px 0;
 }
 .pb-photo-li-move{
     cursor:move;
@@ -2249,7 +2251,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     float:right;
     margin:0 0 0 10px;
     width:16px;
-    background:url(../Tpl/Picture/img/publisher_photo.$6230.png) no-repeat -26px 0;
+    background:url(../img/publisher_photo.$6230.png) no-repeat -26px 0;
 }
 .pb-photo-li-rm:hover{
     background-position:0 0;
@@ -2272,7 +2274,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     bottom: 0;
     width: 22px;
     height: 22px;
-    background: url(../Tpl/Picture/img/publisher_photo.$6230.png) no-repeat -84px 0;
+    background: url(../img/publisher_photo.$6230.png) no-repeat -84px 0;
     display: none;
 }
 .pb-photo-li-thumb:hover a.rotate{

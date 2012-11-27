@@ -660,6 +660,8 @@ z-index: 1;
 border: none;
 }
 
+
+
 .feed-ft .feed-ft-triangle {
 width: 15px;
 height: 15px;
@@ -673,8 +675,6 @@ background: url('../img/feed-ft-triangle.$5106.png') no-repeat;
 
 
 
-#ajax-waiting{
-    display: block;
-    position: relative;
-    left: 30%;
-}
+
+
+

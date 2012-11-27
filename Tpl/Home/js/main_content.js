@@ -12,6 +12,10 @@ $(document).ready(function(){
                 var host_type=par.getAttribute('data-host-type');
                 var embed_html=par.getAttribute('data-embed-value');
                 var video_url=par.getAttribute('data-video-url');
+                $html='<div class="feed-video-footer clearfix"><span class="feed-video-link"><a href="http://v.youku.com/v_show/id_XNDc0Mzg4MTA4.html" target="_blank">youku.com</a>→</span><a class="feed-video-close">关闭视频</a></div>';
+                embed_html='<div class="feed-full-video-wrap clearfix">'+embed_html;
+                embed_html+=$html;
+                embed_html+='</div>';
                 $(this).next().parent().prepend(embed_html);
 
                 //注册关闭视频按钮事件
