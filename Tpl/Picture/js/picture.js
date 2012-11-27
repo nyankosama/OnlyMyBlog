@@ -4,5 +4,4 @@ $(document).ready(function(){
         'height':'136px',
         'width':'188px'
     });
-
 });

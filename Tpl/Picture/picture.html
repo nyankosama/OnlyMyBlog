@@ -51,17 +51,17 @@
                         <!--图片预览区-->
                         <div id="pb-photo-list-holder" class="pb-post-section">
                             <ol id="pb-photo-list">
-                                <li class="clearfix" id="photo-drag-upload_0" dd-img-id="9647D7361D978CAF5EF8D9CB6DA75C35">
-                                    <a class="pb-photo-li-rm">删除</a>
-                                    <span class="pb-photo-li-name" style="display: none;">123.jpg</span>
-                                    <span class="pb-photo-li-progress" style="display: none; background-position: -150px 50%;"></span>
-                                    <span class="pb-photo-li-thumb" style="">
-                                        <img src="http://m1.img.libdd.com/farm5/2012/1127/10/9647D7361D978CAF5EF8D9CB6DA75C35D0032CA33FCCC_100_100.jpg">
-                                        <a href="#" class="rotate" title="点击旋转图片"></a>
-                                    </span>
-                                    <textarea class="pb-photo-desc" style=""></textarea>
-                                    <span class="pb-photo-li-tip"></span>
-                                </li>
+                                <!--<li class="clearfix" id="photo-drag-upload_0" dd-img-id="9647D7361D978CAF5EF8D9CB6DA75C35">-->
+                                    <!--<a class="pb-photo-li-rm">删除</a>-->
+                                    <!--<span class="pb-photo-li-name" style="display: none;">123.jpg</span>-->
+                                    <!--<span class="pb-photo-li-progress" style="display: none; background-position: -150px 50%;"></span>-->
+                                    <!--<span class="pb-photo-li-thumb" style="">-->
+                                        <!--<img src="http://m1.img.libdd.com/farm5/2012/1127/10/9647D7361D978CAF5EF8D9CB6DA75C35D0032CA33FCCC_100_100.jpg">-->
+                                        <!--<a href="#" class="rotate" title="点击旋转图片"></a>-->
+                                    <!--</span>-->
+                                    <!--<textarea class="pb-photo-desc" style=""></textarea>-->
+                                    <!--<span class="pb-photo-li-tip"></span>-->
+                                <!--</li>-->
                             </ol>
                         </div>
                         <!--图片上传区-->
