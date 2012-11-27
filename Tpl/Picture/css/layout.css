@@ -335,7 +335,7 @@ outline: none;
 
 li {
 text-align: -webkit-match-parent;
-float:left;
+display: list-item;
 }
 
 a, a:link, a:visited {

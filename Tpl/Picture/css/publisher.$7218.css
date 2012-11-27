@@ -1972,7 +1972,7 @@ h2#pb-main-title a:hover{
     height:16px;
     text-indent:-9999px;
     outline:none;
-    background:url("/img/icon/publisher_photo.$6230.png") no-repeat scroll -26px 0 transparent;
+    background:url("../Tpl/Picture/img/publisher_photo.$6230.png") no-repeat scroll -26px 0 transparent;
 }
 .pb-post-media-preview-close:hover{
     background-position:0 0;
@@ -2165,7 +2165,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     height: 46px;
     width: 520px;
     border: 1px solid #c0c0c0;
-    background: #e1e1e1 url(/img/app/publisher-photo-drag.$5680.png) no-repeat 3px center;
+    background: #e1e1e1 url(../Tpl/Picture/img/publisher-photo-drag.$5680.png) no-repeat 3px center;
     box-shadow:inset 0 0 4px #c0c0c0;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -2234,7 +2234,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     text-indent:-9999px;
     background:#999;
     margin:0 10px 0 0;
-    background:url(/img/icon/publisher_photo.$6230.png) no-repeat -50px 0;
+    background:url(../Tpl/Picture/img/publisher_photo.$6230.png) no-repeat -50px 0;
 }
 .pb-photo-li-move{
     cursor:move;
@@ -2249,7 +2249,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     float:right;
     margin:0 0 0 10px;
     width:16px;
-    background:url(/img/icon/publisher_photo.$6230.png) no-repeat -26px 0;
+    background:url(../Tpl/Picture/img/publisher_photo.$6230.png) no-repeat -26px 0;
 }
 .pb-photo-li-rm:hover{
     background-position:0 0;
@@ -2272,7 +2272,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     bottom: 0;
     width: 22px;
     height: 22px;
-    background: url(/img/icon/publisher_photo.$6230.png) no-repeat -84px 0;
+    background: url(../Tpl/Picture/img/publisher_photo.$6230.png) no-repeat -84px 0;
     display: none;
 }
 .pb-photo-li-thumb:hover a.rotate{
@@ -2308,7 +2308,7 @@ div#PopElementContainer .pb-music-result-footer .pb-music-result-pages{
     border-radius:2px;
     background:#fff;
     float:right;
-    background-image:url(/img/element/progress.$5106.png);
+    background-image:url(../Tpl/Picture/img/progress.$5106.png);
     background-repeat:no-repeat;
     background-position:-400px center;
 }
