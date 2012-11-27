@@ -12,6 +12,11 @@ $(document).ready(function(){
         var content=editor.getContent();
         var title=$("#pb-text-title").val();
         var tag=$("#post-tag-input").val();
-        $.post('http://127.0.0.1:8887/blog/PostBlog/postWord',{title:title,content:content,tag:tag});
+        $.post('http://127.0.0.1:8887/blog/PostBlog/postWord',
+            {title:title,content:content,tag:tag},
+            function(data){
+                console.log(data);
+               window.location.href = 'home';
+        });
     });
 });

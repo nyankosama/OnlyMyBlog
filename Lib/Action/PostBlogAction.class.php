@@ -6,6 +6,11 @@
  */
 
 class PostBlogAction extends Action{
+    private $conf;
+
+    function PostBlogAction(){
+        $this->conf=require('ActionConfig.php');
+    }
 
     public function postWord(){
         $title=$this->_post('title');
@@ -15,6 +20,7 @@ class PostBlogAction extends Action{
 //        $tmp2=$tmp->select();
         $blogItem = new BlogItemModel();
         $blogItem->addWord($title,$content,$tag);
+        echo json_encode(array('status'=>'true'));
     }
 
     public function postPicture(){
