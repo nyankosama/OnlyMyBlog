@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    //初始化uditor
     var editor = new UE.ui.Editor();
     editor.render('editor');
 //    添加拔取视频ajax事件
@@ -11,7 +12,7 @@ $(document).ready(function(){
                 $("#pb-video-preview-holder").css('display','block');
                 $("#pb-video-search-holder").css('display','none');
                 $("#pb-video-thumb").attr('src',data.img_path);
-                editor.setContent(data.title);
+                editor.setContent(data.title);//设置描述为视频标题
             }else{
                 $("#pb-video-search-tip span").text('链接地址不正确！');
                 //搜索失败

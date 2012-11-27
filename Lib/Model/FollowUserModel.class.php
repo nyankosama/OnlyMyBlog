@@ -7,15 +7,20 @@
 
 class FollowUserModel extends Model{
     protected $tableName = 'follow_user';
+    private $model;
+
+    function FollowUserModel(){
+        $this->model=M('follow_user');
+    }
 
     public function addFollowUser($follow_user_id){
         $user_id=session('user_id');
         $data['user_id']=$user_id;
         $data['follow_user_id']=$follow_user_id;
-        $this->add($data);
+        $this->model->add($data);
     }
 
     public function disFollowUser($follow_user_id){
-        $this->delete($follow_user_id);
+        $this->model->delete($follow_user_id);
     }
 }

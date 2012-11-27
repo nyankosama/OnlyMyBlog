@@ -9,9 +9,12 @@
 class LikeModel extends Model{
     private $config;
     protected $tableName = 'like';
+    private $model;
+
 
     function LikeModel(){
         $this->config=require('ModelConfig.php');
+        $this->model=M('like');
     }
 
     public function addLike($blog_item_id){
@@ -19,7 +22,7 @@ class LikeModel extends Model{
         $data['like_user_id']=$user_id;
         $data['blog_item_id']=$blog_item_id;
         $data['op_type']=$this->config['LIKE_TYPE_REPOST'];
-        $this->add($data);
+        $this->model->add($data);
     }
 
     /**
@@ -32,7 +35,7 @@ class LikeModel extends Model{
         $data['like_user_id']=$user_id;
         $data['blog_item_id']=$blog_item_id;
         $data['op_type']=$this->config['LIKE_TYPE_LIKE'];
-        $this->add($data);
+        $this->model->add($data);
 
         $blog_item=new BlogItemModel();
         $blog_item->repost($blog_item_id,$comment);
@@ -43,6 +46,6 @@ class LikeModel extends Model{
         $data['like_user_id']=$user_id;
         $data['blog_item_id']=$blog_item_id;
         $data['op_type']=$this->config['LIKE_TYPE_COMMENT'];
-        $this->add($data);
+        $this->model->add($data);
     }
 }

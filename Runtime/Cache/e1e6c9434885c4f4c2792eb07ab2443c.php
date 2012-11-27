@@ -4,16 +4,16 @@
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>发布文字|OnlyMyBlog</title>
-    <script type='text/javascript' src='../Tpl/Text/js/jquery.js'></script>
-    <script type='text/javascript' src='../Tpl/Text/js/text.js'></script>
-    <script type="text/javascript" src="../Tpl/Text/js/jquery.tagsinput.js"></script>
-    <script type="text/javascript" src="../Tpl/Text/js/editor_config.js"></script>
-    <script type="text/javascript" src="../Tpl/Text/js/editor.js"></script>
-    <link rel="stylesheet" href="../Tpl/Text/themes/default/ueditor.css" />
     <link href='../Tpl/Text/css/layout.css' rel='stylesheet' type='text/css'/>
     <link href='../Tpl/Text/css/dd.$7205.css' rel='stylesheet' type='text/css'/>
     <link href='../Tpl/Text/css/publisher.$7218.css' rel='stylesheet' type='text/css'/>
     <link href="../Tpl/Text/css/jquery.tagsinput.css" rel="stylesheet" type="text/css"/>
+    <script type='text/javascript' src='../Tpl/Text/js/jquery.js'></script>
+    <script type="text/javascript" src="../Tpl/Text/js/jquery.tagsinput.js"></script>
+    <script type="text/javascript" src="../Tpl/Text/js/editor_config.js"></script>
+    <script type="text/javascript" src="../Tpl/Text/js/editor.js"></script>
+    <link rel="stylesheet" href="../Tpl/Text/themes/default/ueditor.css" />
+    <script type='text/javascript' src='../Tpl/Text/js/text.js'></script>
 
 </head>
 <body>
@@ -109,8 +109,4 @@
     </div>
 </div>
 </body>
-<script type="text/javascript">
-    var editor = new UE.ui.Editor();
-    editor.render('editor');
-</script>
 </html>

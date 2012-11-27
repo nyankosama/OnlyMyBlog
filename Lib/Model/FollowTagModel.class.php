@@ -11,15 +11,19 @@ class FollowTagModel extends Model{
      * @param $tag 解析好的单个tag字符串
      */
     protected $tableName = 'follow_tag';
+    private $model;
 
+    function FollowTagModel(){
+        $this->model=M('follow_tag');
+    }
     public function addFollowTag($tag){
         $data['user_id']=session('user_id');
         $data['tag_name']=$tag;
-        $this->add($data);
+        $this->model->add($data);
     }
 
     public function disFollowTag($tag){
         $condition['tag_name']=$tag;
-        $this->where($condition)->delete();
+        $this->model->where($condition)->delete();
     }
 }
