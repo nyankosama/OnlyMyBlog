@@ -12,6 +12,9 @@ class PostBlogAction extends Action{
         $this->conf=require('ActionConfig.php');
     }
 
+    /**
+     * post: title, content, tag
+     */
     public function postWord(){
         $title=$_POST['title'];
         $content=$_POST['content'];
@@ -23,23 +26,57 @@ class PostBlogAction extends Action{
         echo json_encode(array('status'=>'true'));
     }
 
+    /**
+     * post: path, content, tag
+     */
     public function postPicture(){
+        $blogItem = new BlogItemModel();
+//        $path,$desc,$tag
+        $path=$_POST['path'];
+        $desc=$_POST['content'];
+        $tag=$_POST['tag'];
+        $blogItem->addPicture($path,$desc,$tag);
+        echo json_encode(array('status'=>'true'));
     }
 
+    /**
+     * post: video_url, video_img_path, title, content, embed_value
+     */
     public function postVideo(){
         $blogItem = new BlogItemModel();
-        //TODO write here
-//        $blogItem->addVideo()
+        $video_url=$_POST('video_url');
+        $video_img_path=$_POST('video_img_path');
+        $title=$_POST('title');
+        $desc=$_POST['content'];
+        $embed_value=$_POST['embed_value'];
+        $tag=$_POST['tag'];
+        $blogItem->addVideo($video_url,$video_img_path,$title,$desc,$tag,$embed_value);
+        echo json_encode(array('status'=>'true'));
     }
 
+    /**
+     * post: path, content, tag
+     */
     public function postLink(){
+//        $path,$desc,$tag
+        $blogItem = new BlogItemModel();
+        $path=$_POST['path'];
+        $desc=$_POST['content'];
+        $tag=$_POST['tag'];
+        $blogItem->addLink($path,$desc,$tag);
+        echo json_encode(array('status'=>'true'));
     }
 
     /**
      * 跳到repost页面
      * url定义为Home/repost/blog_id/xxxx
+     * post: blog_item_id, comment
      */
     public function repost($blog_id){
         //TODO repost跳转
+        $blogItem = new BlogItemModel();
+        $blog_item_id=$_POST['blog_item_id'];
+        $comment=$_POST['comment'];
+        $blogItem->repost($blog_item_id,$comment);
     }
 }
