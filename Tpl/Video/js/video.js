@@ -32,7 +32,9 @@ $(document).ready(function(){
 
     $("#ctrlbuttonpb-submitlabel").click(function(){
         $.post('http://127.0.0.1:8887/blog/PostBlog/postVideo',
-            {video_title:video_title,video_img_path:video_img_path,video_embed_value:video_embed_value,video_url:video_url},
+            {video_title:video_title,video_img_path:video_img_path,
+                video_embed_value:video_embed_value,video_url:video_url,
+            content:editor.getContent()},
             function(data){
                 console.log(data);
                 if(data.status=="true"){

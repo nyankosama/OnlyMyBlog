@@ -1,0 +1,470 @@
+[ 2012-11-29T00:00:24+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033455s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040665s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041377s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042129s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003098s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2012-11-29T00:00:26+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-29T00:00:26+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-29T00:01:16+08:00 ] 127.0.0.1 /blog/VideoCrawler/crawler?video_url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDc1NjQxNTg0.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.035375s ]
+INFO: [ route_check ] --END-- [ RunTime:0.035819s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034906s ]
+NOTIC: [2048] Non-static method VideoUrlParser::_parseYouku() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 78 行.
+NOTIC: [2048] Non-static method VideoUrlParser::_cget() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 165 行.
+
+[ 2012-11-29T00:05:38+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010270s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.054703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069910s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.124788s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.135961s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.137690s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.139132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017028s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.142108s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001934s ]
+
+[ 2012-11-29T00:05:39+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-29T00:05:39+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-29T00:05:52+08:00 ] 127.0.0.1 /blog/VideoCrawler/crawler?video_url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDc4ODIzMjcy.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+NOTIC: [2048] Non-static method VideoUrlParser::_parseYouku() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 78 行.
+NOTIC: [2048] Non-static method VideoUrlParser::_cget() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 165 行.
+
+[ 2012-11-29T00:06:00+08:00 ] ERR: [1] Function name must be a string E:\workspace\webApplication\blog\Lib\Action\PostBlogAction.class.php 第 47 行.
+[ 2012-11-29T00:06:22+08:00 ] ERR: [1] Function name must be a string E:\workspace\webApplication\blog\Lib\Action\PostBlogAction.class.php 第 47 行.
+[ 2012-11-29T00:07:53+08:00 ] 127.0.0.1 /blog/PostBlog/postVideo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.006207s ]
+NOTIC: [8] Undefined index: tag E:\workspace\webApplication\blog\Lib\Action\PostBlogAction.class.php 第 52 行.
+SQL: INSERT INTO `blog_blogitem` (`user_id`,`type`,`json_content`,`tag`,`time`) VALUES (1,3,'{\"path\":\"http:\\/\\/v.youku.com\\/v_show\\/id_XNDc4ODIzMjcy.html\",\"desc_content\":\"<p>\\u7b2c08\\u8bdd kinding <\\/p>\",\"title\":\"\\u7b2c08\\u8bdd kinding \",\"embed_value\":\"<embed src=\\\"http:\\/\\/player.youku.com\\/player.php\\/sid\\/XNDc4ODIzMjcy\\/v.swf\\\" allowFullScreen=\\\"true\\\" quality=\\\"high\\\" width=\\\"480\\\" height=\\\"400\\\" align=\\\"middle\\\" allowScriptAccess=\\\"always\\\" type=\\\"application\\/x-shockwave-flash\\\"><\\/embed>\",\"video_img_path\":\"http:\\/\\/g2.ykimg.com\\/1100401F4650AECDF11944004861AB50F50756-56EA-411E-AE7D-BD3BBA1CC768\"}',null,'2012-11-29 0:7:53') [ RunTime:0.059560s ]
+
+[ 2012-11-29T00:07:57+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005717s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029512s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037030s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037888s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038817s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003642s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2012-11-29T00:08:01+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.004424s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.004840s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.004434s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.004300s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 26 [ RunTime:0.000306s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 26 )  [ RunTime:0.000303s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 25 [ RunTime:0.000336s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 25 )  [ RunTime:0.000380s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 24 [ RunTime:0.000207s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 24 )  [ RunTime:0.000218s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+
+[ 2012-11-29T00:08:54+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001600s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012086s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021030s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021885s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023078s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004032s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025520s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2012-11-29T00:08:59+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-29T00:08:59+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-29T00:09:05+08:00 ] 127.0.0.1 /blog/VideoCrawler/crawler?video_url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDc1NjQxNTg0.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+NOTIC: [2048] Non-static method VideoUrlParser::_parseYouku() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 78 行.
+NOTIC: [2048] Non-static method VideoUrlParser::_cget() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 165 行.
+
+[ 2012-11-29T00:09:39+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008548s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001502s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014897s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025378s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026084s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.026839s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003038s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2012-11-29T00:09:43+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-29T00:09:43+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-29T00:09:47+08:00 ] 127.0.0.1 /blog/VideoCrawler/crawler?video_url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDc1NjQxNTg0.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+NOTIC: [2048] Non-static method VideoUrlParser::_parseYouku() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 78 行.
+NOTIC: [2048] Non-static method VideoUrlParser::_cget() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 165 行.
+
+[ 2012-11-29T00:11:25+08:00 ] 127.0.0.1 /blog/Home/video
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006358s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012900s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021173s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022213s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023169s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003831s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2012-11-29T00:11:30+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-29T00:11:30+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003360s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-29T00:11:31+08:00 ] 127.0.0.1 /blog/VideoCrawler/crawler?video_url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDc4ODIzMjcy.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [2048] Non-static method VideoUrlParser::_parseYouku() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 78 行.
+NOTIC: [2048] Non-static method VideoUrlParser::_cget() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 165 行.
+
+[ 2012-11-29T00:12:38+08:00 ] 127.0.0.1 /blog/VideoCrawler/crawler?video_url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDc4NTcxNzI0.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+NOTIC: [2048] Non-static method VideoUrlParser::_parseYouku() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 78 行.
+NOTIC: [2048] Non-static method VideoUrlParser::_cget() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 165 行.
+
+[ 2012-11-29T00:14:00+08:00 ] 127.0.0.1 /blog/VideoCrawler/crawler?video_url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDgxMDE5OTUy.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+NOTIC: [2048] Non-static method VideoUrlParser::_parseYouku() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 78 行.
+NOTIC: [2048] Non-static method VideoUrlParser::_cget() should not be called statically E:\workspace\webApplication\blog\Lib\Ext\VideoUrlParser.class.php 第 165 行.
+
+[ 2012-11-29T00:14:13+08:00 ] 127.0.0.1 /blog/PostBlog/postVideo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.041941s ]
+NOTIC: [8] Undefined index: tag E:\workspace\webApplication\blog\Lib\Action\PostBlogAction.class.php 第 52 行.
+SQL: INSERT INTO `blog_blogitem` (`user_id`,`type`,`json_content`,`tag`,`time`) VALUES (1,3,'{\"path\":\"http:\\/\\/v.youku.com\\/v_show\\/id_XNDgxMDE5OTUy.html\",\"desc_content\":\"<p>\\u592a\\u7cbe\\u5f69\\u4e86\\uff01\\uff01\\uff01<\\/p>\",\"title\":\"\\u4e00\\u4e5d\\u56db\\u4e8c\\uff1a\\u543e\\u56fd\\u543e\\u6c11 \\u7b2c\\u4e00\\u96c6\\uff1a\\u7f18\\u8d77 \",\"embed_value\":\"<embed src=\\\"http:\\/\\/player.youku.com\\/player.php\\/sid\\/XNDgxMDE5OTUy\\/v.swf\\\" allowFullScreen=\\\"true\\\" quality=\\\"high\\\" width=\\\"480\\\" height=\\\"400\\\" align=\\\"middle\\\" allowScriptAccess=\\\"always\\\" type=\\\"application\\/x-shockwave-flash\\\"><\\/embed>\",\"video_img_path\":\"http:\\/\\/g3.ykimg.com\\/11270F1F4650B5AA0E48590123193CE0916D8A-3D31-99A3-2EC1-FADDA45135A8\"}',null,'2012-11-29 0:14:13') [ RunTime:0.000865s ]
+
+[ 2012-11-29T00:14:13+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012780s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020628s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021571s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022618s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2012-11-29T00:14:23+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.007843s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.048592s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.012760s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.017213s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000637s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 27 [ RunTime:0.000475s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 27 )  [ RunTime:0.000462s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000758s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 26 [ RunTime:0.000434s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 26 )  [ RunTime:0.000644s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 25 [ RunTime:0.001675s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 25 )  [ RunTime:0.000548s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 24 [ RunTime:0.000611s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 24 )  [ RunTime:0.000689s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+
+[ 2012-11-29T00:14:29+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005097s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010105s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016524s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017210s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017969s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002995s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2012-11-29T00:14:34+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002678s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008494s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007922s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007279s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.004200s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 27 [ RunTime:0.000422s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 27 )  [ RunTime:0.000375s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 26 [ RunTime:0.000268s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 26 )  [ RunTime:0.000270s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 25 [ RunTime:0.000228s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 25 )  [ RunTime:0.000261s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 24 [ RunTime:0.000224s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 84 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 24 )  [ RunTime:0.000254s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 93 行.
+

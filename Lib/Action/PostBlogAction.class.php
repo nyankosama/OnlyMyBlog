@@ -40,15 +40,15 @@ class PostBlogAction extends Action{
     }
 
     /**
-     * post: video_url, video_img_path, title, content, embed_value
+     * post: video_url, video_img_path, video_title, content, video_embed_value
      */
     public function postVideo(){
         $blogItem = new BlogItemModel();
-        $video_url=$_POST('video_url');
-        $video_img_path=$_POST('video_img_path');
-        $title=$_POST('title');
+        $video_url=$_POST['video_url'];
+        $video_img_path=$_POST['video_img_path'];
+        $title=$_POST['video_title'];
         $desc=$_POST['content'];
-        $embed_value=$_POST['embed_value'];
+        $embed_value=$_POST['video_embed_value'];
         $tag=$_POST['tag'];
         $blogItem->addVideo($video_url,$video_img_path,$title,$desc,$tag,$embed_value);
         echo json_encode(array('status'=>'true'));
