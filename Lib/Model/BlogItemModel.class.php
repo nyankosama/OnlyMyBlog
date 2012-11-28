@@ -64,13 +64,14 @@ class BlogItemModel extends Model{
         $this->model->delete($id);
     }
 
-    public function addVideo($path,$desc,$tag){
+    public function addVideo($path,$desc,$tag,$embed_value){
         $data['user_id']=session('user_id');
         $data['type']=$this->config['BLOG_ITEM_TYPE_VIDEO'];
         $data['path']=$path;
         $data['desc_content']=$desc;
         $data['tag']=$tag;
         $data['time']=$this->getTime();
+        $data['embed_value']=$embed_value;
         $this->model->add($data);
     }
 

@@ -166,10 +166,11 @@ class TplHomePage
 
     /**
      * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage;
-     * video_host_type; video_id; embed_value; video_url; video_img_path ;reposet_path; video_title; hot_point
+     * video_host_type; video_id(初步定为和blog_id相同); embed_value; video_url; video_img_path ;reposet_path; video_title; hot_point
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
+     * //TODO video_id(初步定为和blog_id相同)
      */
     public function getVideoTpl($para,$content,$tag)
     {

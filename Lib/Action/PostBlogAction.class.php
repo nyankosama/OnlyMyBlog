@@ -24,11 +24,12 @@ class PostBlogAction extends Action{
     }
 
     public function postPicture(){
-        echo 'fuck';
     }
 
     public function postVideo(){
-
+        $blogItem = new BlogItemModel();
+        //TODO write here
+//        $blogItem->addVideo()
     }
 
     public function postLink(){
