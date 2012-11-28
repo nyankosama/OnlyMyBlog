@@ -422,7 +422,10 @@ class UploadHandler
         // Remove path information and dots around the filename, to prevent uploading
         // into different directories or replacing hidden system files.
         // Also remove control characters and spaces (\x00..\x20) around the filename:
+//        $file_name=$name;
+        //TODO uploadHandler文件名处理更改
         $file_name = trim(basename(stripslashes($name)), ".\x00..\x20");
+        $file_name=($this->rand_str(10)).$file_name;
         // Add missing file extension for known image types:
         if (strpos($file_name, '.') === false &&
             preg_match('/^image\/(gif|jpe?g|png)/', $type, $matches)) {
@@ -734,6 +737,24 @@ class UploadHandler
             }
         }
         return $this->generate_response($success, $print_response);
+    }
+
+    public function  rand_str($length,$p='all'){
+        $nums = '0123456789';
+        $lowers = 'abcdefghijklmnopqrstuvwxyz';
+        $uppers = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        if ($p == 'all') {
+            $src = $nums.$lowers.$uppers;
+        } else {
+            $src = '';
+            if (strpos($p, 'num') !== false)
+                $src .= $nums;
+            if (strpos($p, 'lower') !== false)
+                $src .= $lowers;
+            if (strpos($p, 'upper') !== false)
+                $src .= $uppers;
+        }
+        return $src? substr(str_shuffle($src), 0, $length) : $src;
     }
 
 }

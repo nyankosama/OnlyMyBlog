@@ -108,7 +108,7 @@ class HomeAction extends Action{
         echo $html;
     }
 
-    public function loadFee(){
+    public function loadFeedTest(){
         $tpl=new TplHomePage();
         $para1=array(
             'blog_id'=>'1',

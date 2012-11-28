@@ -4320,3 +4320,1468 @@ NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Li
 SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 13 )  [ RunTime:0.000468s ]
 NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
 
+[ 2012-11-28T13:12:42+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011756s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008944s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016806s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002455s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076634s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.096240s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.111605s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.113084s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.114155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019737s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.116259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2012-11-28T13:12:42+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:12:42+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.028990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005602s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-28T13:13:43+08:00 ] 127.0.0.1 /blog/PostBlog/postWord
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008681s ]
+SQL: INSERT INTO `blog_blogitem` (`user_id`,`type`,`title`,`desc_content`,`tag`,`time`) VALUES (1,1,'关于鲁迅 文/梁实秋','<p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\"><span style=\"margin:0px;padding:0px;\">近来有许多年青的朋友们要我写一点关于鲁迅的文字。为什么他们要我写呢？我揣想他们的动机大概不外几点：一、现在在台湾，鲁迅的作品是被列为禁书，一般人看不到，越看不到越好奇，于是想知道一点这个人的事情。二、一大部分青年们在大陆时总听说过鲁迅这个人的名字，或读过他的一些作品，无意中不免多多少少受到共产党及其同路人关于他的宣传，因此对于这个人多少也许怀有一点幻想。三、我从前曾和鲁迅发生过一阵笔战，于是有人愿意我以当事人的身分再出来说几句话。</span></p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\"><span style=\"margin:0px;padding:0px;\"><br /></span></p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\"><span style=\"margin:0px;padding:0px;\">　　其实，我是不愿意谈论他的。前几天陈西滢先生自海外归来，有一次有人在席上问他：“你觉得鲁迅如何？”他笑而不答。我从旁插嘴，“关于鲁迅，最好不要问我们两个。”西滢先生和鲁迅冲突于前（不是为了文艺理论），我和鲁迅辩难于后，我们对鲁迅都是处于相反的地位。我们说的话，可能不公道，再说，鲁迅已经死了好久，我再批评他，他也不会回答我。他的作品在此已成禁书，何必再于此时此地“打落水狗”？所以从他死后，我很少谈论到他，只有一次破例，抗战时在中央周刊写过一篇“鲁迅和我”。也许现在的青年有些还没有见过那篇文字，我如今被催逼不过，再破例一次，重复一遍我在那文里说过...</span></p><p><br /></p>','','2012-11-28 13:13:43') [ RunTime:0.001088s ]
+
+[ 2012-11-28T13:13:44+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004619s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001185s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034425s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040601s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041275s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042021s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2012-11-28T13:13:45+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008625s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007344s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.005061s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.005273s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000342s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000356s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:13:56+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005076s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011516s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017961s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018703s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019496s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003146s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001859s ]
+
+[ 2012-11-28T13:13:56+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:13:56+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004584s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-28T13:14:17+08:00 ] 127.0.0.1 /blog/PostBlog/postWord
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008539s ]
+SQL: INSERT INTO `blog_blogitem` (`user_id`,`type`,`title`,`desc_content`,`tag`,`time`) VALUES (1,1,'1942：失控中国','<p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\"><strong style=\"margin:0px;padding:0px;\">一场灾荒和蒋政权的崩溃</strong></p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\">　　这是一个几乎被遗忘的故事。</p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\">　　1942年，河南大旱，转眼下一年，紧接着又是一场特大的蝗灾，连番的自然灾害导致了一场几乎遍及整个河南的大饥荒。饥饿如魔咒一般降临到3000万人身上，吞噬了至少300万人的生命，迫使300万人流落他乡。</p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\">　　一批批面黄肌瘦的人们，或数十口成群结队，或一家人扶老携幼，纷纷走出他们的村庄，走出他们或许从未离开过的县境，然后与那些来自四面八方，经历着同样的命运而又素不相识的人们走到同一处难所，又交汇到同一条公路，他们绝大多数都没有目的地，只有十万火急的大逃亡，不自觉地，他们将生的希望寄托在通向外省的铁路上：顺津浦路南北逃亡江苏、关外者有之；顺京汉路南北逃亡湖北、河北者有之；更多的是顺陇海铁路逃向陕西。</p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\">　　就在这300万灾民挣扎在死亡线上之时，这个国家的行政长官们却以“影响抗战士气”“妨碍国际视听”为由，对灾情实行了严密的新闻封锁。当外族入侵成为这个国家最大的危险时，统治者眼中几个农民的死亡只是无关紧要的事情。</p><p><br /></p>','','2012-11-28 13:14:17') [ RunTime:0.000934s ]
+
+[ 2012-11-28T13:14:17+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005495s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011085s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018053s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018797s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019629s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003328s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2012-11-28T13:14:18+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001198s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008507s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.005339s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.004643s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.004262s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000518s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000338s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000416s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000380s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000414s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:14:26+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004663s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009931s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016026s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017086s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018065s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003668s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2012-11-28T13:14:26+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:14:26+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-28T13:14:34+08:00 ] 127.0.0.1 /blog/PostBlog/postWord
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002262s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008666s ]
+SQL: INSERT INTO `blog_blogitem` (`user_id`,`type`,`title`,`desc_content`,`tag`,`time`) VALUES (1,1,'少年游·忆夏','<p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\">那年夏日，绿杨阴里，携手望云天。<br />风吹叶摆，零星光影，洒落在身前。</p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\"> </p><p style=\"padding:0px;color:#444444;font-family:&#39;helvetica neue&#39;, &#39;hiragino sans gb&#39;, &#39;segoe ui&#39;, &#39;microsoft yahei&#39;, 微软雅黑, tahoma, arial, stheiti, sans-serif;font-size:14px;line-height:20px;margin-top:0px;margin-bottom:0.5em;\">自从别后，几经仲夏，昨梦已如烟。<br />记否当时，同心不语，相伴每留连。</p><p><br /></p>','','2012-11-28 13:14:34') [ RunTime:0.000859s ]
+
+[ 2012-11-28T13:14:34+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005633s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018091s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018780s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019533s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002984s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021337s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2012-11-28T13:14:35+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008643s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008274s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.008210s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.008199s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000829s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000521s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000443s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000390s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000398s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000369s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000375s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:24:36+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011095s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009134s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033855s ]
+INFO: [ view_template ] --END-- [ RunTime:0.040182s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.074428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091971s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.166624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.168835s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.170681s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.171910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007252s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.174169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2012-11-28T13:24:37+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008695s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007270s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007396s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007304s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000746s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000593s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000574s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000256s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000534s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000443s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000442s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:24:43+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001793s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012645s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022421s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023271s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024180s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026263s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2012-11-28T13:24:45+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008784s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008631s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.029181s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.005019s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000652s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000244s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000278s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000469s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000380s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000513s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000366s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:24:57+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005752s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012082s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019257s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019953s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020727s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003077s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2012-11-28T13:24:59+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008669s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007192s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007697s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007168s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000423s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000650s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000500s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000452s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000261s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000251s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:25:34+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006077s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001312s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011329s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019258s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021208s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2012-11-28T13:25:35+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008774s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008349s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.008220s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.004557s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000303s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000300s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000304s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000318s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000313s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000295s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:26:14+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006549s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012179s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020576s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021405s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022391s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003629s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2012-11-28T13:26:15+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008551s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007739s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007327s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007544s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000405s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000423s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000440s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000451s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000187s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000192s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:26:21+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002262s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011611s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022791s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023660s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024546s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003468s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2012-11-28T13:26:22+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001708s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.009185s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007700s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007616s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007631s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000703s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000534s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000371s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000373s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000288s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000382s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:26:30+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006159s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001372s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011196s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019096s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019896s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020783s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003559s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2012-11-28T13:26:32+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.009211s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.005757s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.004585s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.004960s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000758s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000324s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000639s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000393s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000298s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000382s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:27:32+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001066s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004846s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009835s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015919s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016653s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017442s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2012-11-28T13:27:33+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.009185s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008066s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.008229s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.021635s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000631s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000531s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000209s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000387s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000392s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000388s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000387s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:27:53+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005831s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001311s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010859s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018361s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019224s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020106s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022190s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2012-11-28T13:27:54+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008513s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007658s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007372s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007360s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000704s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000630s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000558s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000384s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000386s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000322s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:49:24+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005946s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011864s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019527s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020386s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003558s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023352s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2012-11-28T13:49:25+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003301s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.023031s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007232s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.006972s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.006729s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000670s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000566s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000625s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000558s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000479s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000421s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000423s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:49:28+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008208s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034506s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045170s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045927s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046689s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003121s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2012-11-28T13:49:29+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T13:49:29+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+
+[ 2012-11-28T13:49:29+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:49:29+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-28T13:49:31+08:00 ] 127.0.0.1 /blog/Home/text
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007406s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001218s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035759s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044915s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045669s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046716s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003480s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2012-11-28T13:49:31+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:49:31+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-28T13:49:33+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005780s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001174s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011665s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019054s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020081s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003922s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2012-11-28T13:49:35+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001673s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008300s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008217s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007935s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007680s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000599s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000580s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000670s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000584s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000602s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000388s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:50:15+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006805s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001171s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020897s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022057s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023162s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004314s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2012-11-28T13:50:15+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+
+[ 2012-11-28T13:50:15+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:50:15+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-28T13:51:19+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+
+[ 2012-11-28T13:51:33+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+
+[ 2012-11-28T13:51:47+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+
+[ 2012-11-28T13:51:59+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2012-11-28T13:52:28+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005483s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011726s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018903s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019738s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020611s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003529s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2012-11-28T13:52:29+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.009243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011634s ]
+
+[ 2012-11-28T13:52:29+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T13:52:29+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:52:29+08:00 ] 127.0.0.1 /blog/Home//themes/default/iframe.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001708s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-11-28T13:54:17+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+
+[ 2012-11-28T13:55:51+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002700s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+
+[ 2012-11-28T13:57:56+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [2] move_uploaded_file(E:/workspace/webApplication/blog/files/银河铁道之夜（笑）.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 507 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'E:\workspace\EasyPHP-5.3.9\tmp\php5321.tmp' to 'E:/workspace/webApplication/blog/files/银河铁道之夜（笑）.jpg' E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 507 行.
+NOTIC: [2] filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for E:/workspace/webApplication/blog/files/银河铁道之夜（笑）.jpg E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 208 行.
+NOTIC: [2] unlink(E:/workspace/webApplication/blog/files/银河铁道之夜（笑）.jpg) [<a href='function.unlink'>function.unlink</a>]: Invalid argument E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 536 行.
+
+[ 2012-11-28T13:58:16+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+
+[ 2012-11-28T13:58:16+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.030493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001846s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064883s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097703s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098759s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.099785s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.100478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004092s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.102118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2012-11-28T13:58:17+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T13:58:21+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.006176s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'hlr' )  [ RunTime:0.000402s ]
+
+[ 2012-11-28T13:58:21+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001455s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011627s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022004s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022780s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023606s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003518s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025840s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2012-11-28T13:58:22+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.015832s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.015059s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.004891s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.004800s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 17 [ RunTime:0.000394s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 17 )  [ RunTime:0.000443s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 16 [ RunTime:0.000385s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 16 )  [ RunTime:0.000268s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 15 [ RunTime:0.000311s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 83 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 15 )  [ RunTime:0.000373s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 94 行.
+
+[ 2012-11-28T13:58:23+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005232s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013125s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020130s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020914s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021727s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003217s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2012-11-28T13:58:23+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+
+[ 2012-11-28T13:58:23+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T13:58:24+08:00 ] ERR: (ThinkException) 非法操作:themes
+[ 2012-11-28T13:58:30+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+
+[ 2012-11-28T13:58:46+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009410s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002388s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014678s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026992s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.027901s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028806s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003661s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2012-11-28T13:58:46+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+
+[ 2012-11-28T13:58:46+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T13:58:47+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T14:00:05+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [2] move_uploaded_file(E:/workspace/webApplication/blog/files/�锋.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 507 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'E:\workspace\EasyPHP-5.3.9\tmp\phpACE3.tmp' to 'E:/workspace/webApplication/blog/files/�锋.jpg' E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 507 行.
+NOTIC: [2] filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for E:/workspace/webApplication/blog/files/�锋.jpg E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 208 行.
+NOTIC: [2] unlink(E:/workspace/webApplication/blog/files/�锋.jpg) [<a href='function.unlink'>function.unlink</a>]: Invalid argument E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 536 行.
+
+[ 2012-11-28T14:00:25+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+
+[ 2012-11-28T14:05:05+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+
+[ 2012-11-28T14:05:17+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2012-11-28T14:05:27+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+
+[ 2012-11-28T14:05:59+08:00 ] 127.0.0.1 /blog/Home/picture
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001354s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012967s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020102s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021019s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021932s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003689s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2012-11-28T14:05:59+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002621s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+
+[ 2012-11-28T14:06:00+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T14:06:00+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-11-28T14:06:11+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002579s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+
+[ 2012-11-28T14:06:11+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+
+[ 2012-11-28T14:06:11+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+
+[ 2012-11-28T14:06:11+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+
+[ 2012-11-28T14:06:13+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+
+[ 2012-11-28T14:06:13+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003599s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+
+[ 2012-11-28T14:06:13+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [2] move_uploaded_file(E:/workspace/webApplication/blog/files/rwgDiqM32v�锋.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 508 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'E:\workspace\EasyPHP-5.3.9\tmp\php7372.tmp' to 'E:/workspace/webApplication/blog/files/rwgDiqM32v�锋.jpg' E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 508 行.
+NOTIC: [2] filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for E:/workspace/webApplication/blog/files/rwgDiqM32v�锋.jpg E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 208 行.
+NOTIC: [2] unlink(E:/workspace/webApplication/blog/files/rwgDiqM32v�锋.jpg) [<a href='function.unlink'>function.unlink</a>]: Invalid argument E:\workspace\webApplication\blog\Lib\Ext\UploadHandler.php 第 537 行.
+
+[ 2012-11-28T14:06:13+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+
+[ 2012-11-28T14:06:14+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+
+[ 2012-11-28T14:06:14+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+
+[ 2012-11-28T14:06:16+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+
+[ 2012-11-28T14:06:16+08:00 ] 127.0.0.1 /blog/Picture/fileupload
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+

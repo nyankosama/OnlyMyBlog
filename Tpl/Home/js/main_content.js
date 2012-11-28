@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    setTimeout(load,500);
-
+    load();
 
     function registerEvent(){
         //注册所有的视频播放按钮事件
@@ -37,9 +36,8 @@ $(document).ready(function(){
         $.get("http://127.0.0.1:8887/blog/Home/loadFeed",function(data){
             $("#feed-list").append(data);
             registerEvent();
+            $("#ajax-waiting").css("display","none");
         });
-        $("#ajax-waiting").css("display","none");
-
     }
 
 
