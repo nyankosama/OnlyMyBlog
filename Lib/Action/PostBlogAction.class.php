@@ -34,4 +34,12 @@ class PostBlogAction extends Action{
     public function postLink(){
 
     }
+
+    /**
+     * 跳到repost页面
+     * url定义为Home/repost/blog_id/xxxx
+     */
+    public function repost($blog_id){
+        //TODO repost跳转
+    }
 }

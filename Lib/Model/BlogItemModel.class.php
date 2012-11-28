@@ -104,11 +104,31 @@ class BlogItemModel extends Model{
 
 
     /**
-     * 获得用户所关注的所有的博客条目，按照时间排序
+     * 随便看看，返回所有博客，按照时间排序
      * @param $limit
      */
     public function getAllItemsByLimit($limit){
         $data=$this->model->order('time asc')->limit('0,'.$limit)->select();
+        return $data;
+    }
+
+    /**
+     * 返回用户所关注的所有用户的博客，按照时间排序
+     * @param $limit
+     */
+    public function getAllFollowerBlog($limit){
+        $data=$this->model->where('user_id in
+        (select bfu.follow_user_id from blog_user bu ,blog_follow_user bfu where bu.id = bfu.user_id)')->order('time asc')->limit('0,'.$limit)->select();
+        return $data;
+    }
+
+    /**
+     * @param $tag 单个tag
+     * @param $limit
+     */
+    public function getAllTagBlog($tag,$limit){
+        $map['tag'] = array('like',"%,".$tag.",%");
+        $data=$this->model->where($map)->order('time asc')->limit('0,'.$limit)->select();
         return $data;
     }
 

@@ -7,9 +7,20 @@
 import('@.ViewTpl.TplHomePage');
 
 class HomeAction extends Action{
+    private $conf;
+
+    function HomeAction(){
+        $this->conf=require('ActionConfig.php');
+    }
+
+
     public function home(){
         $this->sign();
         $this->display('Home:homeTpl');
+    }
+
+    public function userblog($user_id){
+
     }
 
     public function test(){
@@ -41,6 +52,39 @@ class HomeAction extends Action{
     }
 
     public function loadFeed(){
+        $blogItemModel=new BlogItemModel();
+        $blogitems=$blogItemModel->getAllItemsByLimit(10);
+
+        $user_id=session('user_id');
+
+        $userModel=M('user');
+        $likeModel=M('like');
+
+        foreach ($blogItemModel as $items) {
+            $para['blog_id']=$items->id;
+            $para['user_id']=$items->user_id;
+            $condition['id']=$items->user_id;
+            $user=$userModel->where($condition)->select()[0];
+            $para['user_head_pic']=$user->head_pic_path;
+            $para['user_head_name']=$user->name;
+            $para['user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$user->id;
+            $para['text_title']=$items->title;
+            $para['reposet_path']=$this->conf['APP_ROOT'].'PostBlog/repost/blog_id/'.$items->id;
+            $hot_point=$likeModel->query("select COUNT(*) from blog_like where blog_item_id = ".$items->id)[0];
+            $para['hot_point']=$hot_point;
+            $content=$items->desc_content;
+            $para['tag']=$items->tag;
+
+            //TODO reload待完成
+        }
+
+
+        $tpl=new TplHomePage();
+        $html=$tpl->getTextTpl($para1,$content,$tag);
+        $html.=$tpl->getCommonFooter($para1,$comment);
+    }
+
+    public function loadFeed1(){
         $tpl=new TplHomePage();
         $para1=array(
             'blog_id'=>'1',
