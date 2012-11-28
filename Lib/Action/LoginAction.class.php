@@ -19,12 +19,13 @@ class LoginAction extends Action{
     }
 
     public function login(){
-        if(cookie('user_id')!=null){
-            session('user_id',cookie('user_id'));
-            header('location:'.$this->conf['APP_ROOT'].'Home/home');
-        }else{
-            $this->display('Login:login');
-        }
+        $this->display('Login:login');
+//        if(cookie('user_id')!=null){
+//            session('user_id',cookie('user_id'));
+//            header('location:'.$this->conf['APP_ROOT'].'Home/home');
+//        }else{
+//            $this->display('Login:login');
+//        }
 
     }
 

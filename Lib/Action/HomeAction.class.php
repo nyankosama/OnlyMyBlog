@@ -59,32 +59,44 @@ class HomeAction extends Action{
 
         $userModel=M('user');
         $likeModel=M('like');
-
-        foreach ($blogItemModel as $items) {
-            $para['blog_id']=$items->id;
-            $para['user_id']=$items->user_id;
-            $condition['id']=$items->user_id;
-            $user=$userModel->where($condition)->select()[0];
-            $para['user_head_pic']=$user->head_pic_path;
-            $para['user_head_name']=$user->name;
-            $para['user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$user->id;
-            $para['text_title']=$items->title;
-            $para['reposet_path']=$this->conf['APP_ROOT'].'PostBlog/repost/blog_id/'.$items->id;
-            $hot_point=$likeModel->query("select COUNT(*) from blog_like where blog_item_id = ".$items->id)[0];
-            $para['hot_point']=$hot_point;
-            $content=$items->desc_content;
-            $para['tag']=$items->tag;
-
-            //TODO reload待完成
-        }
-
-
+        $commentModel=M('comment');
         $tpl=new TplHomePage();
-        $html=$tpl->getTextTpl($para1,$content,$tag);
-        $html.=$tpl->getCommonFooter($para1,$comment);
+        $html=null;
+
+        foreach ($blogitems as $items) {
+            $para['blog_id']=$items['id'];
+            $para['user_id']=$items['user_id'];
+            $condition['id']=$items['user_id'];
+            $user=$userModel->find($items['user_id']);
+            $para['user_head_pic']=$user['head_pic_path'];
+            $para['user_head_name']=$user['name'];
+            $para['user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$user['id'];
+            $para['text_title']=$items['title'];
+            $para['reposet_path']=$this->conf['APP_ROOT'].'PostBlog/repost/blog_id/'.$items['id'];
+            $hot_point=$likeModel->query("select COUNT(*) as count from blog_like where blog_item_id = ".$items['id']);
+            $para['hot_point']=$hot_point[0]['count'];
+            $content=$items['desc_content'];
+            $tag=split(',',$items['tag']);
+
+
+            $para['comment_blog_id']=$items['id'];
+            $commentCondition['blogitem_id']=$items['id'];
+            $comments=$commentModel->where($commentCondition)->select();
+            $comment=array();
+            foreach ($comments as $commentItem) {
+                $comment_user=$userModel->find($commentItem['comment_user_id']);
+                $comment[]=array('user_name'=>$comment_user['name'],'user_id'=>$comment_user['id'],
+                    'user_homepage'=>$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$comment_user['id'],
+                'user_head_picpath'=>$comment_user['head_pic_path'],'user_comment'=>$commentItem['content']);
+            }
+
+            $html=$tpl->getTextTpl($para,$content,$tag);
+            $html.=$tpl->getCommonFooter($para,$comment);
+        }
+        echo $html;
     }
 
-    public function loadFeed1(){
+    public function loadFee(){
         $tpl=new TplHomePage();
         $para1=array(
             'blog_id'=>'1',
