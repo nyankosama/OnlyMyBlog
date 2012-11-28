@@ -166,7 +166,7 @@ class TplHomePage
 
     /**
      * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage;
-     * video_host_type; video_id(初步定为和blog_id相同); embed_value; video_url; video_img_path ;reposet_path; video_title; hot_point
+     * video_id(初步定为和blog_id相同); embed_value; video_url; video_img_path ;reposet_path; video_title; hot_point
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
@@ -199,7 +199,6 @@ class TplHomePage
                             <div class='feed-bd no-hd-content'>
                 <div class='feed-ct'>
                     <div class='feed-video-ct'
-                        data-host-type='".$para['video_host_type']."'
                         data-id='".$para['video_id']."'
                         data-embed-value='".$para['embed_value']."'
                         data-video-url='".$para['video_url']."'>

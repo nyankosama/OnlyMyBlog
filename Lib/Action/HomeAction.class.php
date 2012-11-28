@@ -8,9 +8,11 @@ import('@.ViewTpl.TplHomePage');
 
 class HomeAction extends Action{
     private $conf;
+    private $const;
 
     function HomeAction(){
         $this->conf=require('ActionConfig.php');
+        $this->const=require(dirname(__FILE__)."/../Model/ModelConfig.php");
     }
 
 
@@ -68,6 +70,7 @@ class HomeAction extends Action{
         $html=null;
 
         foreach ($blogitems as $items) {
+            $json_content=json_decode($items['json_content']);
             $para['blog_id']=$items['id'];
             $para['user_id']=$items['user_id'];
             $condition['id']=$items['user_id'];
@@ -75,18 +78,14 @@ class HomeAction extends Action{
             $para['user_head_pic']=$user['head_pic_path'];
             $para['user_head_name']=$user['name'];
             $para['user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$user['id'];
-            $para['text_title']=$items['title'];
             $para['reposet_path']=$this->conf['APP_ROOT'].'PostBlog/repost/blog_id/'.$items['id'];
             $hot_point=$likeModel->query("select COUNT(*) as count from blog_like where blog_item_id = ".$items['id']);
             $para['hot_point']=$hot_point[0]['count'];
-            $content=$items['desc_content'];
             $tag_names=split(',',$items['tag']);
             $tag=array();
             foreach ($tag_names as $names) {
                 $tag[]=array('href'=>$this->conf['APP_ROOT'].'Home/tag/tag/'.$names,'tag_name'=>$names);
             }
-
-
             $para['comment_blog_id']=$items['id'];
             $commentCondition['blogitem_id']=$items['id'];
             $comments=$commentModel->where($commentCondition)->select();
@@ -95,14 +94,47 @@ class HomeAction extends Action{
                 $comment_user=$userModel->find($commentItem['comment_user_id']);
                 $comment[]=array('user_name'=>$comment_user['name'],'user_id'=>$comment_user['id'],
                     'user_homepage'=>$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$comment_user['id'],
-                'user_head_picpath'=>$comment_user['head_pic_path'],'user_comment'=>$commentItem['content']);
-            }
-            if($html==null){
-                $html=$tpl->getTextTpl($para,$content,$tag);
-            }else{
-                $html.=$tpl->getTextTpl($para,$content,$tag);
+                    'user_head_picpath'=>$comment_user['head_pic_path'],'user_comment'=>$commentItem['content']);
             }
 
+            //以下根据具体的blog_type来定制模板
+            switch($items['type']){
+                case $this->const['BLOG_ITEM_TYPE_WORD']:
+                    $para['text_title']=$json_content->title;
+                    $content=$json_content->desc_content;
+                    if($html==null){
+                        $html=$tpl->getTextTpl($para,$content,$tag);
+                    }else{
+                        $html.=$tpl->getTextTpl($para,$content,$tag);
+                    }
+                    break;
+                case $this->const['BLOG_ITEM_TYPE_PICTURE']:
+                    $content=$json_content->desc_content;
+                    $para['pic_path']=$json_content->path;
+                    if($html==null){
+                        //TODO pictureTpl and database tables don't support muti-pictures
+                        $html=$tpl->getPictureTpl($para,$content,$tag);
+                    }else{
+                        $html.=$tpl->getPictureTpl($para,$content,$tag);
+                    }
+                    break;
+                case $this->const['BLOG_ITEM_TYPE_VIDEO']:
+                    $para['video_id']=$items['id'];
+                    $para['embed_value']=$json_content->embed_value;
+                    $para['video_url']=$json_content->path;
+                    $para['video_img_path']=$json_content->video_img_path;
+                    $para['video_title']=$json_content->title;
+                    $content=$json_content->desc_content;
+                    if($html==null){
+                        $html=$tpl->getVideoTpl($para,$content,$tag);
+                    }else{
+                        $html.=$tpl->getVideoTpl($para,$content,$tag);
+                    }
+                    break;
+                case $this->const['BLOG_ITEM_TYPE_LINK']:
+                    //TODO Link Tpl unfinished
+                    break;
+            }
             $html.=$tpl->getCommonFooter($para,$comment);
         }
         echo $html;

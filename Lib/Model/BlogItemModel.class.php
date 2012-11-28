@@ -24,13 +24,17 @@ class BlogItemModel extends Model{
         $item=$this->model->find($blog_item_id);
         $newItem['user_id']=session('user_id');
         $newItem['type']=$item['type'];
-        $newItem['title']=$item['title'];
+
+        $json_content=array();
+        $json_content['title']=$item['title'];
         if($comment!=''){
-            $newItem['desc_content']=$comment."<br/>".$item['desc_content'];
+            $json_content['desc_content']=$comment."<br/>".$item['desc_content'];
         }else{
-            $newItem['desc_content']=$item['desc_content'];
+            $json_content['desc_content']=$item['desc_content'];
         }
-        $newItem['path']=$item['path'];
+        $json_content['path']=$item['path'];
+
+        $newItem['json_content']=json_encode($json_content);
         $newItem['time']=$item['time'];
         $newItem['tag']=$item['tag'];
         $this->model->add($newItem);
@@ -39,8 +43,10 @@ class BlogItemModel extends Model{
     public function addWord($title,$content,$tag){
         $data['user_id']=session('user_id');
         $data['type']=$this->config['BLOG_ITEM_TYPE_WORD'];
-        $data['title']=$title;
-        $data['desc_content']=$content;
+
+        $json_content['title']=$title;
+        $json_content['desc_content']=$content;
+        $data['json_content']=json_encode($json_content);
         $data['tag']=$tag;
         $data['time']=$this->getTime();
         $this->model->add($data);
@@ -53,8 +59,9 @@ class BlogItemModel extends Model{
     public function addPicture($path,$desc,$tag){
         $data['user_id']=session('user_id');
         $data['type']=$this->config['BLOG_ITEM_TYPE_PICTURE'];
-        $data['path']=$path;
-        $data['desc_content']=$desc;
+        $json_content['path']=$path;
+        $json_content['desc_content']=$desc;
+        $data['json_content']=json_encode($json_content);
         $data['tag']=$tag;
         $data['time']=$this->getTime();
         $this->model->add($data);
@@ -64,14 +71,17 @@ class BlogItemModel extends Model{
         $this->model->delete($id);
     }
 
-    public function addVideo($path,$desc,$tag,$embed_value){
+    public function addVideo($video_path,$video_img_path,$title,$desc,$tag,$embed_value){
         $data['user_id']=session('user_id');
         $data['type']=$this->config['BLOG_ITEM_TYPE_VIDEO'];
-        $data['path']=$path;
-        $data['desc_content']=$desc;
+        $json_content['path']=$video_path;
+        $json_content['desc_content']=$desc;
+        $json_content['title']=$title;
+        $json_content['embed_value']=$embed_value;
+        $json_content['video_img_path']=$video_img_path;
+        $data['json_content']=json_encode($json_content);
         $data['tag']=$tag;
         $data['time']=$this->getTime();
-        $data['embed_value']=$embed_value;
         $this->model->add($data);
     }
 
@@ -82,8 +92,9 @@ class BlogItemModel extends Model{
     public function addLink($path,$desc,$tag){
         $data['user_id']=session('user_id');
         $data['type']=$this->config['BLOG_ITEM_TYPE_LINK'];
-        $data['path']=$path;
-        $data['desc_content']=$desc;
+        $json_content['path']=$path;
+        $json_content['desc_content']=$desc;
+        $data['json_content']=json_encode($json_content);
         $data['tag']=$tag;
         $data['time']=$this->getTime();
         $this->model->add($data);
