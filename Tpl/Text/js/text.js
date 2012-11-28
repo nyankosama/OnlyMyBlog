@@ -16,11 +16,11 @@ $(document).ready(function(){
             {title:title,content:content,tag:tag},
             function(data){
                 console.log(data);
-                if(data.status==true){
+                if(data.status=="true"){
                     window.location.href = 'home';
                 }else{
                     alert("发布失败！");
                 }
-        });
+        },'json');
     });
 });

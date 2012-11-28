@@ -23,11 +23,16 @@ $(function () {
         url: 'http://127.0.0.1:8887/blog/Picture/fileupload',
         add: function(e, data){
 //            增加上传区域
+            if(data.files[0].id==null){
+                var id=Date.parse(new Date()) + parseInt(Math.random() * 1000);
+                data.files[0].id=id;
+            }
             if(add_first){
+
                 fileCount+=data.originalFiles.length;
                 for(var i=0;i<data.originalFiles.length;i++){
                     var process_id=fileCount+i;
-                    var liHtml="<li class='clearfix' id='photo-drag-upload_0'>"+
+                    var liHtml="<li class='clearfix' id="+id+">"+
                         "<a class='pb-photo-li-rm'>删除</a>"+
                         "<span class='pb-photo-li-name' style=''>"+data.originalFiles[i].name+"</span>"+
                         "<span class='pb-photo-li-progress' id='"+process_id+"' style='background-position: -400px 50%;'></span>"+
@@ -57,9 +62,7 @@ $(function () {
         dropZone: $('#pb-photo-pick-holder'),
         done: function (e, data) {
             add_first=true;
-            $.each(data.result, function (index, file) {
-                console.dir(file);
-            });
+            console.dir(data.files[0]);
         }
     });
 
@@ -96,6 +99,7 @@ $(function () {
                         new Date())
                         .appendTo('#fileupload');
                 });
+            json
         }
     } else {
         // Load existing files:

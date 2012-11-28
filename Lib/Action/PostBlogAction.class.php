@@ -33,7 +33,6 @@ class PostBlogAction extends Action{
     }
 
     public function postLink(){
-
     }
 
     /**

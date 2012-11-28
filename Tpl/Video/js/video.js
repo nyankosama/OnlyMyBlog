@@ -35,12 +35,12 @@ $(document).ready(function(){
             {video_title:video_title,video_img_path:video_img_path,video_embed_value:video_embed_value,video_url:video_url},
             function(data){
                 console.log(data);
-                if(data.status==true){
+                if(data.status=="true"){
                     window.location.href = 'home';
                 }else{
                     alert("发布失败！");
                 }
-            });
+            },'json');
     });
 
 //    初始化taginput
