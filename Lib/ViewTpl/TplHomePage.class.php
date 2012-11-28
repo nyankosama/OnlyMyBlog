@@ -14,7 +14,7 @@ class TplHomePage
     /**
      * @param $para 所需key分别为：blog_id; user_id;  user_head_pic; user_head_name; user_homepage; text_title; reposet_path; hot_point
      * @param $content 富文本编辑器直接得到的内容，包含html标签
-     * @param $tag tag的内容数组
+     * @param $tag tag的内容数组  href  tag_name
      * @return string 返回渲染好的html
      */
     public function getTextTpl($para, $content, $tag)

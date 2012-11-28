@@ -39,6 +39,10 @@ class HomeAction extends Action{
         $this->display("Text:text");
     }
 
+    public function tag($tag){
+        //TODO
+    }
+
     public function video(){
         $this->display("Video:video");
     }
@@ -76,7 +80,11 @@ class HomeAction extends Action{
             $hot_point=$likeModel->query("select COUNT(*) as count from blog_like where blog_item_id = ".$items['id']);
             $para['hot_point']=$hot_point[0]['count'];
             $content=$items['desc_content'];
-            $tag=split(',',$items['tag']);
+            $tag_names=split(',',$items['tag']);
+            $tag=array();
+            foreach ($tag_names as $names) {
+                $tag[]=array('href'=>$this->conf['APP_ROOT'].'Home/tag/tag/'.$names,'tag_name'=>$names);
+            }
 
 
             $para['comment_blog_id']=$items['id'];
@@ -89,8 +97,12 @@ class HomeAction extends Action{
                     'user_homepage'=>$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$comment_user['id'],
                 'user_head_picpath'=>$comment_user['head_pic_path'],'user_comment'=>$commentItem['content']);
             }
+            if($html==null){
+                $html=$tpl->getTextTpl($para,$content,$tag);
+            }else{
+                $html.=$tpl->getTextTpl($para,$content,$tag);
+            }
 
-            $html=$tpl->getTextTpl($para,$content,$tag);
             $html.=$tpl->getCommonFooter($para,$comment);
         }
         echo $html;

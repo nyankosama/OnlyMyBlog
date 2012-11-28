@@ -108,7 +108,7 @@ class BlogItemModel extends Model{
      * @param $limit
      */
     public function getAllItemsByLimit($limit){
-        $data=$this->model->order('time asc')->limit('0,'.$limit)->select();
+        $data=$this->model->order('time desc')->limit('0,'.$limit)->select();
         return $data;
     }
 

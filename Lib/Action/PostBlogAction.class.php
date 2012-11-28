@@ -13,10 +13,10 @@ class PostBlogAction extends Action{
     }
 
     public function postWord(){
-        $title=$this->_post('title');
-        $content=$this->_post('content');
+        $title=$_POST['title'];
+        $content=$_POST['content'];
         //$tag=explode(",",$this->_post('tag'));
-        $tag=$this->_post('tag');
+        $tag=$_POST['tag'];
 //        $tmp2=$tmp->select();
         $blogItem = new BlogItemModel();
         $blogItem->addWord($title,$content,$tag);
