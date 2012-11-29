@@ -41,8 +41,10 @@ $(document).ready(function(){
                 $(this).attr('class',"feed-fav-click feed-fav");
                 $(this).attr('like','true');
             }
-
         });
+
+        //头像下拉菜单动画
+
 
 
     }
