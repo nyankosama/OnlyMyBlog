@@ -19,18 +19,9 @@ class TplHomePage
      */
     public function getTextTpl($para, $content, $tag)
     {
-        $result = "
-        <div class='feed  feed-text' id='".$para['blog_id']."'>
-                        <div class='feed-avatar'>
-                            <div class='blog-info blog-menu-info enable' data-user-id='" . $para['user_id'] . "'><a target='_blank'
-                                                                                                         avatar='" . $para['user_head_pic'] . "'
-                                                                                                         title='" . $para['user_head_name'] . "'
-                                                                                                         href='" . $para['user_homepage'] . "'
-                                                                                                         class='blog-avatar'
-                                                                                                         style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
-
-                            </div>
-                        </div>
+        $result="<div class='feed  feed-text' id='".$para['blog_id']."'>";
+        $result.=$this->getHeader($para);
+        $result .= "
                         <div class='feed-content-holder pop'>
                             <div class='pop-triangle'></div>
                             <div class='feed-container-top'></div>
@@ -93,18 +84,9 @@ class TplHomePage
      */
     public function getPictureTpl($para,$content,$tag)
     {
-        $result = "
-        <div class='feed  feed-photo' id='".$para['blog_id']."'>
-                        <div class='feed-avatar'>
-                            <div class='blog-info blog-menu-info enable' data-user-id='" . $para['user_id'] . "'><a target='_blank'
-                                                                                                         avatar='" . $para['user_head_pic'] . "'
-                                                                                                         title='" . $para['user_head_name'] . "'
-                                                                                                         href='" . $para['user_homepage'] . "'
-                                                                                                         class='blog-avatar'
-                                                                                                         style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
-
-                            </div>
-                        </div>
+        $result="<div class='feed  feed-photo' id='".$para['blog_id']."'>";
+        $result.=$this->getHeader($para);
+        $result.= "
                         <div class='feed-content-holder pop'>
                             <div class='pop-triangle'></div>
                             <div class='feed-container-top'></div>
@@ -174,18 +156,9 @@ class TplHomePage
      */
     public function getVideoTpl($para,$content,$tag)
     {
-        $result = "
-        <div class='feed  feed-video' id='".$para['blog_id']."'>
-                        <div class='feed-avatar'>
-                            <div class='blog-info blog-menu-info enable' data-user-id='" . $para['user_id'] . "'><a target='_blank'
-                                                                                                         avatar='" . $para['user_head_pic'] . "'
-                                                                                                         title='" . $para['user_head_name'] . "'
-                                                                                                         href='" . $para['user_homepage'] . "'
-                                                                                                         class='blog-avatar'
-                                                                                                         style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
-
-                            </div>
-                        </div>
+        $result="<div class='feed  feed-video' id='".$para['blog_id']."'>";
+        $result.=$this->getHeader($para);
+        $result.= "
                         <div class='feed-content-holder pop'>
                             <div class='pop-triangle'></div>
                             <div class='feed-container-top'></div>
@@ -266,6 +239,33 @@ class TplHomePage
 
         ";
         return $content;
+    }
+
+    public function getHeader($para){
+        return "
+<div class='feed-avatar'>
+    <div class='blog-info blog-menu-info enable' data-user-id='" . $para[' user_id
+    '] . "'><a target='_blank'
+               avatar='" . $para[' user_head_pic'] . "'
+    title='" . $para['user_head_name'] . "'
+    href='" . $para['user_homepage'] . "'
+    class='blog-avatar'
+    style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
+
+<div class='blog-menu pop-menu-list-holder' style='display: block;'>
+    <div class='pop-menu-list-inner'>
+        <div class='pop-menu-list-triangle'></div>
+        <ul class='pop-menu-list mini'>
+            <li class='first' style='margin-top: 0px;'><a class='J_BlogInboxAction'
+                                                          title='发私信'>发私信</a></li>
+            <li><a class='J_BlogFollowAction follow-special follow' title='关注'>关注</a></li>
+            <li class='last'><a class='J_BlogVisitAction' data-url='".$para['user_homepage']."'
+                                title='访问博客'>访问博客</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>";
     }
 
     /**

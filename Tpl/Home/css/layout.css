@@ -2,6 +2,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 margin: 0;
 padding: 0;
 }
+
+
 p {
 display: block;
 -webkit-margin-before: 1em;
@@ -139,6 +141,141 @@ cursor: pointer;
 /*
 * �м�����
 */
+.feed .blog-menu {
+    position: absolute;
+    z-index: 5;
+    left: -8px;
+    top: 64px;
+    width: 80px;
+    padding-top: 20px;
+    display: none;
+}
+.pop-menu-list-inner {
+    position: relative;
+}
+.pop-menu-list-triangle {
+    position: absolute;
+    width: 13px;
+    height: 7px;
+    top: -7px;
+    left: 20px;
+    z-index: 100;
+    background: url(../img/header.$5765.png) no-repeat 0 -320px;
+}
+.feed .blog-menu ul {
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.feed ul {
+    list-style: disc outside;
+    padding: 10px 0 10px 30px;
+}
+.pop-menu-list {
+    background: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    -webkit-box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    -webkit-box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+    -webkit-box-shadow: 0 0 5px rgba(64, 64, 64, 0.5);
+}
+
+.pop-menu-list li.first {
+    border-top: 0;
+}
+.pop-menu-list li {
+    border-top: 1px solid rgb(232, 232, 232);
+    font-size: 14px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.feed .blog-menu ul {
+    list-style: none;
+}
+.pop-menu-list li.first a {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+}
+.pop-menu-list.mini a {
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+}
+.pop-menu-list li a {
+     height: 34px;
+     line-height: 34px;
+     display: block;
+     padding: 0 0 0 15px;
+     color: rgb(143, 143, 143);
+     overflow: hidden;
+ }
+.pop-menu-list li a:hover{
+    color: rgb(88, 88, 88);
+}
+.pop-menu-list li.last a {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    color: rgb(48, 125, 202);
+    cursor: pointer;
+}
+
+
+
+
+
+.feed-act a:hover{
+    color: rgb(39, 39, 39);
+}
 
 .publisher .pb-action-holder {
 float: left;
@@ -530,7 +667,11 @@ background: url('../img/feed-ft-triangle.$5106.png') no-repeat;
 }
 
 
-
+.feed-bd .feed-fav-click{
+    background: url(../img/feed-icons.$6973.png) no-repeat scroll -89px -57px;
+    text-indent: -9999em;
+    width: 16px;
+}
 
 #ajax-waiting{
     display: block;

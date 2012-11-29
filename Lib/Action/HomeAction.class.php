@@ -9,10 +9,12 @@ import('@.ViewTpl.TplHomePage');
 class HomeAction extends Action{
     private $conf;
     private $const;
+    private $userModel;
 
     function HomeAction(){
         $this->conf=require('ActionConfig.php');
         $this->const=require(dirname(__FILE__)."/../Model/ModelConfig.php");
+        $this->userModel=M('user');
     }
 
 
@@ -29,8 +31,10 @@ class HomeAction extends Action{
     }
 
     private function sign(){
+        $user_id=session('user_id');
+        $data=$this->userModel->find($user_id);
         $this->home_self_link='#';
-        $this->home_self_headPic='http://m3.img.libdd.com/farm3/194/5D903DD7FB4FD0DD6FA63CBE41AFCCC2_64_64.jpg';
+        $this->home_self_headPic=$data['head_pic_path'];
         $this->home_self_text='http://127.0.0.1:8887/blog/Home/text';
         $this->home_self_video='http://127.0.0.1:8887/blog/Home/video';
         $this->home_self_link='http://127.0.0.1:8887/blog/Home/link';
@@ -63,7 +67,7 @@ class HomeAction extends Action{
 
         $user_id=session('user_id');
 
-        $userModel=M('user');
+
         $likeModel=M('like');
         $commentModel=M('comment');
         $tpl=new TplHomePage();
@@ -74,7 +78,7 @@ class HomeAction extends Action{
             $para['blog_id']=$items['id'];
             $para['user_id']=$items['user_id'];
             $condition['id']=$items['user_id'];
-            $user=$userModel->find($items['user_id']);
+            $user=$this->userModel->find($items['user_id']);
             $para['user_head_pic']=$user['head_pic_path'];
             $para['user_head_name']=$user['name'];
             $para['user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$user['id'];
@@ -91,7 +95,7 @@ class HomeAction extends Action{
             $comments=$commentModel->where($commentCondition)->select();
             $comment=array();
             foreach ($comments as $commentItem) {
-                $comment_user=$userModel->find($commentItem['comment_user_id']);
+                $comment_user=$this->userModel->find($commentItem['comment_user_id']);
                 $comment[]=array('user_name'=>$comment_user['name'],'user_id'=>$comment_user['id'],
                     'user_homepage'=>$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$comment_user['id'],
                     'user_head_picpath'=>$comment_user['head_pic_path'],'user_comment'=>$commentItem['content']);

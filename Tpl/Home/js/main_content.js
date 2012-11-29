@@ -28,6 +28,22 @@ $(document).ready(function(){
 
         });
 
+        //喜欢事件
+        $(".feed-fav").click(function(){
+            if($(this).attr('like')==null)
+                $(this).attr('like','false');
+            if($(this).attr('like')=='true'){
+                //取消标记喜欢
+                $(this).attr('class',"feed-fav");
+                $(this).attr('like','false');
+            }else{
+                //标记为喜欢
+                $(this).attr('class',"feed-fav-click feed-fav");
+                $(this).attr('like','true');
+            }
+
+        });
+
 
     }
     //test
