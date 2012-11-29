@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>发布图片|OnlyMyBlog</title>
+
     <script type='text/javascript' src='../Tpl/Picture/js/jquery.js'></script>
     <script type='text/javascript' src='../Tpl/Picture/js/picture.js'></script>
     <script type="text/javascript" src="../Tpl/Picture/js/jquery.tagsinput.js"></script>
@@ -14,7 +15,6 @@
     <script type="text/javascript" src="../Tpl/Picture/js/jquery.fileupload.js"></script>
     <script type="text/javascript" src="../Tpl/Picture/js/jquery.fileupload-fp.js"></script>
     <script type="text/javascript" src="../Tpl/Picture/js/jquery.fileupload-ui.js"></script>
-    <script type="text/javascript" src="../Tpl/Picture/js/main.js"></script>
 
     <link rel="stylesheet" href="../Tpl/Picture/themes/default/ueditor.css" />
     <link href='../Tpl/Picture/css/layout.css' rel='stylesheet' type='text/css'/>
@@ -150,8 +150,4 @@
     </div>
 </div>
 </body>
-<script type="text/javascript">
-    var editor = new UE.ui.Editor();
-    editor.render('editor');
-</script>
 </html>
