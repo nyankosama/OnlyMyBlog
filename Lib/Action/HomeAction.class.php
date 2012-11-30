@@ -27,7 +27,10 @@ class HomeAction extends Action{
 
     }
 
-    public function test(){
+
+    public function logout(){
+        cookie('user_id',null);
+        echo json_encode(array('status'=>'true'));
     }
 
     private function sign(){

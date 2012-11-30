@@ -87,6 +87,7 @@ $(document).ready(function(){
             },'json');
         });
 
+        //添加转载事件
         $(".feed-rt").click(function(){
             var blog_item_id=$(this).parent().parent().parent().parent().parent().attr('id');
             var this_ele=$(this);
@@ -109,7 +110,17 @@ $(document).ready(function(){
                 }
             },'json');
         });
-        //添加转载事件
+
+        //添加logout事件
+        $("#logout").click(function(){
+            $.post('http://127.0.0.1:8887/blog/Home/logout',function(data){
+                if(data.status=="true"){
+                    window.location.href = '../';
+                }else{
+                    alert("注销失败！");
+                }
+            },'json');
+        });
 
     }
     //test
