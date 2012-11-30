@@ -79,6 +79,15 @@ class HomeAction extends Action{
             $para['user_id']=$items['user_id'];
             $condition['id']=$items['user_id'];
             $user=$this->userModel->find($items['user_id']);
+            //判断是否为转载
+            if($json_content->is_reposted=='true'){
+                $origin_user_id=$json_content->original_user_id;
+                $origin_user=$this->userModel->find($origin_user_id);
+                $para['original_user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$origin_user_id;
+                $para['original_user_head_name']=$origin_user['name'];
+                $para['is_reposted']='true';
+            }
+
             $para['user_head_pic']=$user['head_pic_path'];
             $para['user_head_name']=$user['name'];
             $para['user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$user['id'];
@@ -146,6 +155,7 @@ class HomeAction extends Action{
                     break;
             }
             $html.=$tpl->getCommonFooter($para,$comment);
+            $para['is_reposted']=null;
         }
         echo $html;
     }

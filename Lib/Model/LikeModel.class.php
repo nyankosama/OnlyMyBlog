@@ -21,7 +21,7 @@ class LikeModel extends Model{
         $user_id=session('user_id');
         $data['like_user_id']=$user_id;
         $data['blog_item_id']=$blog_item_id;
-        $data['op_type']=$this->config['LIKE_TYPE_REPOST'];
+        $data['op_type']=$this->config['LIKE_TYPE_LIKE'];
         $this->model->add($data);
     }
 
@@ -30,15 +30,15 @@ class LikeModel extends Model{
      * @param $blog_item_id
      * @param $comment
      */
-    public function addRepost($blog_item_id,$comment){
+    public function addRepost($blog_item_id){
         $user_id=session('user_id');
         $data['like_user_id']=$user_id;
         $data['blog_item_id']=$blog_item_id;
-        $data['op_type']=$this->config['LIKE_TYPE_LIKE'];
+        $data['op_type']=$this->config['LIKE_TYPE_REPOST'];
         $this->model->add($data);
 
         $blog_item=new BlogItemModel();
-        $blog_item->repost($blog_item_id,$comment);
+        $blog_item->repost($blog_item_id);
     }
 
     public  function addComment($blog_item_id){

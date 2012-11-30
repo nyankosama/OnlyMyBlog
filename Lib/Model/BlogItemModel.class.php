@@ -8,7 +8,7 @@
 class BlogItemModel extends Model{
     protected $tableName = 'blogitem';
     private $config;
-    private $model;
+    public  $model;
 
     function BlogItemModel(){
         $this->model=M('blogitem');
@@ -18,26 +18,38 @@ class BlogItemModel extends Model{
 
     /**
      * 转载blog后续调用，不要主动调用
+     * 暂时不支持转载添加描述
      * @param $blog_item_id 博客条目的id
      */
-    public function repost($blog_item_id,$comment){
+    public function repost($blog_item_id){
+        $json_content=array();
         $item=$this->model->find($blog_item_id);
         $newItem['user_id']=session('user_id');
         $newItem['type']=$item['type'];
-
-        $json_content=array();
-        $json_content['title']=$item['title'];
-        if($comment!=''){
-            $json_content['desc_content']=$comment."<br/>".$item['desc_content'];
-        }else{
-            $json_content['desc_content']=$item['desc_content'];
+        $item_json_content=json_decode($item['json_content']);
+        switch($item['type']){
+            case $this->config['BLOG_ITEM_TYPE_WORD']:
+                break;
+            case $this->config['BLOG_ITEM_TYPE_PICTURE']:
+                break;
+            case $this->config['BLOG_ITEM_TYPE_VIDEO']:
+                $json_content['embed_value']=$item_json_content->embed_value;
+                $json_content['video_img_path']=$item_json_content->video_img_path;
+                break;
+            case $this->config['BLOG_ITEM_TYPE_LINK']:
+                break;
         }
-        $json_content['path']=$item['path'];
+        $json_content['is_reposted']='true';
+        $json_content['original_user_id']=$item['user_id'];
+        $json_content['title']=$item_json_content->title;
+        $json_content['desc_content']=$item_json_content->desc_content;
+        $json_content['path']=$item_json_content->path;
 
         $newItem['json_content']=json_encode($json_content);
-        $newItem['time']=$item['time'];
+        $newItem['time']=$this->getTime();
         $newItem['tag']=$item['tag'];
         $this->model->add($newItem);
+
     }
 
     public function addWord($title,$content,$tag){

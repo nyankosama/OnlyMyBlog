@@ -86,6 +86,31 @@ $(document).ready(function(){
                 }
             },'json');
         });
+
+        $(".feed-rt").click(function(){
+            var blog_item_id=$(this).parent().parent().parent().parent().parent().attr('id');
+            var this_ele=$(this);
+            $.post('http://127.0.0.1:8887/blog/PostBlog/repost',{blog_item_id:blog_item_id},
+            function(data){
+                if(data.status=="true"){
+                    var footer=this_ele.parent().parent().parent().next();
+                    var num=parseInt(footer.attr('data-repost-num'));
+                    num+=1;
+                    footer.attr('data-repost-num',num);
+
+                    var hot_num=parseInt(footer.prev().find(".feed-nt").attr('data-hot-num'));
+                    hot_num+=1;
+                    footer.prev().find(".feed-nt").text("热度("+hot_num+")");
+                    footer.prev().find(".feed-rt").text("转载("+num+")");
+
+                    alert('转载成功！')
+                }else{
+                    alert("转载失败！");
+                }
+            },'json');
+        });
+        //添加转载事件
+
     }
     //test
     function load(){

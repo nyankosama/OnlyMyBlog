@@ -10,10 +10,34 @@
  */
 class TplHomePage
 {
+    /**
+     * @param $para 键值： is_reposted; original_user_homepage; original_user_head_name
+     * @return string
+     */
+    public function getPostInfo($para){
+        $result='';
+        $result.="
+                        <div class='feed-content-holder pop'>
+                            <div class='pop-triangle'></div>
+                            <div class='feed-container-top'></div>
+                            <div class='pop-content clearfix'>
+                                <div class='feed-hd'>
+                                    <div class='feed-basic'>";
+        if($para['is_reposted']=='true'){
+            $result.="转载自   <a target='_blank' href=" . $para['original_user_homepage'] . "
+                                                               class='feed-user'>" . $para['original_user_head_name'] . "</a>";
+        }else{
+            $result.="<a target='_blank' href=" . $para['user_homepage'] . "
+                                                               class='feed-user'>" . $para['user_head_name'] . "</a>";
+        }
+        $result.="</div>
+                                </div>";
+        return $result;
+    }
 
     /**
      * @param $para 所需key分别为：blog_id; user_id;  user_head_pic; user_head_name; user_homepage; text_title; reposet_path;
-     * hot_point; repost_point; comment_point
+     * hot_point; repost_point; comment_point; is_reposted
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组  href  tag_name
      * @return string 返回渲染好的html
@@ -22,15 +46,8 @@ class TplHomePage
     {
         $result="<div class='feed  feed-text' id='".$para['blog_id']."'>";
         $result.=$this->getHeader($para);
+        $result.=$this->getPostInfo($para);
         $result .= "
-                        <div class='feed-content-holder pop'>
-                            <div class='pop-triangle'></div>
-                            <div class='feed-container-top'></div>
-                            <div class='pop-content clearfix'>
-                                <div class='feed-hd'>
-                                    <div class='feed-basic'><a target='_blank' href=" . $para['user_homepage'] . "
-                                                               class='feed-user'>" . $para['user_head_name'] . "</a></div>
-                                </div>
                                 <div class='feed-bd'>
 
                                     <h4 class='feed-title'>" . $para['text_title'] . "</h4>
@@ -61,7 +78,7 @@ class TplHomePage
                                     <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
 									<a class='feed-rt'
                                                                                                     target='_blank'
-                                                                                                    href=" . $para['reposet_path'] . ">转载(".$para['repost_point'].")</a>
+                                                                                                    >转载(".$para['repost_point'].")</a>
                                         <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应(".$para['comment_point'].")</a>
 
                                         <a
@@ -79,7 +96,7 @@ class TplHomePage
 
     /**
      * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage; pic_path; reposet_path;
-     * hot_point; repost_point; comment_point
+     * hot_point; repost_point; comment_point; is_reposted
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
@@ -88,15 +105,8 @@ class TplHomePage
     {
         $result="<div class='feed  feed-photo' id='".$para['blog_id']."'>";
         $result.=$this->getHeader($para);
+        $result.=$this->getPostInfo($para);
         $result.= "
-                        <div class='feed-content-holder pop'>
-                            <div class='pop-triangle'></div>
-                            <div class='feed-container-top'></div>
-                            <div class='pop-content clearfix'>
-                                <div class='feed-hd'>
-                                    <div class='feed-basic'><a target='_blank' href=" . $para['user_homepage'] . "
-                                                               class='feed-user'>" . $para['user_head_name'] . "</a></div>
-                                </div>
                                 <div class='feed-bd'>
 
                                 <div class='feed-ct' largeimg='true'>
@@ -134,7 +144,7 @@ class TplHomePage
                                     <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
 									<a class='feed-rt'
                                                                                                     target='_blank'
-                                                                                                    href=" . $para['reposet_path'] . ">转载(".$para['repost_point'].")</a>
+                                                                                                    >转载(".$para['repost_point'].")</a>
                                         <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应(".$para['comment_point'].")</a>
 
                                         <a
@@ -151,7 +161,7 @@ class TplHomePage
     /**
      * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage;
      * video_id(初步定为和blog_id相同); embed_value; video_url; video_img_path ;reposet_path; video_title;
-     * hot_point; repost_point; comment_point
+     * hot_point; repost_point; comment_point; is_reposted
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
@@ -161,17 +171,8 @@ class TplHomePage
     {
         $result="<div class='feed  feed-video' id='".$para['blog_id']."'>";
         $result.=$this->getHeader($para);
+        $result.=$this->getPostInfo($para);
         $result.= "
-                        <div class='feed-content-holder pop'>
-                            <div class='pop-triangle'></div>
-                            <div class='feed-container-top'></div>
-                            <div class='pop-content clearfix'>
-                                <div class='feed-hd'>
-                                    <div class='feed-basic'><a target='_blank' href=" . $para['user_homepage'] . "
-                                                               class='feed-user'>" . $para['user_head_name'] . "</a></div>
-                                </div>
-
-
                             <div class='feed-bd no-hd-content'>
                 <div class='feed-ct'>
                     <div class='feed-video-ct'
@@ -212,7 +213,7 @@ class TplHomePage
                                     <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
 									<a class='feed-rt'
                                                                                                     target='_blank'
-                                                                                                    href=" . $para['reposet_path'] . ">转载(".$para['repost_point'].")</a>
+                                                                                                    >转载(".$para['repost_point'].")</a>
                                         <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应(".$para['comment_point'].")</a>
 
                                         <a
@@ -279,7 +280,7 @@ class TplHomePage
     public function getCommonFooter($para, $comment)
     {
         $result = "
-        <div class='feed-ft J_FeedFooter' data-comment-num=".count($comment)."  style='display:none'>
+        <div class='feed-ft J_FeedFooter' data-comment-num=".count($comment)." data-repost-num=".$para['repost_point']." style='display:none'>
             <div class='feed-ft-bottom'></div>
             <div class='feed-ft-triangle J_FeedFooterTriangle'></div>
             <div class='feed-fold-container comment' style='display:none' data-comment-id=" . $para['comment_blog_id'] . ">

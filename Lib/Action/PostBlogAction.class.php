@@ -74,14 +74,13 @@ class PostBlogAction extends Action{
     /**
      * 跳到repost页面
      * url定义为Home/repost/blog_id/xxxx
-     * post: blog_item_id, comment
+     * post: blog_item_id
      */
-    public function repost($blog_id){
-        //TODO repost跳转
-        $blogItem = new BlogItemModel();
-        $blog_item_id=$_POST['blog_item_id'];
-        $comment=$_POST['comment'];
-        $blogItem->repost($blog_item_id,$comment);
+    public function repost(){
+        $blog_id=$_POST['blog_item_id'];
+        $likeItem = new LikeModel();
+        $likeItem->addRepost($blog_id);
+        echo json_encode(array('status'=>'true'));
     }
 
     /**
