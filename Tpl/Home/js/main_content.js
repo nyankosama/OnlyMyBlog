@@ -72,7 +72,15 @@ $(document).ready(function(){
                     //刷新评论栏
                     this_ele.parent().next().append(data.li_html);
                     var footer=this_ele.parent().parent().parent().parent();
-                    footer.attr('data-comment-num',footer.attr('data-comment-num')+1);
+                    var num=parseInt(footer.attr('data-comment-num'));
+                    num+=1;
+                    footer.attr('data-comment-num',num);
+                    var tmp=footer.prev().find(".feed-cmt");
+                    footer.prev().find(".feed-cmt").text("回应("+num+")");
+
+                    var hot_num=parseInt(footer.prev().find(".feed-nt").attr('data-hot-num'));
+                    hot_num+=1;
+                    footer.prev().find(".feed-nt").text("热度("+hot_num+")");
                 }else{
                     alert("发布失败！");
                 }

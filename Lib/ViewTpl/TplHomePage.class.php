@@ -66,7 +66,7 @@ class TplHomePage
 
                                         <a
                             data-type='photo' id='hot_point".$para['hot_point']."'
-                            class='feed-nt'>热度(".$para['hot_point'].")</a>
+                            class='feed-nt' data-hot-num=".$para['hot_point'].">热度(".$para['hot_point'].")</a>
 
 										</div>
                                 </div>
@@ -139,7 +139,7 @@ class TplHomePage
 
                                         <a
                             data-type='photo' id='hot_point".$para['hot_point']."'
-                            class='feed-nt'>热度(".$para['hot_point'].")</a>
+                            class='feed-nt' data-hot-num=".$para['hot_point'].">热度(".$para['hot_point'].")</a>
 
 										</div>
                                 </div>
@@ -217,7 +217,7 @@ class TplHomePage
 
                                         <a
                             data-type='photo' id='hot_point".$para['hot_point']."'
-                            class='feed-nt'>热度(".$para['hot_point'].")</a>
+                            class='feed-nt' data-hot-num=".$para['hot_point'].">热度(".$para['hot_point'].")</a>
 
 										</div>
                                 </div>
