@@ -15,7 +15,6 @@ $(document).ready(function(){
         $.post('http://127.0.0.1:8887/blog/PostBlog/postWord',
             {title:title,content:content,tag:tag},
             function(data){
-                console.log(data);
                 if(data.status=="true"){
                     window.location.href = 'home';
                 }else{

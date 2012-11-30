@@ -60,6 +60,19 @@ $(document).ready(function(){
             comment.parent().next().attr('style','');
         });
 
+        //添加回应发布按钮事件
+        $(".skin-button-willsilver").click(function(){
+            var content=$(this).prev().val();
+            var feed_list=$(this).parent().parent().parent().parent().parent().parent();
+            var blog_id=feed_list.attr('id');
+            $.post('http://127.0.0.1:8887/blog/PostBlog/postComment',{blog_id:blog_id,content:content},function(data){
+                if(data.status=="true"){
+                    //刷新评论栏
+                }else{
+                    alert("发布失败！");
+                }
+            },'json');
+        });
     }
     //test
     function load(){

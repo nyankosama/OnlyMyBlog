@@ -777,6 +777,12 @@ background: url('../img/feed-ft-triangle.$5106.png') no-repeat;
     background: url('../img/feed-bg-sprites.$5106.png') -1800px bottom no-repeat;
     padding: 0 20px;
 }
+.skin-button-willsilver-label:hover{
+    background: url('../img/button-bg.$5826.png') -20px -250px no-repeat;
+}
+
+
+
 
 #ajax-waiting{
     display: block;

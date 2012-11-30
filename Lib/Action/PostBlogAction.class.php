@@ -79,4 +79,16 @@ class PostBlogAction extends Action{
         $comment=$_POST['comment'];
         $blogItem->repost($blog_item_id,$comment);
     }
+
+    /**
+     * 添加评论
+     * post: blog_id, content
+     */
+    public function postComment(){
+        $blog_id=$_POST['blog_id'];
+        $content=$_POST['content'];
+        $commentModel=new CommentModel();
+        $commentModel->addComment($blog_id,$content);
+        echo json_encode(array('status'=>'true'));
+    }
 }
