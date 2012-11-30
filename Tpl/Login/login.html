@@ -30,7 +30,7 @@ app.initLogin();
 </head>
 <body>
 <div id="startpage" class="clearfix">
-  <div id="reg-login-switch"> <a href="http://www.diandian.com/j/323" id="go-register">注册</a></div>	
+  <div id="reg-login-switch"> <a href="#" id="go-register">注册</a></div>
   <div id="startpage-wrap" class="login-bg">
     <h1 id="logo-startpage"> <span class="login-logo"> <a  id="login_pic" href="http://localhost:8887/blog/">OnlyMyBlog - 让博客从此中二</a> </span> </h1>
     <div id="login-wrap">
