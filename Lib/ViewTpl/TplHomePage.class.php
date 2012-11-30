@@ -320,7 +320,7 @@ class TplHomePage
 				<a class='J_CommentsFolder fold-btn-close' href='#' onclick='return false;'><span
                         class='J_CommentsFolder btn-icon'></span>收起</a>
 						<a class='J_GetMoreComments fold-btn-more'
-                                                                          href='#' onclick='return false;'
+                                                                          href='#'
                                                                           style='display:none;'><span
                         class='J_GetMoreComments btn-icon'></span>更多回应</a></div>
             </div>

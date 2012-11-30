@@ -45,7 +45,20 @@ $(document).ready(function(){
 
         //头像下拉菜单动画
 
+        //添加回应按钮下拉panel事件
+        $(".feed-cmt").click(function(){
+            var feedFooter=$(this).parent().parent().parent().next();
+            feedFooter.attr('style','');
+            feedFooter.next().attr('style','display:none');
+            feedFooter.find(".feed-fold-container").attr('style','');
+        });
 
+        $(".fold-btn-close").click(function(){
+            var comment=$(this).parent().parent();
+            comment.attr('style','display:none');
+            comment.parent().attr('style','display:none');
+            comment.parent().next().attr('style','');
+        });
 
     }
     //test

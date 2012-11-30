@@ -510,7 +510,6 @@ _float: none;
 .feed-img-too-high-tip {
 display: none;
 height: 32px;
-background: url(/img/element/feed-img-too-high-tip.$5594.png) center 0;
 width: 100%;
 text-indent: -9999px;
 }
@@ -671,6 +670,112 @@ background: url('../img/feed-ft-triangle.$5106.png') no-repeat;
     background: url(../img/feed-icons.$6973.png) no-repeat scroll -89px -57px;
     text-indent: -9999em;
     width: 16px;
+}
+/*repost*/
+
+.feed-comment, .repost-feed, .feed-notes {
+    background: url('../img/feed-bg-sprites.$5106.png') -2400px 0 repeat-y;
+    margin: 0 1px;
+    padding-top: 15px;
+    position: relative;
+    clear: both;
+}
+
+.feed-comment .add-comment {
+    padding: 6px 20px 12px;
+    position: relative;
+}
+.feed-comment .add-comment .ui-textarea {
+    float: left;
+}
+.skin-textarea-willwhite {
+    resize: vertical;
+}
+.skin-text-willwhite, .skin-textarea-willwhite {
+    height: 18px;
+    line-height: 18px;
+    padding: 9px 8px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    overflow: hidden;
+    color: rgb(102, 102, 102);
+    background: rgb(247, 248, 248);
+    border: 1px solid rgb(201, 202, 204);
+    border-bottom: 1px solid rgb(177, 179, 181);
+    box-shadow: 0 1px 1px rgb(201, 202, 204);
+}
+.feed-comment .add-comment .ui-button {
+    float: right;
+}
+.skin-button-willsilver {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+    height: 39px;
+    line-height: 37px;
+    padding-left: 5px;
+    text-align: center;
+    color: rgb(142, 142, 142);
+}
+.skin-button-willsilver .ui-button-bg-left {
+    background: url('../img/button-bg.$5826.png') left -200px no-repeat;
+}
+.skin-button-willsilver .ui-button-bg-left {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 39px;
+}
+
+.skin-button-willsilver .ui-button-label {
+    background: url('../img/button-bg.$5826.png') right -200px no-repeat;
+}
+.skin-button-willsilver .ui-button-label {
+    padding-right: 5px;
+    height: 39px;
+}
+.feed-comment .cmt-list, .feed-notes .feed-notes-list {
+    clear: both;
+    padding: 0 !important;
+    list-style: none outside;
+}
+.feed-fold-footer a.fold-btn-close {
+    float: right;
+}
+.feed-fold-footer a.fold-btn-loading, .feed-fold-footer a.fold-btn-close, .feed-fold-footer a.fold-btn-more {
+    color: rgb(160, 162, 163);
+    height: 30px;
+    line-height: 29px;
+    padding-left: 20px;
+    position: relative;
+    zoom: 1;
+}
+.feed-fold-footer a.fold-btn-close .btn-icon {
+    background-position: -120px -30px;
+}
+.feed-fold-footer .btn-icon {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: block;
+    height: 9px;
+    width: 14px;
+    background: url('../img/feed-icons.$6973.png') no-repeat;
+}
+.feed-fold-footer {
+    margin: 0 1px 4px;
+    border-top: 1px solid rgb(198, 200, 202);
+    height: 30px;
+    background: url('../img/feed-bg-sprites.$5106.png') -1800px bottom no-repeat;
+    padding: 0 20px;
 }
 
 #ajax-waiting{
