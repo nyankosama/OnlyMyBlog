@@ -5,10 +5,14 @@
  * Time: 下午7:48
  */
 
+import('@.ViewTpl.TplHomePage');
+
 class PostBlogAction extends Action{
     private $conf;
+    private $tpl;
 
     function PostBlogAction(){
+        $this->tpl=new TplHomePage();
         $this->conf=require('ActionConfig.php');
     }
 
@@ -87,8 +91,17 @@ class PostBlogAction extends Action{
     public function postComment(){
         $blog_id=$_POST['blog_id'];
         $content=$_POST['content'];
+        $user_id=session('user_id');
         $commentModel=new CommentModel();
         $commentModel->addComment($blog_id,$content);
-        echo json_encode(array('status'=>'true'));
+
+        $userModel=M('user');
+        $comment_user=$userModel->find($user_id);
+        $comment=array('user_name'=>$comment_user['name'],'user_id'=>$comment_user['id'],
+            'user_homepage'=>$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$comment_user['id'],
+            'user_head_picpath'=>$comment_user['head_pic_path'],'user_comment'=>$content);
+
+        $li_html=$this->tpl->getSingleCommentLi($comment,$commentModel->getSomeBlogCommentCount($blog_id));
+        echo json_encode(array('status'=>'true','li_html'=>$li_html));
     }
 }

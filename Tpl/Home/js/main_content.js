@@ -61,13 +61,18 @@ $(document).ready(function(){
         });
 
         //添加回应发布按钮事件
+        //需要返回的json字符串key为:status, li_html
         $(".skin-button-willsilver").click(function(){
             var content=$(this).prev().val();
             var feed_list=$(this).parent().parent().parent().parent().parent().parent();
             var blog_id=feed_list.attr('id');
+            var this_ele=$(this);
             $.post('http://127.0.0.1:8887/blog/PostBlog/postComment',{blog_id:blog_id,content:content},function(data){
                 if(data.status=="true"){
                     //刷新评论栏
+                    this_ele.parent().next().append(data.li_html);
+                    var footer=this_ele.parent().parent().parent().parent();
+                    footer.attr('data-comment-num',footer.attr('data-comment-num')+1);
                 }else{
                     alert("发布失败！");
                 }

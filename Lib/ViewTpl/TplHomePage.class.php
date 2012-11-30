@@ -12,7 +12,8 @@ class TplHomePage
 {
 
     /**
-     * @param $para 所需key分别为：blog_id; user_id;  user_head_pic; user_head_name; user_homepage; text_title; reposet_path; hot_point
+     * @param $para 所需key分别为：blog_id; user_id;  user_head_pic; user_head_name; user_homepage; text_title; reposet_path;
+     * hot_point; repost_point; comment_point
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组  href  tag_name
      * @return string 返回渲染好的html
@@ -60,8 +61,8 @@ class TplHomePage
                                     <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
 									<a class='feed-rt'
                                                                                                     target='_blank'
-                                                                                                    href=" . $para['reposet_path'] . ">转载</a>
-                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应</a>
+                                                                                                    href=" . $para['reposet_path'] . ">转载(".$para['repost_point'].")</a>
+                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应(".$para['comment_point'].")</a>
 
                                         <a
                             data-type='photo' id='hot_point".$para['hot_point']."'
@@ -77,7 +78,8 @@ class TplHomePage
     }
 
     /**
-     * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage; pic_path; reposet_path; hot_point
+     * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage; pic_path; reposet_path;
+     * hot_point; repost_point; comment_point
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
@@ -132,8 +134,8 @@ class TplHomePage
                                     <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
 									<a class='feed-rt'
                                                                                                     target='_blank'
-                                                                                                    href=" . $para['reposet_path'] . ">转载</a>
-                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应</a>
+                                                                                                    href=" . $para['reposet_path'] . ">转载(".$para['repost_point'].")</a>
+                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应(".$para['comment_point'].")</a>
 
                                         <a
                             data-type='photo' id='hot_point".$para['hot_point']."'
@@ -148,7 +150,8 @@ class TplHomePage
 
     /**
      * @param $para 键值为blog_id; user_id;  user_head_pic; user_head_name; user_homepage;
-     * video_id(初步定为和blog_id相同); embed_value; video_url; video_img_path ;reposet_path; video_title; hot_point
+     * video_id(初步定为和blog_id相同); embed_value; video_url; video_img_path ;reposet_path; video_title;
+     * hot_point; repost_point; comment_point
      * @param $content 富文本编辑器直接得到的内容，包含html标签
      * @param $tag tag的内容数组
      * @return string 返回渲染好的html
@@ -209,8 +212,8 @@ class TplHomePage
                                     <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
 									<a class='feed-rt'
                                                                                                     target='_blank'
-                                                                                                    href=" . $para['reposet_path'] . ">转载</a>
-                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应</a>
+                                                                                                    href=" . $para['reposet_path'] . ">转载(".$para['repost_point'].")</a>
+                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应(".$para['comment_point'].")</a>
 
                                         <a
                             data-type='photo' id='hot_point".$para['hot_point']."'
@@ -276,7 +279,7 @@ class TplHomePage
     public function getCommonFooter($para, $comment)
     {
         $result = "
-        <div class='feed-ft J_FeedFooter' style='display:none'>
+        <div class='feed-ft J_FeedFooter' data-comment-num=".count($comment)."  style='display:none'>
             <div class='feed-ft-bottom'></div>
             <div class='feed-ft-triangle J_FeedFooterTriangle'></div>
             <div class='feed-fold-container comment' style='display:none' data-comment-id=" . $para['comment_blog_id'] . ">
@@ -297,22 +300,7 @@ class TplHomePage
                     <ul class='cmt-list'>
         ";
 
-        for ($i = 0; $i < count($comment); $i++) {
-            $result .= "
-            <li class='cmt-list-item clearfix first-cmt' data-user-name=" . $comment[$i]['user_name'] . " data-user-id=" . $comment[$i]['user_id'] . ">
-                            <div class='clearfix'><a href=" . $comment[$i]['user_homepage'] . " target='_blank'>
-							<img    class='cmt-avatar'
-                                    src=" . $comment[$i]['user_head_picpath'] . "
-                                    width='20' height='20'></a>
-
-									<span class='cmt-main'><a
-                                    href=" . $comment[$i]['user_homepage'] . " target='_blank'
-                                    class='cmt-user'>" . $comment[$i]['user_name'] . "</a><span class='cmt-content'>" . $comment[$i]['user_comment'] . "</span></span>
-                                    <a class='cmt-del' style='display: none;'>删除</a>
-                            </div>
-                        </li>
-            ";
-        }
+        $result.=$this->getCommentLi($comment);
 
         $result .= "
             </ul>
@@ -334,4 +322,61 @@ class TplHomePage
         ";
         return $result;
     }
+
+    /**
+     * @param $comment 评论用户的信息二维数组，一维格式为: user_name; user_id; user_homepage; user_head_picpath; user_comment
+     * @return string
+     */
+    public function getCommentLi($comment){
+        $result='';
+        for ($i = 0; $i < count($comment); $i++) {
+            if($i==0){
+                $result.="<li class='cmt-list-item clearfix first-cmt' data-user-name=" . $comment[$i]['user_name'] . " data-user-id=" . $comment[$i]['user_id'] . ">";
+            }else{
+                $result.="<li class='cmt-list-item clearfix' data-user-name=" . $comment[$i]['user_name'] . " data-user-id=" . $comment[$i]['user_id'] . ">";
+            }
+            $result .= "
+                            <div class='clearfix'><a href=" . $comment[$i]['user_homepage'] . " target='_blank'>
+							<img    class='cmt-avatar'
+                                    src=" . $comment[$i]['user_head_picpath'] . "
+                                    width='20' height='20'></a>
+
+									<span class='cmt-main'><a
+                                    href=" . $comment[$i]['user_homepage'] . " target='_blank'
+                                    class='cmt-user'>" . $comment[$i]['user_name'] . "</a><span class='cmt-content'>" . $comment[$i]['user_comment'] . "</span></span>
+                                    <a class='cmt-del' style='display: none;'>删除</a>
+                            </div>
+                        </li>
+            ";
+        }
+        return $result;
+    }
+
+    /**
+     * @param $comment 键值key: user_name; user_id; user_homepage; user_head_picpath; user_comment
+     * @param $comment_count 判断是否需要在css中加first类
+     */
+    public function getSingleCommentLi($comment,$comment_count){
+        $result='';
+        if($comment_count==0){
+            $result.="<li class='cmt-list-item clearfix first-cmt' data-user-name=" . $comment['user_name'] . " data-user-id=" . $comment['user_id'] . ">";
+        }else{
+            $result.="<li class='cmt-list-item clearfix' data-user-name=" . $comment['user_name'] . " data-user-id=" . $comment['user_id'] . ">";
+        }
+        $result .= "
+                            <div class='clearfix'><a href=" . $comment['user_homepage'] . " target='_blank'>
+							<img    class='cmt-avatar'
+                                    src=" . $comment['user_head_picpath'] . "
+                                    width='20' height='20'></a>
+
+									<span class='cmt-main'><a
+                                    href=" . $comment['user_homepage'] . " target='_blank'
+                                    class='cmt-user'>" . $comment['user_name'] . "</a><span class='cmt-content'>" . $comment['user_comment'] . "</span></span>
+                                    <a class='cmt-del' style='display: none;'>删除</a>
+                            </div>
+                        </li>
+            ";
+        return $result;
+    }
+
 }

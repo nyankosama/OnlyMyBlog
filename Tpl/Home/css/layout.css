@@ -329,7 +329,7 @@ text-indent: -9999px;
 outline: none;
 }
 
-li {
+.pb-action li {
 text-align: -webkit-match-parent;
 float:left;
 }

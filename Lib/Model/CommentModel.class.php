@@ -13,6 +13,10 @@ class CommentModel extends Model{
         $this->model=M('comment');
     }
 
+    public function getSomeBlogCommentCount($blog_id){
+        $count=$this->model->query("select COUNT(*) as count from blog_like where blog_item_id = ".$blog_id);
+        return $count[0]['count'];
+    }
 
     public function addComment($blog_item_id,$content){
         $user_id=session('user_id');

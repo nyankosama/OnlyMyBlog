@@ -83,8 +83,14 @@ class HomeAction extends Action{
             $para['user_head_name']=$user['name'];
             $para['user_homepage']=$this->conf['APP_ROOT'].'Home/userblog/user_id/'.$user['id'];
             $para['reposet_path']=$this->conf['APP_ROOT'].'PostBlog/repost/blog_id/'.$items['id'];
+
             $hot_point=$likeModel->query("select COUNT(*) as count from blog_like where blog_item_id = ".$items['id']);
+            $repost_point=$likeModel->query("select COUNT(*) as count from blog_like where op_type=".$this->const['LIKE_TYPE_REPOST']."  and blog_item_id = ".$items['id']);
+            $comment_point=$likeModel->query("select COUNT(*) as count from blog_like where op_type=".$this->const['LIKE_TYPE_COMMENT']."  and blog_item_id = ".$items['id']);
             $para['hot_point']=$hot_point[0]['count'];
+            $para['repost_point']=$repost_point[0]['count'];
+            $para['comment_point']=$comment_point[0]['count'];
+
             $tag_names=split(',',$items['tag']);
             $tag=array();
             foreach ($tag_names as $names) {
