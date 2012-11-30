@@ -308,6 +308,8 @@ class TplHomePage
 									<span class='cmt-main'><a
                                     href=" . $comment[$i]['user_homepage'] . " target='_blank'
                                     class='cmt-user'>" . $comment[$i]['user_name'] . "</a><span class='cmt-content'>" . $comment[$i]['user_comment'] . "</span></span>
+                                    <a class='cmt-del' style='display: none;'>删除</a>
+                            </div>
                         </li>
             ";
         }

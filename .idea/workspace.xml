@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PostBlogAction.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PostBlogAction.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/Action/PostBlogAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="31" selection-start="2293" selection-end="2304" vertical-scroll-proportion="0.6208113">
+            <state line="86" column="31" selection-start="2293" selection-end="2304" vertical-scroll-proportion="-11.354838">
               <folding />
             </state>
           </provider>
@@ -32,7 +32,43 @@
       <file leaf-file-name="main_content.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="54" selection-start="2521" selection-end="2521" vertical-scroll-proportion="0.0">
+            <state line="79" column="72" selection-start="3189" selection-end="3189" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TplHomePage.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="311" column="34" selection-start="13216" selection-end="13216" vertical-scroll-proportion="2.7096775">
+              <folding>
+                <marker date="1354246124387" expanded="true" signature="1787:1796" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="5022:5031" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="8446:8455" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="10227:10242" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="10243:10699" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="10281:10699" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="10372:10699" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="10411:10427" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="10428:10539" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="10457:10534" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="13380:13938" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="13439:13453" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="13546:13623" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="13552:13617" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="13673:13932" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="13838:13851" placeholder="..." />
+                <marker date="1354246124387" expanded="true" signature="13858:13924" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tpl/Home/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="825" column="1" selection-start="17209" selection-end="17209" vertical-scroll-proportion="0.92142856">
               <folding />
             </state>
           </provider>
@@ -67,12 +103,12 @@
         <option value="$PROJECT_DIR$/Tpl/Picture/js/picture.js" />
         <option value="$PROJECT_DIR$/Lib/Action/HomeAction.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Home/test.html" />
-        <option value="$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php" />
-        <option value="$PROJECT_DIR$/Tpl/Home/css/layout.css" />
         <option value="$PROJECT_DIR$/Lib/Action/CommentAction.class.php" />
         <option value="$PROJECT_DIR$/Lib/Action/PostBlogAction.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Text/js/text.js" />
         <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
+        <option value="$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php" />
+        <option value="$PROJECT_DIR$/Tpl/Home/css/layout.css" />
       </list>
     </option>
   </component>
@@ -245,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="ViewTpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="783" column="0" selection-start="15951" selection-end="15951" vertical-scroll-proportion="0.6716141">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Action/ActionConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -535,31 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="82" selection-start="13636" selection-end="13636" vertical-scroll-proportion="0.42026266">
-          <folding>
-            <marker date="1354243303250" expanded="true" signature="1787:1796" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="5022:5031" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="8446:8455" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="10227:10242" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="10243:10699" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="10281:10699" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="10372:10699" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="10411:10427" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="10428:10539" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="10457:10534" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="13260:13818" placeholder="..." />
-            <marker date="1354243303250" expanded="false" signature="13319:13333" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="13426:13503" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="13432:13497" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="13553:13812" placeholder="..." />
-            <marker date="1354243303250" expanded="false" signature="13718:13731" placeholder="..." />
-            <marker date="1354243303250" expanded="true" signature="13738:13804" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Model/CommentModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="33" selection-start="315" selection-end="322" vertical-scroll-proportion="-9.225806">
@@ -574,16 +578,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
+    <entry file="file://$PROJECT_DIR$/Lib/Action/PostBlogAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="54" selection-start="2521" selection-end="2521" vertical-scroll-proportion="0.0">
+        <state line="86" column="31" selection-start="2293" selection-end="2304" vertical-scroll-proportion="-11.354838">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/PostBlogAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="31" selection-start="2293" selection-end="2304" vertical-scroll-proportion="0.6208113">
+        <state line="79" column="72" selection-start="3189" selection-end="3189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="34" selection-start="13216" selection-end="13216" vertical-scroll-proportion="2.7096775">
+          <folding>
+            <marker date="1354246124387" expanded="true" signature="1787:1796" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="5022:5031" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="8446:8455" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="10227:10242" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="10243:10699" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="10281:10699" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="10372:10699" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="10411:10427" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="10428:10539" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="10457:10534" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="13380:13938" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="13439:13453" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="13546:13623" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="13552:13617" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="13673:13932" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="13838:13851" placeholder="..." />
+            <marker date="1354246124387" expanded="true" signature="13858:13924" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="825" column="1" selection-start="17209" selection-end="17209" vertical-scroll-proportion="0.92142856">
           <folding />
         </state>
       </provider>

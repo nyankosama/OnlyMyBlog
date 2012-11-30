@@ -781,7 +781,49 @@ background: url('../img/feed-ft-triangle.$5106.png') no-repeat;
     background: url('../img/button-bg.$5826.png') -20px -250px no-repeat;
 }
 
-
+.feed-comment .cmt-list li.first-cmt, .feed-notes .feed-notes-list li.first {
+    padding: 0 20px 7px;
+    border-top: none;
+}
+.feed-comment .cmt-list li, .feed-notes .feed-notes-list li {
+    padding: 7px 20px;
+    border-top: 1px solid rgb(198, 200, 202);
+    line-height: 20px;
+    word-wrap: break-word;
+}
+.feed-comment .cmt-list .cmt-main {
+    display: block;
+    float: left;
+    width: 360px;
+}
+.feed-comment .cmt-list, .feed-notes .feed-notes-list {
+    list-style: none outside;
+}
+.feed-comment .cmt-list .cmt-user, .feed-notes .feed-notes-list .notes-user {
+    color: rgb(15, 61, 94);
+    padding-right: 6px;
+    text-decoration: none;
+}
+.feed-comment .cmt-list li .cmt-content {
+    word-wrap: break-word;
+}
+.feed-comment .cmt-list .cmt-report, .feed-comment .cmt-list .cmt-block, .feed-comment .cmt-list .cmt-del, .feed-comment .cmt-list .cmt-reply {
+    margin: 0 0 0 8px;
+    float: right;
+    display: inline;
+    color: rgb(180, 180, 180);
+    width: 26px;
+    text-align: right;
+}
+.feed-comment .cmt-list li img, .feed-notes .feed-notes-list li img {
+    float: left;
+    margin-right: 10px;
+    display: block;
+}
+.feed-comment .cmt-avatar, .feed-notes .notes-avatar {
+    background: white;
+    box-shadow: 0 1px 3px rgb(153, 156, 157);
+}
 
 
 #ajax-waiting{

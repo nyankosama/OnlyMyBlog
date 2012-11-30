@@ -5922,3 +5922,479 @@ SQL: INSERT INTO `blog_comment` (`comment_user_id`,`blogitem_id`,`content`) VALU
 SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007758s ]
 SQL: INSERT INTO `blog_like` (`like_user_id`,`blog_item_id`,`op_type`) VALUES (2,43,7) [ RunTime:0.000837s ]
 
+[ 2012-11-30T11:23:12+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007625s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000886s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.053810s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002920s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.057106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020062s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.077482s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.078930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.080573s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.081675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006396s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.084405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002533s ]
+
+[ 2012-11-30T11:23:13+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003366s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007914s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.007507s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007590s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.006953s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 43 [ RunTime:0.024750s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 43 )  [ RunTime:0.000710s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000672s ]
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000677s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 40 [ RunTime:0.000645s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 40 )  [ RunTime:0.000775s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000751s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 39 [ RunTime:0.000654s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 39 )  [ RunTime:0.000681s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000738s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 38 [ RunTime:0.000679s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 38 )  [ RunTime:0.000698s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000713s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 37 [ RunTime:0.000681s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 37 )  [ RunTime:0.000726s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 36 [ RunTime:0.000538s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 36 )  [ RunTime:0.000621s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000589s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 35 [ RunTime:0.000539s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 35 )  [ RunTime:0.000623s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000596s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 34 [ RunTime:0.000526s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 34 )  [ RunTime:0.000547s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 33 [ RunTime:0.000528s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 33 )  [ RunTime:0.000503s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 32 [ RunTime:0.001227s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 32 )  [ RunTime:0.000673s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+
+[ 2012-11-30T11:28:47+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002885s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007956s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000717s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.041878s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002721s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.045020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020663s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.065982s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.067429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.069001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.070079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.072950s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002173s ]
+
+[ 2012-11-30T11:28:48+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008154s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.007478s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007508s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007616s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000759s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 43 [ RunTime:0.000649s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 43 )  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 40 [ RunTime:0.000537s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 40 )  [ RunTime:0.000539s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 39 [ RunTime:0.000428s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 39 )  [ RunTime:0.000545s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 38 [ RunTime:0.000521s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 38 )  [ RunTime:0.000542s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000571s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 37 [ RunTime:0.000520s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 37 )  [ RunTime:0.000476s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 36 [ RunTime:0.000434s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 36 )  [ RunTime:0.000500s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 35 [ RunTime:0.000473s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 35 )  [ RunTime:0.000353s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 34 [ RunTime:0.000412s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 34 )  [ RunTime:0.000357s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 33 [ RunTime:0.000284s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 33 )  [ RunTime:0.000387s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 32 [ RunTime:0.000346s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 32 )  [ RunTime:0.000445s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+
+[ 2012-11-30T11:32:04+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008942s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000874s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.072151s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002506s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.075030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019638s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.094986s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.096575s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.098187s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.099271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006438s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.101933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002408s ]
+
+[ 2012-11-30T11:32:05+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008189s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.009544s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.008287s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.007498s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000638s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 43 [ RunTime:0.000493s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 43 )  [ RunTime:0.000697s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000670s ]
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 40 [ RunTime:0.000624s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 40 )  [ RunTime:0.000603s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000593s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 39 [ RunTime:0.000530s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 39 )  [ RunTime:0.000424s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 38 [ RunTime:0.000346s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 38 )  [ RunTime:0.000355s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 37 [ RunTime:0.000337s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 37 )  [ RunTime:0.000367s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 36 [ RunTime:0.000343s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 36 )  [ RunTime:0.000350s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 35 [ RunTime:0.000343s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 35 )  [ RunTime:0.000351s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 34 [ RunTime:0.000397s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 34 )  [ RunTime:0.000363s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 33 [ RunTime:0.000287s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 33 )  [ RunTime:0.000311s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 32 [ RunTime:0.000337s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 32 )  [ RunTime:0.000355s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+
+[ 2012-11-30T11:38:11+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008093s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001132s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.072819s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002484s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.075679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019649s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.095641s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.097056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.098626s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.099704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006193s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.102339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005680s ]
+
+[ 2012-11-30T11:38:12+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007411s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.007236s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,10   [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.007031s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.006332s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000662s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 43 [ RunTime:0.000628s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 43 )  [ RunTime:0.000637s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000660s ]
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000687s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 40 [ RunTime:0.000574s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 40 )  [ RunTime:0.000455s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 39 [ RunTime:0.000304s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 39 )  [ RunTime:0.000318s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 38 [ RunTime:0.000305s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 38 )  [ RunTime:0.000318s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 37 [ RunTime:0.000219s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 37 )  [ RunTime:0.000225s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 36 [ RunTime:0.000202s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 36 )  [ RunTime:0.000223s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 35 [ RunTime:0.000312s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 35 )  [ RunTime:0.000343s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 34 [ RunTime:0.000317s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 34 )  [ RunTime:0.000320s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 33 [ RunTime:0.000326s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 33 )  [ RunTime:0.000313s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 32 [ RunTime:0.000316s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 88 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 32 )  [ RunTime:0.000316s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  user_id
+     E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 248 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 249 行.
+
