@@ -21,6 +21,20 @@ class FollowUserModel extends Model{
     }
 
     public function disFollowUser($follow_user_id){
-        $this->model->delete($follow_user_id);
+        $user_id=session('user_id');
+        $condition['user_id']=$user_id;
+        $condition['follow_user_id']=$follow_user_id;
+        $this->model->where($condition)->delete();
+    }
+
+    public function hasFollowed($follow_user_id){
+        $user_id=session('user_id');
+        $condition['user_id']=$user_id;
+        $condition['follow_user_id']=$follow_user_id;
+        $data=$this->model->where($condition)->select();
+        if(count($data)==0)
+            return false;
+        else
+            return true;
     }
 }

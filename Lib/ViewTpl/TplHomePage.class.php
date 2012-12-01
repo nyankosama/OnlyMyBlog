@@ -245,8 +245,13 @@ class TplHomePage
         return $content;
     }
 
+    /**
+     * @param $para 需要键值user_id;  user_head_pic; user_head_name; user_homepage; is_followed
+     * @return string
+     */
     public function getHeader($para){
-        return "
+        $result='';
+        $result.= "
 <div class='feed-avatar'>
     <div class='blog-info blog-menu-info enable' data-user-id='".$para['user_id']."'><a target='_blank'
                avatar='" . $para[' user_head_pic'] . "'
@@ -261,7 +266,14 @@ class TplHomePage
         <ul class='pop-menu-list mini'>
             <li class='first' style='margin-top: 0px;'><a class='J_BlogInboxAction'
                                                           title='发私信'>发私信</a></li>
-            <li><a class='J_BlogFollowAction follow-special follow' title='关注'>关注</a></li>
+            ";
+        if($para['is_followed']=='true'){
+            $result.="<li><a class='J_BlogFollowAction follow-special disFollow' title='关注'>取消关注</a></li>";
+        }else{
+            $result.="<li><a class='J_BlogFollowAction follow-special follow' title='关注'>关注</a></li>";
+        }
+
+        $result.="
             <li class='last'><a class='J_BlogVisitAction' data-url='".$para['user_homepage']."'
                                 title='访问博客'>访问博客</a></li>
         </ul>
@@ -269,6 +281,7 @@ class TplHomePage
 </div>
 </div>
 </div>";
+        return $result;
     }
 
     /**

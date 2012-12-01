@@ -12,9 +12,18 @@ class UserAction extends Action{
      */
     public function follow(){
         $follow_user_id=$_POST['follow_user_id'];
-        $user_id=session('user_id');
         $followUserModel=new FollowUserModel();
         $followUserModel->addFollowUser($follow_user_id);
+        echo json_encode(array('status'=>'true'));
+    }
+
+    /**
+     * post: follow_user_id
+     */
+    public function disFollow(){
+        $follow_user_id=$_POST['follow_user_id'];
+        $followUserModel=new FollowUserModel();
+        $followUserModel->disFollowUser($follow_user_id);
         echo json_encode(array('status'=>'true'));
     }
 }

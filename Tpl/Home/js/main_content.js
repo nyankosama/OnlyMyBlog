@@ -130,10 +130,26 @@ $(document).ready(function(){
             function(data){
                 if(data.status=='true'){
                     alert('关注成功');
+                    window.location.href='home';
                 }else{
                     alert('操作失败');
                 }
             },'json');
+        });
+
+        //增加取消关注事件
+        $(".disFollow").click(function(){
+            var user=$(this).parent().parent().parent().parent().parent();
+            var user_id=user.attr('data-user-id');
+            $.post('http://127.0.0.1:8887/blog/User/disFollow',{follow_user_id:user_id},
+                function(data){
+                    if(data.status=='true'){
+                        alert('取消关注成功');
+                        window.location.href='home';
+                    }else{
+                        alert('操作失败');
+                    }
+                },'json');
         });
     }
     //test

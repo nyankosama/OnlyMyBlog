@@ -142,7 +142,7 @@ class BlogItemModel extends Model{
      */
     public function getAllFollowerBlog($limit){
         $data=$this->model->where('user_id in
-        (select bfu.follow_user_id from blog_user bu ,blog_follow_user bfu where bu.id = bfu.user_id)')->order('time asc')->limit('0,'.$limit)->select();
+        (select bfu.follow_user_id from blog_user bu ,blog_follow_user bfu where bu.id = bfu.user_id)')->order('time desc')->limit('0,'.$limit)->select();
         return $data;
     }
 

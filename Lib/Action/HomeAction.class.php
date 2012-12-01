@@ -67,12 +67,13 @@ class HomeAction extends Action{
     public function loadFeed(){
         $blogItemModel=new BlogItemModel();
         $blogitems=$blogItemModel->getAllFollowerBlog(50);
-
+        if(count($blogitems)==0){
+            $blogitems=$blogItemModel->getAllItemsByLimit(50);
+        }
         $user_id=session('user_id');
-
-
         $likeModel=M('like');
         $commentModel=M('comment');
+        $followUserModel=new FollowUserModel();
         $tpl=new TplHomePage();
         $html=null;
 
@@ -82,6 +83,14 @@ class HomeAction extends Action{
             $para['user_id']=$items['user_id'];
             $condition['id']=$items['user_id'];
             $user=$this->userModel->find($items['user_id']);
+
+            //判断是否被用户follow
+
+            $isFollowed=$followUserModel->hasFollowed($items['user_id']);
+            if($isFollowed)
+                $para['is_followed']='true';
+            else
+                $para['is_followed']='false';
             //判断是否为转载
             if($json_content->is_reposted=='true'){
                 $origin_user_id=$json_content->original_user_id;
