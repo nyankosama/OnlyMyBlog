@@ -66,7 +66,7 @@ class HomeAction extends Action{
 
     public function loadFeed(){
         $blogItemModel=new BlogItemModel();
-        $blogitems=$blogItemModel->getAllItemsByLimit(10);
+        $blogitems=$blogItemModel->getAllFollowerBlog(50);
 
         $user_id=session('user_id');
 

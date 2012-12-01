@@ -248,8 +248,7 @@ class TplHomePage
     public function getHeader($para){
         return "
 <div class='feed-avatar'>
-    <div class='blog-info blog-menu-info enable' data-user-id='" . $para[' user_id
-    '] . "'><a target='_blank'
+    <div class='blog-info blog-menu-info enable' data-user-id='".$para['user_id']."'><a target='_blank'
                avatar='" . $para[' user_head_pic'] . "'
     title='" . $para['user_head_name'] . "'
     href='" . $para['user_homepage'] . "'

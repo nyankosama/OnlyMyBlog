@@ -20,25 +20,45 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="homeTpl.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
+      <file leaf-file-name="TplHomePage.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="6" selection-start="767" selection-end="767" vertical-scroll-proportion="-4.267857">
+            <state line="250" column="82" selection-start="9721" selection-end="9721" vertical-scroll-proportion="-6.387097">
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1354350676264" expanded="true" signature="371:1226" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="371:677" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="371:677" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="562:677" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="616:677" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="2447:2456" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="5248:5257" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="8236:8245" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="12350:12908" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="12409:12423" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="12516:12593" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="12522:12587" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="12643:12902" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="12808:12821" placeholder="..." />
+                <marker date="1354350676264" expanded="true" signature="12828:12894" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tpl/Login/login.html">
+      <file leaf-file-name="HomeAction.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.33333334">
-              <folding>
-                <marker date="1354270124103" expanded="true" signature="459:549" placeholder="..." />
-              </folding>
+            <state line="68" column="54" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.5974729">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogItemModel.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Model/BlogItemModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="5" selection-start="4686" selection-end="4686" vertical-scroll-proportion="-13.387096">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,26 +66,19 @@
       <file leaf-file-name="main_content.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="66" selection-start="3034" selection-end="3034" vertical-scroll-proportion="0.0">
+            <state line="125" column="38" selection-start="5115" selection-end="5115" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeAction.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
+      <file leaf-file-name="UserAction.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Action/UserAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="50" selection-start="654" selection-end="654" vertical-scroll-proportion="-13.4838705">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PictureAction.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lib/Action/PictureAction.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="254" selection-end="254" vertical-scroll-proportion="-7.806452">
-              <folding />
+            <state line="13" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="-9.225806">
+              <folding>
+                <element signature="e#6#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,22 +93,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Tpl/Picture/js/main.js" />
         <option value="$PROJECT_DIR$/Tpl/Picture/picture.html" />
         <option value="$PROJECT_DIR$/Tpl/Picture/js/picture.js" />
         <option value="$PROJECT_DIR$/Tpl/Home/test.html" />
         <option value="$PROJECT_DIR$/Lib/Action/CommentAction.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Text/js/text.js" />
         <option value="$PROJECT_DIR$/Lib/Model/CommentModel.class.php" />
-        <option value="$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php" />
         <option value="$PROJECT_DIR$/Lib/Model/BlogItemModel.class.php" />
         <option value="$PROJECT_DIR$/Lib/Model/LikeModel.class.php" />
         <option value="$PROJECT_DIR$/Lib/Action/PostBlogAction.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Home/css/layout.css" />
         <option value="$PROJECT_DIR$/Tpl/Home/homeTpl.html" />
-        <option value="$PROJECT_DIR$/Lib/Action/HomeAction.class.php" />
-        <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
         <option value="$PROJECT_DIR$/Tpl/Login/login.html" />
+        <option value="$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php" />
+        <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
+        <option value="$PROJECT_DIR$/Lib/Action/UserAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Action/HomeAction.class.php" />
       </list>
     </option>
   </component>
@@ -107,7 +120,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
     <option name="height" value="784" />
@@ -160,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,6 +251,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -281,16 +333,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.30000004" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -369,14 +422,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24801272" sideWeight="0.61858976" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1899841" sideWeight="0.61858976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38141027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -449,147 +502,125 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="81" />
+      <option name="time" value="82" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lib/Action/IndexAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Lib/Action/ActionConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/LoginAction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="360" selection-end="360" vertical-scroll-proportion="0.038800705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/ActionConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Model/CommentModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="697" selection-end="773" vertical-scroll-proportion="-14.4838705">
-          <folding />
-        </state>
+        <state line="28" column="47" selection-start="697" selection-end="773" vertical-scroll-proportion="-14.4838705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Model/ModelConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="150" selection-end="164" vertical-scroll-proportion="-4.967742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Model/BlogItemModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="445" selection-end="445" vertical-scroll-proportion="-4.290323">
-          <folding />
-        </state>
+        <state line="7" column="19" selection-start="150" selection-end="164" vertical-scroll-proportion="-4.967742" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Model/LikeModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="727" selection-end="727" vertical-scroll-proportion="-11.225806">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="90" selection-start="11044" selection-end="11050" vertical-scroll-proportion="-118.3871">
-          <folding>
-            <marker date="1354267499258" expanded="true" signature="371:1226" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="371:677" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="371:677" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="562:1226" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="562:677" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="562:677" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="616:1226" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="616:677" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="616:677" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="2447:2456" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="5248:5257" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="8236:8245" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="10074:10089" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="10090:10546" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="10128:10546" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="10219:10546" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="10258:10274" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="10275:10386" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="10304:10381" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="12360:12918" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="12419:12433" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="12526:12603" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="12532:12597" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="12653:12912" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="12818:12831" placeholder="..." />
-            <marker date="1354267499258" expanded="true" signature="12838:12904" placeholder="..." />
-          </folding>
-        </state>
+        <state line="32" column="45" selection-start="727" selection-end="727" vertical-scroll-proportion="-11.225806" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Home/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="19" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.4107143">
-          <folding />
-        </state>
+        <state line="58" column="19" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.4107143" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Action/PostBlogAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="8" selection-start="2209" selection-end="2251" vertical-scroll-proportion="0.340388">
+        <state line="82" column="8" selection-start="2209" selection-end="2251" vertical-scroll-proportion="0.340388" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Text/js/text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="566" selection-end="718" vertical-scroll-proportion="0.6688963" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="56" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.55595666">
+          <folding>
+            <marker date="1354270124103" expanded="true" signature="459:549" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="767" selection-end="767" vertical-scroll-proportion="0.038800705">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Action/PictureAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="254" selection-end="254" vertical-scroll-proportion="-7.806452">
+        <state line="6" column="35" selection-start="101" selection-end="101" vertical-scroll-proportion="0.23280424">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="50" selection-start="654" selection-end="654" vertical-scroll-proportion="-13.4838705">
-          <folding />
+        <state line="250" column="82" selection-start="9721" selection-end="9721" vertical-scroll-proportion="-6.387097">
+          <folding>
+            <marker date="1354350676264" expanded="true" signature="371:1226" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="371:677" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="371:677" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="562:677" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="616:677" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="2447:2456" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="5248:5257" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="8236:8245" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="12350:12908" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="12409:12423" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="12516:12593" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="12522:12587" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="12643:12902" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="12808:12821" placeholder="..." />
+            <marker date="1354350676264" expanded="true" signature="12828:12894" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Text/js/text.js">
+    <entry file="file://$PROJECT_DIR$/Lib/Model/BlogItemModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="566" selection-end="718" vertical-scroll-proportion="0.6688963">
+        <state line="146" column="5" selection-start="4686" selection-end="4686" vertical-scroll-proportion="-13.387096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="66" selection-start="3034" selection-end="3034" vertical-scroll-proportion="0.0">
+        <state line="125" column="38" selection-start="5115" selection-end="5115" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/homeTpl.html">
+    <entry file="file://$PROJECT_DIR$/Lib/Model/FollowUserModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="767" selection-end="767" vertical-scroll-proportion="-4.267857">
+        <state line="20" column="5" selection-start="458" selection-end="458" vertical-scroll-proportion="0.64468867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Action/UserAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="-9.225806">
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Login/login.html">
+    <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <marker date="1354270124103" expanded="true" signature="459:549" placeholder="..." />
-          </folding>
+        <state line="68" column="54" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.5974729">
+          <folding />
         </state>
       </provider>
     </entry>

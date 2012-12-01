@@ -122,6 +122,19 @@ $(document).ready(function(){
             },'json');
         });
 
+        //增加关注事件
+        $(".follow").click(function(){
+            var user=$(this).parent().parent().parent().parent().parent();
+            var user_id=user.attr('data-user-id');
+            $.post('http://127.0.0.1:8887/blog/User/follow',{follow_user_id:user_id},
+            function(data){
+                if(data.status=='true'){
+                    alert('关注成功');
+                }else{
+                    alert('操作失败');
+                }
+            },'json');
+        });
     }
     //test
     function load(){
