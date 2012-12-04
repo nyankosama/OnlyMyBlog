@@ -121,7 +121,7 @@ class BlogItemModel extends Model{
      * @param $limit
      */
     public function getItemsByLimitByUserId($user_id,$limit){
-        $condition['$user_id']=$user_id;
+        $condition['user_id']=$user_id;
         $data=$this->model->where($condition)->order('time asc')->limit('0,'.$limit)->select();
         return $data;
     }

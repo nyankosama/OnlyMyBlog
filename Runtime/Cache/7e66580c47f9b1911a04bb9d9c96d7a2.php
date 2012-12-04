@@ -4,9 +4,9 @@
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>OnlyMyBlog</title>
-    <script type='text/javascript' src='../Tpl/Home/js/jquery.js'></script>
-    <script type='text/javascript' src='../Tpl/Home/js/main_content.js'></script>
-    <link href='../Tpl/Home/css/layout.css' rel='stylesheet' type='text/css'/>
+    <script type='text/javascript' src='__APP__/Tpl/Home/js/jquery.js'></script>
+    <script type='text/javascript' src='__APP__/Tpl/Home/js/main_content.js'></script>
+    <link href='__APP__/Tpl/Home/css/layout.css' rel='stylesheet' type='text/css'/>
 </head>
 
 <body>
@@ -22,10 +22,11 @@
 <div id='background'>
     <div id='content-holder'>
         <div id='content'>
-            <div id='main'>
+            <div id='main' user-id='now'>
                 <div id='publisher' class='publisher clearfix' style=''>
                     <!--tplVar-->
-                    <div class='pb-avatar'><a class='blog-avatar' href=<?php echo ($home_self_link); ?>
+                    <div class='pb-avatar'>
+                        <a class='blog-avatar' href=<?php echo ($home_user_link); ?>
                                               style='background-image:url(<?php echo ($home_self_headPic); ?>)'>夕时雨</a>
                     </div>
                     <div class='pb-action-holder'>
@@ -51,7 +52,7 @@
                 </div>
 
                 <div id="ajax-waiting">
-                    <img src="../Tpl/Home/img/loading.$6839.gif" alt="正在努力加载中"/>
+                    <img src="__APP__/Tpl/Home/img/loading.$6839.gif" alt="正在努力加载中"/>
                 </div>
 
                 <div class='feed-list' id='feed-list'>

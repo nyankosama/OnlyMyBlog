@@ -163,11 +163,21 @@ $(document).ready(function(){
     //test
     function load(){
 //        $("#feed-list").load("http://127.0.0.1:8887/blog/Home/loadFeed");
-        $.get("http://127.0.0.1:8887/blog/Home/loadFeed",function(data){
-            $("#feed-list").append(data);
-            registerEvent();
-            $("#ajax-waiting").css("display","none");
-        });
+        if($("#main").attr('user-id')=='now'){
+            $.get("http://127.0.0.1:8887/blog/Home/loadFeed/is_user_blog/false/$access_id/null",function(data){
+                $("#feed-list").append(data);
+                registerEvent();
+                $("#ajax-waiting").css("display","none");
+            });
+        }else{
+            var access_id=$("#main").attr('user-id');
+            $.get("http://127.0.0.1:8887/blog/Home/loadFeed/is_user_blog/true/$access_id/"+access_id,function(data){
+                $("#feed-list").append(data);
+                registerEvent();
+                $("#ajax-waiting").css("display","none");
+            });
+        }
+
     }
 
 

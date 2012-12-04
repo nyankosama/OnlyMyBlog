@@ -10,6 +10,7 @@ class HomeAction extends Action{
     private $conf;
     private $const;
     private $userModel;
+    private $user_id;
 
     function HomeAction(){
         $this->conf=require('ActionConfig.php');
@@ -23,24 +24,26 @@ class HomeAction extends Action{
             header('location: '.$this->conf['APP_ROOT'].'Login/login');
             return;
         }
-        $this->sign();
+        $user_id=session('user_id');
+        $this->sign($user_id);
         $this->display('Home:homeTpl');
     }
 
     public function userblog($user_id){
-
+        $this->sign($user_id);
+        $this->user_id=$user_id;
+        $this->display('Home:userHomeTpl');
     }
-
 
     public function logout(){
         cookie('user_id',null);
         echo json_encode(array('status'=>'true'));
     }
 
-    private function sign(){
-        $user_id=session('user_id');
+    private function sign($user_id){
         $data=$this->userModel->find($user_id);
-        $this->home_self_link='#';
+        $this->home_user_id=$user_id;
+        $this->home_user_link=$this->conf['APP_ROOT']."Home/userblog/user_id/".$user_id;
         $this->home_self_headPic=$data['head_pic_path'];
         $this->home_self_text='http://127.0.0.1:8887/blog/Home/text';
         $this->home_self_video='http://127.0.0.1:8887/blog/Home/video';
@@ -68,13 +71,22 @@ class HomeAction extends Action{
         $this->display("Picture:picture");
     }
 
-    public function loadFeed(){
+    /**
+     * post : user_id
+     * @param $is_user_blog
+     */
+    public function loadFeed($is_user_blog,$access_id){
         $blogItemModel=new BlogItemModel();
         $user_id=session('user_id');
-        $blogitems=$blogItemModel->getAllFollowerBlog($user_id,50);
-        if(count($blogitems)==0){
-            $blogitems=$blogItemModel->getAllItemsByLimit(50);
+        if($is_user_blog=='true'){
+            $blogitems=$blogItemModel->getItemsByLimitByUserId($access_id,50);
+        }else{
+            $blogitems=$blogItemModel->getAllFollowerBlog($user_id,50);
+            if(count($blogitems)==0){
+                $blogitems=$blogItemModel->getAllItemsByLimit(50);
+            }
         }
+
 
         $likeModel=M('like');
         $commentModel=M('comment');
