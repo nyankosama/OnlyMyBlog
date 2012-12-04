@@ -15,9 +15,6 @@
         <a href="http://127.0.0.1:8887/blog/Home/home" id="logo_href">OnlyMyBlog</a>
     </div>
     <h1> 让博客从此中二 </h1>
-    <div id="header_logout">
-        <a id="logout" title="退出" style="text-indent: -9999px;display: block">退出</a>
-    </div>
 </div>
 <div id='background'>
     <div id='content-holder'>

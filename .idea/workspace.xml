@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeAction.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeAction.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.33079848">
+            <state line="31" column="39" selection-start="738" selection-end="738" vertical-scroll-proportion="-3.516129">
               <folding />
             </state>
           </provider>
@@ -80,13 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userHomeTpl.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="userHomeTpl.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tpl/Home/userHomeTpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="37" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-8.290322">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="17" column="4" selection-start="745" selection-end="745" vertical-scroll-proportion="0.65747124">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -407,15 +405,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
-    <editor active="false" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20906201" sideWeight="0.53536975" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46463022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20906201" sideWeight="0.7909968" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20900321" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -621,18 +619,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/userHomeTpl.html">
+    <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-8.290322">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="31" column="39" selection-start="738" selection-end="738" vertical-scroll-proportion="-3.516129">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/Action/HomeAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/userHomeTpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.33079848">
+        <state line="17" column="4" selection-start="745" selection-end="745" vertical-scroll-proportion="0.65747124">
           <folding />
         </state>
       </provider>
