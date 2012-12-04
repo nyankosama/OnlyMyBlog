@@ -19,7 +19,57 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TplHomePage.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="331" column="6" selection-start="13049" selection-end="13049" vertical-scroll-proportion="-7.806452">
+              <folding>
+                <marker date="1354590994053" expanded="true" signature="371:677" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="562:677" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="616:677" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="2447:2456" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="5248:5257" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="8236:8245" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="9840:9901" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="9840:10134" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="9969:10134" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="10050:10134" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="10125:10134" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="10464:10473" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="11246:11284" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="11809:11811" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="14811:15369" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="14870:14884" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="14977:15054" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="14983:15048" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="15104:15363" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="15269:15282" placeholder="..." />
+                <marker date="1354590994053" expanded="true" signature="15289:15355" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tpl/Home/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="23" selection-start="221" selection-end="243" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_content.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="70" selection-start="6318" selection-end="6318" vertical-scroll-proportion="0.6603774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -35,16 +85,16 @@
         <option value="$PROJECT_DIR$/Tpl/Login/login.html" />
         <option value="$PROJECT_DIR$/Lib/Model/FollowUserModel.class.php" />
         <option value="$PROJECT_DIR$/Lib/Action/UserAction.class.php" />
-        <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
         <option value="$PROJECT_DIR$/Lib/Action/LoginAction.class.php" />
         <option value="$PROJECT_DIR$/Lib/Model/BlogItemModel.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Home/homeTpl.html" />
-        <option value="$PROJECT_DIR$/Tpl/Home/css/layout.css" />
         <option value="$PROJECT_DIR$/Tpl/Link/link.html" />
         <option value="$PROJECT_DIR$/Lib/Action/HomeAction.class.php" />
         <option value="$PROJECT_DIR$/Tpl/Link/js/link.js" />
         <option value="$PROJECT_DIR$/Lib/Action/PostBlogAction.class.php" />
+        <option value="$PROJECT_DIR$/Tpl/Home/css/layout.css" />
         <option value="$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php" />
+        <option value="$PROJECT_DIR$/Tpl/Home/js/main_content.js" />
       </list>
     </option>
   </component>
@@ -137,7 +187,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewTpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,14 +376,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29252782" sideWeight="0.60932475" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29252782" sideWeight="0.60932475" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39067525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -326,11 +470,6 @@
         <state line="34" column="36" selection-start="1291" selection-end="1302" vertical-scroll-proportion="1.2786325" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="0" selection-start="6281" selection-end="6281" vertical-scroll-proportion="2.2786324" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Lib/Core/Think.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="232" column="0" selection-start="7636" selection-end="7636" vertical-scroll-proportion="0.33116883" />
@@ -367,13 +506,6 @@
     <entry file="file://$PROJECT_DIR$/Lib/Action/ActionConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="87" selection-end="95" vertical-scroll-proportion="0.15575221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tpl/Home/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -422,29 +554,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/ViewTpl/TplHomePage.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="0" selection-start="9912" selection-end="9912" vertical-scroll-proportion="0.9166667">
+        <state line="331" column="6" selection-start="13049" selection-end="13049" vertical-scroll-proportion="-7.806452">
           <folding>
-            <marker date="1354589994208" expanded="true" signature="371:677" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="562:677" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="616:677" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="2447:2456" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="5248:5257" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="8236:8245" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="9840:9901" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="9840:10134" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="9969:10134" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="10050:10134" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="10125:10134" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="10464:10473" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="11246:11284" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="14768:15326" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="14827:14841" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="14934:15011" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="14940:15005" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="15061:15320" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="15226:15239" placeholder="..." />
-            <marker date="1354589994208" expanded="true" signature="15246:15312" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="371:677" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="562:677" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="616:677" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="2447:2456" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="5248:5257" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="8236:8245" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="9840:9901" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="9840:10134" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="9969:10134" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="10050:10134" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="10125:10134" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="10464:10473" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="11246:11284" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="11809:11811" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="14811:15369" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="14870:14884" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="14977:15054" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="14983:15048" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="15104:15363" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="15269:15282" placeholder="..." />
+            <marker date="1354590994053" expanded="true" signature="15289:15355" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="221" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tpl/Home/js/main_content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="70" selection-start="6318" selection-end="6318" vertical-scroll-proportion="0.6603774">
+          <folding />
         </state>
       </provider>
     </entry>

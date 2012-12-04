@@ -303,6 +303,7 @@ class TplHomePage
         $result='';
         $result.= "
 <div class='feed-avatar'>
+
     <div class='blog-info blog-menu-info enable' data-user-id='".$para['user_id']."'><a target='_blank'
                avatar='" . $para[' user_head_pic'] . "'
     title='" . $para['user_head_name'] . "'
@@ -310,7 +311,7 @@ class TplHomePage
     class='blog-avatar'
     style='background-image: url(" . $para['user_head_pic'] . ");'>" . $para['user_head_name'] . "</a>
 
-<div class='blog-menu pop-menu-list-holder' style='display: block;'>
+<div class='blog-menu pop-menu-list-holder' style='display: none;'>
     <div class='pop-menu-list-inner'>
         <div class='pop-menu-list-triangle'></div>
         <ul class='pop-menu-list mini'>
@@ -330,6 +331,7 @@ class TplHomePage
     </div>
 </div>
 </div>
+<div class='feed-avatar-hover-back'></div>
 </div>";
         return $result;
     }

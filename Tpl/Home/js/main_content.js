@@ -151,6 +151,14 @@ $(document).ready(function(){
                     }
                 },'json');
         });
+
+        //增加头像下拉菜单事件
+        $(".feed-avatar-hover-back").mouseover(function(){
+            $(".pop-menu-list-holder").attr('style','display: none;');
+            $(this).parent().find(".pop-menu-list-holder").attr('style','display: block;');
+        });
+
+
     }
     //test
     function load(){

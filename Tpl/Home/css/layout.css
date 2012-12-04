@@ -2,6 +2,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 margin: 0;
 padding: 0;
 }
+.feed-avatar-hover-back{
+    position: absolute;
+    width: 70px;
+    height: 160px;
+}
 
 #logo_href{
     text-indent: -9999px;
