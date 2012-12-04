@@ -5,7 +5,7 @@
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>发布链接|OnlyMyBlog</title>
     <script type='text/javascript' src='../Tpl/Link/js/jquery.js'></script>
-    <script type='text/javascript' src='../Tpl/Link/js/text.js'></script>
+    <script type='text/javascript' src='../Tpl/Link/js/link.js'></script>
     <script type="text/javascript" src="../Tpl/Link/js/jquery.tagsinput.js"></script>
     <script type="text/javascript" src="../Tpl/Link/js/editor_config.js"></script>
     <script type="text/javascript" src="../Tpl/Link/js/editor.js"></script>
@@ -52,14 +52,6 @@
                                 链接地址
                             </h3>
                             <input tabindex="1" type="text" name="pb-text-title" class="pb-input-text" id="pb-text-link">
-                        </div>
-                        <!--下面的内容编辑区-->
-                        <div id="pb-text-post-holder" class="pb-post-section">
-                            <h3 class="pb-section-title">描述</h3>
-                            <div id="pb-text-textarea_editor">
-                                <script type="text/plain" id="editor" style="width:604px"></script>
-                            </div>
-
                         </div>
                     </div>
                     <!--下面button-->
@@ -115,8 +107,4 @@
     </div>
 </div>
 </body>
-<script type="text/javascript">
-    var editor = new UE.ui.Editor();
-    editor.render('editor');
-</script>
 </html>

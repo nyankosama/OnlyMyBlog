@@ -63,7 +63,7 @@ class LoginAction extends Action{
     }
 
     public function logOut(){
-        session('loginSession',null);
+        session('user_id',null);
         $this->display('Index:index');
     }
 }

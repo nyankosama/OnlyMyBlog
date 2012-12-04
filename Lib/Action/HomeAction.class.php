@@ -19,6 +19,10 @@ class HomeAction extends Action{
 
 
     public function home(){
+        if(cookie('user_id')==null){
+            header('location: '.$this->conf['APP_ROOT'].'Login/login');
+            return;
+        }
         $this->sign();
         $this->display('Home:homeTpl');
     }
@@ -164,7 +168,13 @@ class HomeAction extends Action{
                     }
                     break;
                 case $this->const['BLOG_ITEM_TYPE_LINK']:
-                    //TODO Link Tpl unfinished
+                    $para['link']=$json_content->path;
+                    $para['title']=$json_content->title;
+                    if($html==null){
+                        $html=$tpl->getLinkTpl($para,$tag);
+                    }else{
+                        $html.=$tpl->getLinkTpl($para,$tag);
+                    }
                     break;
             }
             $html.=$tpl->getCommonFooter($para,$comment);

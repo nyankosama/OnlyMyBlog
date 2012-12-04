@@ -101,11 +101,11 @@ class BlogItemModel extends Model{
         $this->model->delete($id);
     }
 
-    public function addLink($path,$desc,$tag){
+    public function addLink($path,$title,$tag){
         $data['user_id']=session('user_id');
         $data['type']=$this->config['BLOG_ITEM_TYPE_LINK'];
         $json_content['path']=$path;
-        $json_content['desc_content']=$desc;
+        $json_content['title']=$title;
         $data['json_content']=json_encode($json_content);
         $data['tag']=$tag;
         $data['time']=$this->getTime();

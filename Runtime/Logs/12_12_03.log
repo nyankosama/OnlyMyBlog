@@ -1,0 +1,337 @@
+[ 2012-12-03T10:31:37+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.014618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.038713s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.063514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022966s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.080214s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.000851s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.483496s ]
+INFO: [ view_template ] --END-- [ RunTime:0.056256s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.540073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148094s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.688454s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.705190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.707265s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.708868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022976s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.711977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004040s ]
+
+[ 2012-12-03T10:31:38+08:00 ] ERR: (ThinkException) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY time desc LIMIT 0,50' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_blogitem` WHERE user_id in (select bfu.follow_user_id from blog_follow_user bfu where bfu.user_id = ) ORDER BY time desc LIMIT 0,50  
+[ 2012-12-03T10:31:38+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007769s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.042785s ]
+SQL: SELECT * FROM `blog_blogitem` WHERE user_id in (select bfu.follow_user_id from blog_follow_user bfu where bfu.user_id = ) ORDER BY time desc LIMIT 0,50   [ RunTime:0.013037s ]
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Array to string conversion E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: file E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class HomeAction could not be converted to string E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type E:\workspace\webApplication\blog\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2012-12-03T10:31:45+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+
+[ 2012-12-03T10:31:46+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.100306s ]
+INFO: [ view_template ] --END-- [ RunTime:0.161157s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.261981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048189s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.310435s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.312001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.313886s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.315122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.318189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2012-12-03T10:31:46+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-12-03T11:00:39+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002420s ]
+
+[ 2012-12-03T11:00:39+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007078s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018599s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028809s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030253s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031956s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006395s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002058s ]
+
+[ 2012-12-03T11:00:40+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl
+[ 2012-12-03T11:00:48+08:00 ] 127.0.0.1 /blog/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.006932s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `name` = 'tc' )  [ RunTime:0.051727s ]
+
+[ 2012-12-03T11:00:50+08:00 ] 127.0.0.1 /blog/Home/home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.006703s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000639s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.062739s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002333s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: home_self_music E:\workspace\webApplication\blog\Runtime\Cache\7e66580c47f9b1911a04bb9d9c96d7a2.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.065461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017452s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.083217s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.084444s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.085760s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.086611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005335s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.089065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2012-12-03T11:00:51+08:00 ] 127.0.0.1 /blog/Home/loadFeed
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.008260s ]
+SQL: SHOW COLUMNS FROM `blog_blogitem` [ RunTime:0.008838s ]
+SQL: SELECT * FROM `blog_blogitem` WHERE user_id in (select bfu.follow_user_id from blog_follow_user bfu where bfu.user_id = 2) ORDER BY time desc LIMIT 0,50   [ RunTime:0.308648s ]
+SQL: SELECT * FROM `blog_blogitem` ORDER BY time desc LIMIT 0,50   [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.032524s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.043683s ]
+SQL: SHOW COLUMNS FROM `blog_follow_user` [ RunTime:0.007443s ]
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000768s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 2 )  [ RunTime:0.000701s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 70 [ RunTime:0.020931s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 70 [ RunTime:0.000596s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 70 [ RunTime:0.000637s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 70 )  [ RunTime:0.000659s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+NOTIC: [8] Undefined index: is_reposted E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 26 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000707s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 2 )  [ RunTime:0.000614s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 43 [ RunTime:0.000577s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 43 [ RunTime:0.000546s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 43 [ RunTime:0.000459s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 43 )  [ RunTime:0.000475s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000668s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000582s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 40 [ RunTime:0.000558s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 40 [ RunTime:0.000546s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 40 [ RunTime:0.000594s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 40 )  [ RunTime:0.000628s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000599s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 39 [ RunTime:0.000475s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 39 [ RunTime:0.000411s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 39 [ RunTime:0.000498s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 39 )  [ RunTime:0.000507s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000511s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000464s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 38 [ RunTime:0.000484s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 38 [ RunTime:0.000442s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 38 [ RunTime:0.000421s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 38 )  [ RunTime:0.000451s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000478s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 37 [ RunTime:0.000577s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 37 [ RunTime:0.000576s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 37 [ RunTime:0.000591s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 37 )  [ RunTime:0.000646s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000702s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000543s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 36 [ RunTime:0.000578s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 36 [ RunTime:0.000436s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 36 [ RunTime:0.000367s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 36 )  [ RunTime:0.000418s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000591s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000625s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 35 [ RunTime:0.000598s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 35 [ RunTime:0.000602s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 35 [ RunTime:0.000589s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 35 )  [ RunTime:0.000639s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000687s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 2 )  [ RunTime:0.000787s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 34 [ RunTime:0.000418s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 34 [ RunTime:0.000474s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 34 [ RunTime:0.000453s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 34 )  [ RunTime:0.000582s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 2 )  [ RunTime:0.000628s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 33 [ RunTime:0.000593s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 33 [ RunTime:0.000591s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 33 [ RunTime:0.000604s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 33 )  [ RunTime:0.000617s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 2 )  [ RunTime:0.001339s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 32 [ RunTime:0.000455s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 32 [ RunTime:0.001065s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 32 [ RunTime:0.000365s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 32 )  [ RunTime:0.000568s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000625s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 31 [ RunTime:0.000560s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 31 [ RunTime:0.000598s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 31 [ RunTime:0.000469s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 31 )  [ RunTime:0.000447s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000658s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000598s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 30 [ RunTime:0.000595s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 30 [ RunTime:0.000594s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 30 [ RunTime:0.000591s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 30 )  [ RunTime:0.000538s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+SQL: SELECT * FROM `blog_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000617s ]
+SQL: SELECT * FROM `blog_follow_user` WHERE ( `user_id` = 2 ) AND ( `follow_user_id` = 1 )  [ RunTime:0.000550s ]
+NOTIC: [8] Undefined property: stdClass::$is_reposted E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 96 行.
+SQL: select COUNT(*) as count from blog_like where blog_item_id = 29 [ RunTime:0.000372s ]
+SQL: select COUNT(*) as count from blog_like where op_type=6  and blog_item_id = 29 [ RunTime:0.000364s ]
+SQL: select COUNT(*) as count from blog_like where op_type=7  and blog_item_id = 29 [ RunTime:0.000358s ]
+NOTIC: [8192] Function split() is deprecated E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 116 行.
+SQL: SELECT * FROM `blog_comment` WHERE ( `blogitem_id` = 29 )  [ RunTime:0.000442s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspace\webApplication\blog\Lib\Action\HomeAction.class.php 第 125 行.
+NOTIC: [8] Undefined index:  user_head_pic E:\workspace\webApplication\blog\Lib\ViewTpl\TplHomePage.class.php 第 257 行.
+
+[ 2012-12-03T11:01:18+08:00 ] 127.0.0.1 /blog/Home/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.007656s ]
+
+[ 2012-12-03T11:01:19+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+
+[ 2012-12-03T11:01:19+08:00 ] 127.0.0.1 /blog/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005531s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001684s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014711s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022335s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023334s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024390s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004106s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2012-12-03T11:01:19+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl

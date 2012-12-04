@@ -236,13 +236,63 @@ class TplHomePage
         return $content;
     }
 
-
-    public function getLinkTpl()
+    /**
+     * @param $para 特殊参数 link; title 其他和text一样
+     * @param $tag
+     * @return string
+     */
+    public function getLinkTpl($para,$tag)
     {
-        $content = "
+        $result="<div class='feed  feed-link' id='".$para['blog_id']."'>";
+        $result.=$this->getHeader($para);
+        $result.=$this->getPostInfo($para);
+        $result .= "
+                                <div class='feed-bd'>
+
+                                    <h4 class='feed-title'>#链接#</h4>
+
+                                    <div class='feed-ct'>
+                                        <div class='feed-txt-full rich-content'>
+                                            <div class='feed-txt-summary'>
+        ";
+        $result.="
+            <a href='http://".$para['link']."'>".$para['title']."</a>
+        ";
+//        for ($i = 0; $i < count($content); $i++) {
+//            $result .= "<p>" . $content[$i] . "</p>";
+//        }
+
+        $result .= "
+        </div>
+        </div>
+        </div>
+        <div class='feed-tag clearfix'>
+        ";
+
+        for ($i = 0; $i < count($tag); $i++) {
+            //注意定义的tag的keyName
+            $result .= "<a href='" . $tag[$i]['href'] . "'>#" . $tag[$i]['tag_name'] . "</a>";
+        }
+
+        $result .= "
+        </div>
+                                    <div class='feed-act'><a title='喜欢' class='feed-fav '>喜欢</a>
+									<a class='feed-rt'
+                                                                                                    target='_blank'
+                                                                                                    >转载(".$para['repost_point'].")</a>
+                                        <a class='feed-cmt' data-nid=" . $para['blog_id'] . ">回应(".$para['comment_point'].")</a>
+
+                                        <a
+                            data-type='photo' id='hot_point".$para['hot_point']."'
+                            class='feed-nt' data-hot-num=".$para['hot_point'].">热度(".$para['hot_point'].")</a>
+
+										</div>
+                                </div>
+                            </div>
+
 
         ";
-        return $content;
+        return $result;
     }
 
     /**

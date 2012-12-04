@@ -3,7 +3,14 @@ margin: 0;
 padding: 0;
 }
 
-
+#logo_href{
+    text-indent: -9999px;
+    display: block;
+    position: relative;
+    width: 278px;
+    height: 56px;
+    font-size: 20px;
+}
 p {
 display: block;
 -webkit-margin-before: 1em;

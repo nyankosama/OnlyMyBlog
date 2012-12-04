@@ -59,13 +59,13 @@ class PostBlogAction extends Action{
     }
 
     /**
-     * post: path, content, tag
+     * post: path, title, tag
      */
     public function postLink(){
 //        $path,$desc,$tag
         $blogItem = new BlogItemModel();
         $path=$_POST['path'];
-        $desc=$_POST['content'];
+        $desc=$_POST['title'];
         $tag=$_POST['tag'];
         $blogItem->addLink($path,$desc,$tag);
         echo json_encode(array('status'=>'true'));
