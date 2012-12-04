@@ -14,12 +14,23 @@ class PostBlogAction extends Action{
     function PostBlogAction(){
         $this->tpl=new TplHomePage();
         $this->conf=require('ActionConfig.php');
+
+    }
+
+    private function  hasLoginCheck(){
+        if(cookie('user_id')==null){
+            header('location: '.$this->conf['APP_ROOT'].'Login/login');
+            return false;
+        }
+        return true;
     }
 
     /**
      * post: title, content, tag
      */
     public function postWord(){
+        if(!$this->hasLoginCheck())
+            return;
         $title=$_POST['title'];
         $content=$_POST['content'];
         //$tag=explode(",",$this->_post('tag'));
@@ -34,6 +45,8 @@ class PostBlogAction extends Action{
      * post: path, content, tag
      */
     public function postPicture(){
+        if(!$this->hasLoginCheck())
+            return;
         $blogItem = new BlogItemModel();
 //        $path,$desc,$tag
         $path=$_POST['path'];
@@ -47,6 +60,8 @@ class PostBlogAction extends Action{
      * post: video_url, video_img_path, video_title, content, video_embed_value
      */
     public function postVideo(){
+        if(!$this->hasLoginCheck())
+            return;
         $blogItem = new BlogItemModel();
         $video_url=$_POST['video_url'];
         $video_img_path=$_POST['video_img_path'];
@@ -62,6 +77,8 @@ class PostBlogAction extends Action{
      * post: path, title, tag
      */
     public function postLink(){
+        if(!$this->hasLoginCheck())
+            return;
 //        $path,$desc,$tag
         $blogItem = new BlogItemModel();
         $path=$_POST['path'];
@@ -71,12 +88,15 @@ class PostBlogAction extends Action{
         echo json_encode(array('status'=>'true'));
     }
 
+
     /**
      * 跳到repost页面
      * url定义为Home/repost/blog_id/xxxx
      * post: blog_item_id
      */
     public function repost(){
+        if(!$this->hasLoginCheck())
+            return;
         $blog_id=$_POST['blog_item_id'];
         $likeItem = new LikeModel();
         $likeItem->addRepost($blog_id);
@@ -88,6 +108,8 @@ class PostBlogAction extends Action{
      * post: blog_id, content
      */
     public function postComment(){
+        if(!$this->hasLoginCheck())
+            return;
         $blog_id=$_POST['blog_id'];
         $content=$_POST['content'];
         $user_id=session('user_id');

@@ -18,24 +18,33 @@ class HomeAction extends Action{
         $this->userModel=M('user');
     }
 
-
-    public function home(){
+    private function  hasLoginCheck(){
         if(cookie('user_id')==null){
             header('location: '.$this->conf['APP_ROOT'].'Login/login');
-            return;
+            return false;
         }
+        return true;
+    }
+
+    public function home(){
+        if(!$this->hasLoginCheck())
+            return;
         $user_id=session('user_id');
         $this->sign($user_id);
         $this->display('Home:homeTpl');
     }
 
     public function userblog($user_id){
+        if(!$this->hasLoginCheck())
+            return;
         $this->sign($user_id);
         $this->user_id=$user_id;
         $this->display('Home:userHomeTpl');
     }
 
     public function logout(){
+        if(!$this->hasLoginCheck())
+            return;
         cookie('user_id',null);
         echo json_encode(array('status'=>'true'));
     }
@@ -52,22 +61,32 @@ class HomeAction extends Action{
     }
 
     public function text(){
+        if(!$this->hasLoginCheck())
+            return;
         $this->display("Text:text");
     }
 
     public function tag($tag){
+        if(!$this->hasLoginCheck())
+            return;
         //TODO
     }
 
     public function video(){
+        if(!$this->hasLoginCheck())
+            return;
         $this->display("Video:video");
     }
 
     public function link(){
+        if(!$this->hasLoginCheck())
+            return;
         $this->display("Link:link");
     }
 
     public function picture(){
+        if(!$this->hasLoginCheck())
+            return;
         $this->display("Picture:picture");
     }
 
@@ -76,6 +95,8 @@ class HomeAction extends Action{
      * @param $is_user_blog
      */
     public function loadFeed($is_user_blog,$access_id){
+        if(!$this->hasLoginCheck())
+            return;
         $blogItemModel=new BlogItemModel();
         $user_id=session('user_id');
         if($is_user_blog=='true'){
